@@ -196,6 +196,8 @@ body {
   padding: 1.25rem;
   box-shadow: var(--shadow);
   margin-bottom: 1.25rem;
+  min-width: 0; /* Prevents overflow in flex/grid */
+  overflow-x: hidden;
 }
 .card-header {
   margin-bottom: 1rem;
@@ -496,8 +498,8 @@ select { cursor: pointer; }
 .whatsapp-instruction { background: var(--green-lt); border: 1px solid #a7f3d0; border-radius: var(--radius-sm); padding: 0.85rem; font-size: 0.82rem; line-height: 1.5; }
 
 /* ─── Tables ───────────────────────────────────────────────────────────────── */
-.table-container { overflow-x: auto; width: 100%; }
-.data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.table-container { overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch; }
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; white-space: nowrap; }
 .data-table th, .data-table td { padding: 0.6rem 0.75rem; border: 1px solid var(--border); vertical-align: middle; }
 .data-table th {
   background: var(--navy);
@@ -556,7 +558,8 @@ select { cursor: pointer; }
   border-radius: var(--radius);
   padding: 1rem 1.1rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  min-width: 0;
   gap: 0.9rem;
   box-shadow: var(--shadow);
   border-top: 4px solid var(--navy);
