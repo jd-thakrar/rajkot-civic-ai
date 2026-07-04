@@ -275,5 +275,24 @@
       22.312739163034507,
       70.8041039270776
     ]
+  },
+  {
+    "id": "SUG-1783206924492",
+    "ticketId": "RMC/2026/W10/3459",
+    "wardId": "RMC-10",
+    "category": "drainage",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "ward 10 ma guttar chalkay che",
+    "translatedContent": "In ward 10, the drainage is overflowing.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The drainage system in ward 10 is overflowing and requires attention.",
+    "timestamp": "2026-07-04T23:15:24.492Z",
+    "source": "WhatsApp (RMC-10)",
+    "coords": [
+      22.290676541225253,
+      70.78691971509619
+    ]
   }
 ]
