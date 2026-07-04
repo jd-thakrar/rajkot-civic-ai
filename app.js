@@ -10,6 +10,7 @@ const state = {
   map: null,
   mapMarkers: [],
   mapCircles: {},
+  wardGeoJsonLayer: null,
   recognition: null,
   isRecording: false,
   copilotHistory: [],
@@ -82,7 +83,7 @@ async function loadAndRender() {
   syncFeedTable();
   await recalcPriorities();
   updateMapOverlays();
-  drawWardCircles();
+  await drawWardPolygons();
 }
 
 // ─── Tab switching ────────────────────────────────────────────────────────────
@@ -740,32 +741,63 @@ function initMap() {
   });
 }
 
-function drawWardCircles() {
-  Object.values(state.mapCircles).forEach(c => state.map?.removeLayer(c));
-  state.mapCircles = {};
+async function drawWardPolygons() {
+  if (state.wardGeoJsonLayer) {
+    state.map?.removeLayer(state.wardGeoJsonLayer);
+  }
 
-  Object.entries(WardsData).forEach(([id, ward]) => {
-    const vol = state.suggestions.filter(s => s.wardId === id).length;
-    const color = ward.vulnerabilityIndex > 0.65 ? '#ef4444'
-                : ward.vulnerabilityIndex > 0.45 ? '#f59e0b'
-                : '#10b981';
-    const radius = 700 + (vol * 100);
-    const circle = L.circle(ward.coords, {
-      color, fillColor: color, fillOpacity: 0.12, weight: 1.5, radius
+  try {
+    const res = await fetch('wardBoundaries.geojson');
+    const geojsonData = await res.json();
+
+    state.wardGeoJsonLayer = L.geoJSON(geojsonData, {
+      style: function (feature) {
+        const wardId = feature.properties.ward_id;
+        const ward = WardsData[wardId];
+        const vol = state.suggestions.filter(s => s.wardId === wardId).length;
+        
+        let color = '#10b981'; // Green
+        if (ward) {
+          if (ward.vulnerabilityIndex > 0.65) color = '#ef4444'; // Red
+          else if (ward.vulnerabilityIndex > 0.45) color = '#f59e0b'; // Amber
+        }
+        
+        return {
+          color: color,
+          weight: 2,
+          opacity: 0.8,
+          fillColor: color,
+          fillOpacity: 0.15
+        };
+      },
+      onEachFeature: function (feature, layer) {
+        const wardId = feature.properties.ward_id;
+        const ward = WardsData[wardId];
+        const vol = state.suggestions.filter(s => s.wardId === wardId).length;
+
+        if (ward) {
+          layer.bindPopup(`
+            <h4>${ward.name}</h4>
+            <p><strong>Areas:</strong> ${ward.areas}</p>
+            <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
+            <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
+            <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
+            <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
+          `);
+          layer.on('click', () => showWardDetails(wardId));
+        }
+      }
     }).addTo(state.map);
-
-    circle.bindPopup(`
-      <h4>${ward.name}</h4>
-      <p><strong>Areas:</strong> ${ward.areas}</p>
-      <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
-      <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
-      <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
-      <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
-    `);
-    circle.on('click', () => showWardDetails(id));
-    state.mapCircles[id] = circle;
-  });
+    
+    // Fit map bounds to show all wards properly
+    if (state.map) {
+      state.map.fitBounds(state.wardGeoJsonLayer.getBounds());
+    }
+  } catch (err) {
+    console.error('Error loading ward boundaries:', err);
+  }
 }
+
 
 function showWardDetails(wardId) {
   const w = WardsData[wardId];
