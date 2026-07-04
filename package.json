@@ -1,0 +1,23 @@
+{
+  "name": "mp-pulse-platform",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Real AI-Powered Multilingual MP Development Prioritization Platform",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "start": "concurrently \"node server.js\" \"vite\"",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.3",
+    "vite": "^5.0.0"
+  }
+}

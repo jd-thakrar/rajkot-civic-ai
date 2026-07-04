@@ -1,0 +1,279 @@
+[
+  {
+    "id": "SUG-1783172704232",
+    "wardId": "RMC-12",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "Ward 12 ma kacgro pade che",
+    "translatedContent": "There is garbage in Ward 12.",
+    "sentiment": "negative",
+    "urgency": "medium",
+    "keyConcern": "Citizen reports garbage accumulation in Ward 12.",
+    "timestamp": "2026-07-04T13:45:04.232Z",
+    "source": "WhatsApp (RMC-12)",
+    "coords": [
+      22.267604237608,
+      70.7561238077308
+    ]
+  },
+  {
+    "id": "SUG-1783174605556",
+    "wardId": "RMC-12",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "ward 12 ma kachro bav che",
+    "translatedContent": "There is a lot of garbage in Ward 12.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen is concerned about a significant amount of garbage in Ward 12.",
+    "timestamp": "2026-07-04T14:16:45.556Z",
+    "source": "WhatsApp (RMC-12)",
+    "coords": [
+      22.268194910843757,
+      70.75454001879531
+    ]
+  },
+  {
+    "id": "SUG-1783174623957",
+    "wardId": "RMC-12",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Hindi",
+    "originalContent": "ward 12 mai bahut kachra hota hai",
+    "translatedContent": "There is a lot of garbage in ward 12.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "Citizen reports a significant amount of garbage in Ward 12.",
+    "timestamp": "2026-07-04T14:17:03.957Z",
+    "source": "WhatsApp (RMC-12)",
+    "coords": [
+      22.27037802675501,
+      70.76255949431507
+    ]
+  },
+  {
+    "id": "SUG-1783174731150",
+    "wardId": "RMC-03",
+    "category": "water",
+    "type": "whatsapp",
+    "language": "English",
+    "originalContent": "Water leakage in Ward 3",
+    "translatedContent": "Water leakage in Ward 3",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "Citizen reports a water leakage issue in Ward 3.",
+    "timestamp": "2026-07-04T14:18:51.150Z",
+    "source": "WhatsApp (RMC-03)",
+    "coords": [
+      22.324277745221174,
+      70.79933717444506
+    ]
+  },
+  {
+    "id": "SUG-1783174820918",
+    "wardId": "RMC-07",
+    "category": "roads",
+    "type": "whatsapp",
+    "language": "English",
+    "originalContent": "Traffic rush between 10 AM - 11 AM & 7 PM - 8:30 PM in Ward 7",
+    "translatedContent": "Traffic rush between 10 AM - 11 AM & 7 PM - 8:30 PM in Ward 7",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "Citizen reports recurring traffic congestion during peak hours in Ward 7.",
+    "timestamp": "2026-07-04T14:20:20.918Z",
+    "source": "WhatsApp (RMC-07)",
+    "coords": [
+      22.291892314520766,
+      70.79804991680467
+    ]
+  },
+  {
+    "id": "SUG-1783174906559",
+    "wardId": "RMC-03",
+    "category": "drainage",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "Guttar Jam chhe ward 3 ma",
+    "translatedContent": "Gutter is blocked in ward 3.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen is reporting a blocked gutter in Ward 3.",
+    "timestamp": "2026-07-04T14:21:46.559Z",
+    "source": "WhatsApp (RMC-03)",
+    "coords": [
+      22.32521457633352,
+      70.79810009697185
+    ]
+  },
+  {
+    "id": "SUG-1783175016983",
+    "wardId": "RMC-14",
+    "category": "health",
+    "type": "text",
+    "language": "Gujarati",
+    "originalContent": "kutra rate heran kre chhe",
+    "translatedContent": "Dogs are bothering.",
+    "sentiment": "negative",
+    "urgency": "medium",
+    "keyConcern": "The citizen is being bothered by dogs.",
+    "timestamp": "2026-07-04T14:23:36.983Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.26435637306549,
+      70.79775333732472
+    ]
+  },
+  {
+    "id": "SUG-1783184759635",
+    "wardId": "RMC-02",
+    "category": "roads",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "ward 2 ma road tuti gay che",
+    "translatedContent": "Road is broken in Ward 2.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen reports a damaged road in Ward 2.",
+    "timestamp": "2026-07-04T17:05:59.635Z",
+    "source": "WhatsApp (RMC-02)",
+    "coords": [
+      22.312973077335734,
+      70.80032370442109
+    ]
+  },
+  {
+    "id": "SUG-1783201113699",
+    "ticketId": "RMC/2026/W03/3476",
+    "wardId": "RMC-03",
+    "category": "other",
+    "type": "text",
+    "language": "Gujarati",
+    "originalContent": "સૌરાષ્ટ્ર યુનિવર્સિટી",
+    "translatedContent": "Saurashtra University",
+    "sentiment": "neutral",
+    "urgency": "low",
+    "keyConcern": "The citizen has provided a location (Saurashtra University) without specifying a particular grievance.",
+    "timestamp": "2026-07-04T21:38:33.699Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.317283998733707,
+      70.79533016850783
+    ]
+  },
+  {
+    "id": "SUG-1783201130807",
+    "ticketId": "RMC/2026/W03/9945",
+    "wardId": "RMC-03",
+    "category": "other",
+    "type": "text",
+    "language": "Gujarati",
+    "originalContent": "સૌરાષ્ટ્ર યુનિવર્સિટી",
+    "translatedContent": "Saurashtra University",
+    "sentiment": "neutral",
+    "urgency": "low",
+    "keyConcern": "The feedback mentions Saurashtra University as a location without an explicit grievance.",
+    "timestamp": "2026-07-04T21:38:50.807Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.3193664972755,
+      70.79141920635384
+    ]
+  },
+  {
+    "id": "SUG-1783201143907",
+    "ticketId": "RMC/2026/W03/9534",
+    "wardId": "RMC-03",
+    "category": "solid_waste",
+    "type": "text",
+    "language": "Gujarati",
+    "originalContent": "લોટ ઓફ વેસ્ટ ઈન્ડસ સૌરાષ્ટ્ર યુનિવર્સિટી એરીયા",
+    "translatedContent": "Lot of waste in Saurashtra University area",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen reports a large accumulation of waste in the Saurashtra University area, requiring waste management intervention.",
+    "timestamp": "2026-07-04T21:39:03.907Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.31953484504962,
+      70.7963096905138
+    ]
+  },
+  {
+    "id": "SUG-1783201153638",
+    "ticketId": "RMC/2026/W03/3212",
+    "wardId": "RMC-03",
+    "category": "solid_waste",
+    "type": "text",
+    "language": "Gujarati",
+    "originalContent": "લોટ ઓફ વેસ્ટ ઈન્ડસ સૌરાષ્ટ્ર યુનિવર્સિટી એરીયા",
+    "translatedContent": "Lot of waste in Saurashtra University area.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen reports a significant amount of waste accumulated in the Saurashtra University area and requests its removal.",
+    "timestamp": "2026-07-04T21:39:13.638Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.319395732744294,
+      70.79276621941766
+    ]
+  },
+  {
+    "id": "SUG-1783201323926",
+    "ticketId": "RMC/2026/WGEN/3912",
+    "wardId": null,
+    "category": "solid_waste",
+    "type": "text",
+    "language": "English",
+    "originalContent": "waste issue",
+    "translatedContent": "waste issue",
+    "sentiment": "negative",
+    "urgency": "medium",
+    "keyConcern": "The citizen is reporting a problem related to waste management.",
+    "timestamp": "2026-07-04T21:42:03.926Z",
+    "source": "RMC Portal (TEXT)",
+    "coords": [
+      22.3,
+      70.8
+    ]
+  },
+  {
+    "id": "SUG-1783202253506",
+    "ticketId": "RMC/2026/W03/3036",
+    "wardId": "RMC-03",
+    "category": "roads",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "saurasthra university ma roads tuti gya che",
+    "translatedContent": "Roads are broken in Saurashtra University.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The roads within Saurashtra University are in a state of disrepair.",
+    "timestamp": "2026-07-04T21:57:33.506Z",
+    "source": "WhatsApp (RMC-03)",
+    "coords": [
+      22.32353929016922,
+      70.79140984811526
+    ]
+  },
+  {
+    "id": "SUG-1783202393795",
+    "ticketId": "RMC/2026/W02/4533",
+    "wardId": "RMC-02",
+    "category": "drainage",
+    "type": "photo",
+    "language": "English",
+    "originalContent": "The image depicts a severely deteriorated unpaved pathway experiencing significant waterlogging and mud accumulation. Extensive stagnant water is visible, indicating inadequate surface drainage facilities. This condition renders the pathway difficult and unhygienic for public use.",
+    "translatedContent": "The image depicts a severely deteriorated unpaved pathway experiencing significant waterlogging and mud accumulation. Extensive stagnant water is visible, indicating inadequate surface drainage facilities. This condition renders the pathway difficult and unhygienic for public use.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen is reporting a severely deteriorated unpaved pathway with significant waterlogging and mud due to inadequate drainage, making it unhygienic and difficult to use.",
+    "timestamp": "2026-07-04T21:59:53.795Z",
+    "source": "RMC Portal (PHOTO)",
+    "coords": [
+      22.312739163034507,
+      70.8041039270776
+    ]
+  }
+]
