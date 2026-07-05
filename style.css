@@ -498,7 +498,7 @@ select { cursor: pointer; }
 .whatsapp-instruction { background: var(--green-lt); border: 1px solid #a7f3d0; border-radius: var(--radius-sm); padding: 0.85rem; font-size: 0.82rem; line-height: 1.5; }
 
 /* ─── Tables ───────────────────────────────────────────────────────────────── */
-.table-container { overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch; }
+.table-container { overflow-x: auto; overflow-y: auto; max-height: 440px; width: 100%; -webkit-overflow-scrolling: touch; }
 .data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
 .data-table th, .data-table td { padding: 0.6rem 0.75rem; border: 1px solid var(--border); vertical-align: middle; }
 .data-table th {
@@ -509,6 +509,9 @@ select { cursor: pointer; }
   text-transform: uppercase;
   letter-spacing: 0.4px;
   white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .data-table tbody tr:nth-child(even) { background: #f9fafb; }
 .data-table tbody tr:hover { background: var(--navy-light); }
