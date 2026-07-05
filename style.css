@@ -635,23 +635,15 @@ select { cursor: pointer; }
 .map-body-wrapper { position: relative; flex-grow: 1; height: 440px; }
 #hotspot-map { width: 100%; height: 100%; z-index: 1; }
 
-/* Map ward details overlay */
-.map-overlay-details {
-  position: absolute;
-  bottom: 0.75rem;
-  left: 0.75rem;
-  right: 0.75rem;
-  background: rgba(255,255,255,0.97);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 0.7rem 0.9rem;
-  z-index: 1000;
-  max-height: 145px;
+/* Ward details panel below map */
+.ward-details-panel {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 0.85rem 1.25rem;
   overflow-y: auto;
-  box-shadow: var(--shadow-md);
 }
-.map-overlay-details h4 { font-size: 0.76rem; color: var(--navy); margin-bottom: 0.2rem; display: flex; align-items: center; gap: 0.3rem; }
-.map-overlay-details .placeholder-text { font-size: 0.72rem; color: var(--text-muted); }
+.ward-details-panel h4 { font-size: 0.76rem; color: var(--navy); margin-bottom: 0.2rem; display: flex; align-items: center; gap: 0.3rem; }
+.ward-details-panel .placeholder-text { font-size: 0.72rem; color: var(--text-muted); }
 .ward-info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; margin-top: 0.4rem; }
 .info-item { background: var(--bg); padding: 0.3rem 0.45rem; border-radius: 3px; font-size: 0.71rem; border: 1px solid var(--border); }
 .info-item span { display: block; font-size: 0.61rem; color: var(--text-muted); margin-bottom: 0.1rem; }
