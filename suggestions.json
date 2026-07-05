@@ -294,5 +294,43 @@
       22.290676541225253,
       70.78691971509619
     ]
+  },
+  {
+    "id": "SUG-1783235044474",
+    "ticketId": "RMC/2026/W09/8888",
+    "wardId": "RMC-09",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "ward 9 ma kachro bov che sir sarko karavo ne",
+    "translatedContent": "Ward 9 has a lot of garbage, sir, please get it cleaned.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen reports a large amount of garbage in Ward 9 and requests immediate cleaning.",
+    "timestamp": "2026-07-05T07:04:04.474Z",
+    "source": "WhatsApp (RMC-09)",
+    "coords": [
+      22.28041994906588,
+      70.8217067371441
+    ]
+  },
+  {
+    "id": "SUG-1783235396509",
+    "ticketId": "RMC/2026/W09/5294",
+    "wardId": "RMC-09",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Tamil",
+    "originalContent": "வார்டு 9-இல் நிறைய குப்பை இருக்கிறது ஐயா; தயவுசெய்து அதை அகற்றச் செய்யுங்கள்.",
+    "translatedContent": "There is a lot of garbage in Ward 9, sir; please get it removed.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen requests the removal of a large amount of garbage in Ward 9.",
+    "timestamp": "2026-07-05T07:09:56.509Z",
+    "source": "WhatsApp (RMC-09)",
+    "coords": [
+      22.28032652571339,
+      70.82032923815704
+    ]
   }
 ]

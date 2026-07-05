@@ -499,7 +499,7 @@ select { cursor: pointer; }
 
 /* ─── Tables ───────────────────────────────────────────────────────────────── */
 .table-container { overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch; }
-.data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; white-space: nowrap; }
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
 .data-table th, .data-table td { padding: 0.6rem 0.75rem; border: 1px solid var(--border); vertical-align: middle; }
 .data-table th {
   background: var(--navy);
