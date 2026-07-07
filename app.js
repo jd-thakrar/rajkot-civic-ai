@@ -6,7 +6,7 @@ const state = {
   currentLanguage: 'gu',
   activeView: 'citizen',
   activeChannel: 'text',
-  scoringWeights: { feedback: 0.4, infra: 0.4, demo: 0.2 },
+  scoringWeights: { demand: 0.3, urgency: 0.3, dataGap: 0.25, populationHelped: 0.15 },
   map: null,
   mapMarkers: [],
   mapCircles: {},
@@ -487,12 +487,13 @@ document.getElementById('lang-switch')?.addEventListener('change', (e) => {
 // ─── Weight sliders ───────────────────────────────────────────────────────────
 function setupWeightSliders() {
   document.getElementById('btn-recalculate-weights')?.addEventListener('click', async () => {
-    const f = parseInt(document.getElementById('weight-feedback').value);
-    const i = parseInt(document.getElementById('weight-infra').value);
-    const d = parseInt(document.getElementById('weight-demo').value);
-    const sum = f + i + d;
+    const d = parseInt(document.getElementById('weight-demand').value);
+    const u = parseInt(document.getElementById('weight-urgency').value);
+    const dg = parseInt(document.getElementById('weight-data-gap').value);
+    const ph = parseInt(document.getElementById('weight-pop-helped').value);
+    const sum = d + u + dg + ph;
     if (sum === 0) { showToast('Weights cannot all be 0', 'error'); return; }
-    state.scoringWeights = { feedback: f / sum, infra: i / sum, demo: d / sum };
+    state.scoringWeights = { demand: d / sum, urgency: u / sum, dataGap: dg / sum, populationHelped: ph / sum };
     await recalcPriorities();
   });
 }
