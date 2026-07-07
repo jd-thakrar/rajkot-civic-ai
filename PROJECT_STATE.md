@@ -76,12 +76,20 @@ Must be recalibrated once real data.gov.in grievance data is pulled.
 - [ ] Supabase PostgreSQL migration (flat file → relational DB)
 - [ ] Pull real data: data.gov.in RMC Grievance Details
 ### 2. Real Data Pipeline (Pending)
-- Currently blocked. Extensive web searches confirm that there is **no public RMC Grievance dataset** and **no Ward Wise Election Data dataset** for Rajkot available on `data.gov.in`.
+- **Authoritative Ward Assignment [NEW]:** Ward assignment is now strictly based on RMC's own official Area → Ward registry (`areaWardMapping.json`, containing ~1,700 real locality names), extracted directly from the official RMC Complaint Registration portal. This replaces the previous loosely-inferred GeoJSON intersection. `wardBoundaries.geojson` is now exclusively used for map rendering.
+- Complaint volumes are still awaiting real data. Extensive web searches confirm that there is **no public RMC Grievance dataset** and **no Ward Wise Election Data dataset** for Rajkot available on `data.gov.in`.
 - RMC handles grievances via their proprietary portal (`rmc.gov.in/ComplaintRegistration`) and the eNagar Gujarat portal, but they do not publish raw CSV/API dumps of complaint volumes on open data platforms.
+- **Area Matching Limitation:** Area matching against `areaWardMapping.json` is strictly exact-normalized-string only (lowercase, whitespace trimmed). No fuzzy matching is used. Unmatched submissions fall to manual review (`wardId: null`) rather than being incorrectly guessed by the LLM.
+- **Category Mapping:** The 30 official RMC departments have been mapped to our 6 core categories. Any department lacking a clear match (e.g., Transport, Tax, Town Planning) is routed to a catch-all `other` category (which defaults to a 50 `dataGapScore`).
+  - *solid_waste:* SOLID WASTE MANAGEMENT, S. W. M. (VOKALA), CONSERVANCY (DEAD ANIMAL), ELECTRONIC WASTE
+  - *water:* WATER WORKS(OUTDOOR), HAND PUMP BRANCH
+  - *drainage:* DRAINAGE CHOCKUP/OVERFLOW, DRAINAGE MAINTENANCE
+  - *roads:* BANDHKAM
+  - *streetlights:* ROSHNI BRANCH
+  - *health:* HEALTH BRANCH, URBAN MALERIYA, A.N.C.D., A.N.C.D. (DOG STERILIZATION), FOOD BRANCH
+  - *other:* CITY BUS, TOWN PLANNING, TAX BRANCH, AVAS YOJANA, FIRE BRIGADE, etc. (24 unmapped departments total)
 - **Next Steps Required:**
-  1. Either scrape the live RMC site (difficult/brittle).
-  2. File an RTI request (slow).
-  3. Generate highly realistic synthetic baselines calibrated to Rajkot's known ward populations and Indian municipal averages to replace the unvalidated 200,000 multiplier until real data is secured.
+  1. Generate highly realistic synthetic baselines calibrated to Rajkot's known ward populations and Indian municipal averages to replace the unvalidated 2,000,000 multiplier until real volume data is secured.
 - [ ] PostGIS spatial queries for ward-level aggregation
 - [ ] GeoJSON polygon map — blocked by ward ID mismatch (see Known Bugs)
 

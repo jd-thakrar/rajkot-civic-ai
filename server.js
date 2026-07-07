@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const areaWardMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'areaWardMapping.json'), 'utf8'));
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -99,14 +100,12 @@ Analyze the following citizen feedback which may be in Gujarati, Hindi, or Engli
 
 Citizen feedback: "${text}"
 
-Known RMC wards: RMC-01 (Aji Dam, Mavdi), RMC-02 (Raiya Road, Kalawad), RMC-03 (University Road, Race Course), RMC-04 (Kothariya, Nana Mava), RMC-05 (Yagnik Road), RMC-06 (Kuvadva Road, Ring Road), RMC-07 (Gondal Road, Sorathiyawadi), RMC-08 (Malviya Nagar, Shastri Maidan), RMC-09 (Soni Bazar, Sadar Bazar, Ghee Kanta), RMC-10 (Dhebar Road, Panchnath), RMC-11 (Aji Industrial Area, Bharat Colony), RMC-12 (Aerodrome, Indira Nagar), RMC-13 (Sardarnagar, Bhavnagar Road, Karanpara), RMC-14 (Trikon Baug, Kalyanpur), RMC-15 (Aamroli, Mavdi Circle), RMC-16 (Hirabaug, Swaminarayan Area), RMC-17 (Rajkot Station, Limbda Chowk, Jagnath Plot), RMC-18 (Gandhigram, Ramnathpara)
-
 Return JSON with exactly these fields:
 {
   "detectedLanguage": "<Gujarati, Hindi, or English>",
   "translatedText": "<accurate English translation, or original if already English>",
+  "extractedArea": "<the exact area or locality name mentioned by the user, or null if none mentioned>",
   "category": "<one of: solid_waste, water, drainage, roads, streetlights, health, other>",
-  "wardId": "<one of RMC-01 through RMC-18, or null if cannot be determined from area names mentioned>",
   "sentiment": "<negative, neutral, or positive>",
   "urgency": "<critical, high, medium, low>",
   "keyConcern": "<one sentence summarising the core citizen demand in English>"
@@ -116,7 +115,13 @@ Return JSON with exactly these fields:
     const cleaned = raw.replace(/```json|```/g, '').trim();
     const analysis = JSON.parse(cleaned);
 
-    const resolvedWardId = analysis.wardId || wardId || null;
+    let resolvedWardId = wardId || null;
+    if (analysis.extractedArea) {
+      const normalizedArea = analysis.extractedArea.trim().toLowerCase();
+      if (areaWardMapping[normalizedArea]) {
+        resolvedWardId = areaWardMapping[normalizedArea].wardId;
+      }
+    }
     const ticketId = generateTicketId(resolvedWardId);
 
     const db = readDB();
