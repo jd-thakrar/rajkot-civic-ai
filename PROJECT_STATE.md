@@ -91,7 +91,6 @@ Must be recalibrated once real data.gov.in grievance data is pulled.
 - **Next Steps Required:**
   1. Generate highly realistic synthetic baselines calibrated to Rajkot's known ward populations and Indian municipal averages to replace the unvalidated 2,000,000 multiplier until real volume data is secured.
 - [ ] PostGIS spatial queries for ward-level aggregation
-- [ ] GeoJSON polygon map — blocked by ward ID mismatch (see Known Bugs)
 
 ---
 
@@ -111,9 +110,7 @@ Must be recalibrated once real data.gov.in grievance data is pulled.
 
 ## Known Bugs
 
-- **Ward ID mismatch:** `wardBoundaries.geojson` uses `ward_1`–`ward_18` format; `mockData.js`
-  and `suggestions.json` use `RMC-01`–`RMC-18`. Currently masked because the polygon renderer
-  was reverted to circles. Will block a polygon-map implementation.
+- None logged yet.
 
 ---
 

@@ -82,7 +82,7 @@ async function loadAndRender() {
   syncFeedTable();
   await recalcPriorities();
   updateMapOverlays();
-  drawWardCircles();
+  drawWardPolygons();
 }
 
 // ─── Tab switching ────────────────────────────────────────────────────────────
@@ -741,31 +741,51 @@ function initMap() {
   });
 }
 
-function drawWardCircles() {
-  Object.values(state.mapCircles).forEach(c => state.map?.removeLayer(c));
-  state.mapCircles = {};
+let geoJsonData = null;
 
-  Object.entries(WardsData).forEach(([id, ward]) => {
-    const vol = state.suggestions.filter(s => s.wardId === id).length;
-    const color = ward.vulnerabilityIndex > 0.65 ? '#ef4444'
-                : ward.vulnerabilityIndex > 0.45 ? '#f59e0b'
-                : '#10b981';
-    const radius = 700 + (vol * 100);
-    const circle = L.circle(ward.coords, {
-      color, fillColor: color, fillOpacity: 0.12, weight: 1.5, radius
-    }).addTo(state.map);
+async function drawWardPolygons() {
+  if (state.mapCirclesLayer) {
+    state.map?.removeLayer(state.mapCirclesLayer);
+  }
 
-    circle.bindPopup(`
-      <h4>${ward.name}</h4>
-      <p><strong>Areas:</strong> ${ward.areas}</p>
-      <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
-      <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
-      <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
-      <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
-    `);
-    circle.on('click', () => showWardDetails(id));
-    state.mapCircles[id] = circle;
-  });
+  if (!geoJsonData) {
+    try {
+      const res = await fetch('wardBoundaries.geojson');
+      geoJsonData = await res.json();
+    } catch (e) {
+      console.error("Failed to load geojson", e);
+      return;
+    }
+  }
+
+  state.mapCirclesLayer = L.geoJSON(geoJsonData, {
+    style: function(feature) {
+      const id = feature.properties.ward_id;
+      const ward = WardsData[id];
+      if (!ward) return { color: '#ccc', fillColor: '#ccc', fillOpacity: 0.1, weight: 1 };
+      
+      const color = ward.vulnerabilityIndex > 0.65 ? '#ef4444'
+                  : ward.vulnerabilityIndex > 0.45 ? '#f59e0b'
+                  : '#10b981';
+      return { color, fillColor: color, fillOpacity: 0.15, weight: 2 };
+    },
+    onEachFeature: function(feature, layer) {
+      const id = feature.properties.ward_id;
+      const ward = WardsData[id];
+      if (ward) {
+        const vol = state.suggestions.filter(s => s.wardId === id).length;
+        layer.bindPopup(`
+          <h4>${ward.name}</h4>
+          <p><strong>Areas:</strong> ${ward.areas}</p>
+          <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
+          <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
+          <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
+          <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
+        `);
+        layer.on('click', () => showWardDetails(id));
+      }
+    }
+  }).addTo(state.map);
 }
 
 
