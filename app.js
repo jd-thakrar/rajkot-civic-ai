@@ -777,10 +777,10 @@ async function drawWardPolygons() {
         layer.bindPopup(`
           <h4>${ward.name}</h4>
           <p><strong>Areas:</strong> ${ward.areas}</p>
-          <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
-          <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
-          <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
-          <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
+          <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')} <em style="color:#888;font-size:0.75em">(est., Census 2011 proportional)</em></p>
+          <p><strong>BPL:</strong> ${ward.bplPercentage}% <em style="color:#888;font-size:0.75em">(est.)</em> &nbsp;|&nbsp; <strong>Complaints:</strong> ${vol}</p>
+          <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 <em style="color:#888;font-size:0.75em">(est.)</em> &nbsp;|&nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day <em style="color:#888;font-size:0.75em">(est.)</em></p>
+          <small style="color:#aaa">Infrastructure metrics are estimated — ward-level data not publicly published.</small>
         `);
         layer.on('click', () => showWardDetails(id));
       }
@@ -800,12 +800,12 @@ function showWardDetails(wardId) {
       &nbsp;<span class="badge badge-category">Complaints: ${complaints}</span>
     </div>
     <div class="ward-info-grid">
-      <div class="info-item"><span>Population</span><strong>${w.population.toLocaleString('en-IN')}</strong></div>
-      <div class="info-item"><span>BPL Families</span><strong>${w.bplPercentage}%</strong></div>
-      <div class="info-item"><span>Water Quality</span><strong>${w.waterQualityIndex}/100</strong></div>
-      <div class="info-item"><span>Water Supply</span><strong>${w.waterSupplyHours}h/day</strong></div>
-      <div class="info-item"><span>Health Dist.</span><strong>${w.healthCenterDistance}km</strong></div>
-      <div class="info-item"><span>Vulnerability</span><strong style="color:${vulnColor}">${(w.vulnerabilityIndex * 100).toFixed(0)}%</strong></div>
+      <div class="info-item"><span>Population</span><strong>${w.population.toLocaleString('en-IN')}</strong><small style="color:#aaa;font-size:0.65em">est., Census 2011 proportional</small></div>
+      <div class="info-item"><span>BPL Families</span><strong>${w.bplPercentage}%</strong><small style="color:#aaa;font-size:0.65em">estimated</small></div>
+      <div class="info-item"><span>Water Quality</span><strong>${w.waterQualityIndex}/100</strong><small style="color:#aaa;font-size:0.65em">estimated</small></div>
+      <div class="info-item"><span>Water Supply</span><strong>${w.waterSupplyHours}h/day</strong><small style="color:#aaa;font-size:0.65em">estimated</small></div>
+      <div class="info-item"><span>Health Dist.</span><strong>${w.healthCenterDistance}km</strong><small style="color:#aaa;font-size:0.65em">estimated</small></div>
+      <div class="info-item"><span>Vulnerability</span><strong style="color:${vulnColor}">${(w.vulnerabilityIndex * 100).toFixed(0)}%</strong><small style="color:#aaa;font-size:0.65em">estimated</small></div>
     </div>
   `;
 }

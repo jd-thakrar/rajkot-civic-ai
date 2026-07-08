@@ -1,5 +1,25 @@
-// ─── RMC Ward Data with Real Rajkot Neighbourhood Names ──────────────────────
-// Source: Rajkot Municipal Corporation ward list (census.census.gov.in + rmc.gov.in)
+// ─── RMC Ward Data ──────────────────────────────────────────────────────────
+//
+// DATA PROVENANCE (important — read before editing):
+//   population:            Estimated proportional allocation based on Census 2011
+//                          RMC total (1,323,363). Ward-level breakdowns are NOT
+//                          published in any machine-readable public dataset.
+//                          Source: Census 2011 RMC total via censusindia.gov.in.
+//                          Ward proportions are estimated — DO NOT present as
+//                          verified ward-level Census figures.
+//
+//   bplPercentage:         No ward-level BPL data published. District-level
+//                          figure (Gujarat SECC 2011) ~18%. Values here are
+//                          estimated ward-level proxies.
+//
+//   waterQualityIndex,
+//   waterSupplyHours,
+//   healthCenterDistance,
+//   vulnerabilityIndex:    No ward-level data exists in any public dataset
+//                          (NFHS goes to district; RMC does not publish ward
+//                          infra metrics). All values are estimated proxies
+//                          for demonstration. Label in UI as "estimated".
+//
 export const WardsData = {
   'RMC-01': {
     name: 'Ward 1',
