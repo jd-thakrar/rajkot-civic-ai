@@ -611,7 +611,7 @@ body.landing-body {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   color: white;
-  margin: 2rem 2rem 6rem;
+  margin: 2rem auto 6rem; /* Changed to auto to center horizontally */
   max-width: 1280px;
   box-shadow: var(--shadow-lg);
   position: relative;

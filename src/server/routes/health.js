@@ -11,7 +11,7 @@ router.get('/health', (_req, res) => {
     geocoding: !!env.googleMapsApiKey,
     firebase: !!env.firebaseProjectId || !!env.firebaseServiceAccountJson,
     wardBoundaries: getWardBoundaryFeatures().length,
-    model: 'gemini-2.0-flash',
+    model: 'gemini-1.5-flash',
     storage: 'firestore'
   });
 });
