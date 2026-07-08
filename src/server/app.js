@@ -18,7 +18,15 @@ export function createApp() {
 
   const app = express();
 
-  app.use(cors());
+  app.use(cors({
+    origin: [
+      'https://rmc-seva-v2.web.app',
+      'https://rmc-seva-v2.firebaseapp.com',
+      'http://localhost:5173',
+      'http://localhost:3000'
+    ],
+    credentials: true
+  }));
   app.use(express.json({ limit: '20mb' }));
 
   app.use('/api', healthRoutes);
