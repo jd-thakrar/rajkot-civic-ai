@@ -20,6 +20,21 @@
 //                          infra metrics). All values are estimated proxies
 //                          for demonstration. Label in UI as "estimated".
 //
+export const WardZoneMap = {
+  'RMC-01': 'West',   'RMC-08': 'West',   'RMC-09': 'West',
+  'RMC-10': 'West',   'RMC-11': 'West',   'RMC-12': 'West',
+  'RMC-02': 'Center', 'RMC-03': 'Center', 'RMC-07': 'Center',
+  'RMC-13': 'Center', 'RMC-14': 'Center', 'RMC-17': 'Center',
+  'RMC-04': 'East',   'RMC-05': 'East',   'RMC-06': 'East',
+  'RMC-15': 'East',   'RMC-16': 'East',   'RMC-18': 'East'
+};
+
+export const ZoneColors = {
+  West:   { fill: '#fbbf24', border: '#d97706', label: 'West Zone' },
+  Center: { fill: '#4ade80', border: '#16a34a', label: 'Center Zone' },
+  East:   { fill: '#a5b4fc', border: '#6366f1', label: 'East Zone' }
+};
+
 export const WardsData = {
   'RMC-01': {
     name: 'Ward 1',

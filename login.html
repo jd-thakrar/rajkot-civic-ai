@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Officer Login — RMC Seva Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="landing.css" />
+</head>
+<body class="landing-body">
+  <div class="tricolor-bar"></div>
+
+  <div class="login-page">
+    <aside class="login-visual">
+      <div class="hero-mesh"></div>
+      <div class="login-visual-content">
+        <a href="/" class="nav-brand" style="margin-bottom:2rem">
+          <div class="nav-logo">🏛</div>
+          <div class="nav-brand-text">
+            <strong>RMC Seva Portal</strong>
+            <span>Officer Access</span>
+          </div>
+        </a>
+        <h1>Ward intelligence at your fingertips</h1>
+        <p>
+          Access live grievance analytics, GIS ward maps, priority rankings,
+          and the RMC Analytics Assistant — all in one secure dashboard.
+        </p>
+        <ul class="login-perks">
+          <li><i class="fa-solid fa-check-circle"></i> Official RMC GIS ward boundaries</li>
+          <li><i class="fa-solid fa-check-circle"></i> Real-time complaint heatmaps</li>
+          <li><i class="fa-solid fa-check-circle"></i> Priority-ranked civic works</li>
+          <li><i class="fa-solid fa-check-circle"></i> AI-assisted proposal drafting</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="login-form-side">
+      <div class="login-form-wrap">
+        <a href="/" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to home</a>
+        <h2>Sign in</h2>
+        <p class="sub">RMC officers and authorized staff only</p>
+
+        <div id="login-error" class="login-error hidden" role="alert"></div>
+
+        <form id="login-form" novalidate>
+          <div class="form-field">
+            <label for="login-email">Email address</label>
+            <input type="email" id="login-email" name="email" placeholder="officer@rmc.gov.in" required autocomplete="username" />
+          </div>
+          <div class="form-field">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="password" placeholder="••••••••" required autocomplete="current-password" />
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-right-to-bracket"></i> Sign in to Dashboard
+          </button>
+        </form>
+
+        <div class="demo-hint">
+          <strong>Firebase Auth required</strong><br />
+          Create officer accounts in the Firebase Console → Authentication → Email/Password.
+        </div>
+
+        <p class="citizen-link-box">
+          Not an officer? <a href="citizen.html">Report a civic issue →</a>
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script type="module">
+    import { initLoginPage } from './auth.js';
+    initLoginPage();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ExceptionReport version="1.1.0" xmlns="http://www.opengis.net/ows"><Exception><ExceptionText>Either BBOX or FILTER is required as a parameter.</ExceptionText></Exception></ExceptionReport>

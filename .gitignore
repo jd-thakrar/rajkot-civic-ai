@@ -4,3 +4,6 @@ dist/
 uploads/
 *.log
 .DS_Store
+serviceAccountKey.json
+firebase-debug.log
+.firebaserc

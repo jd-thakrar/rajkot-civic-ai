@@ -1,0 +1,92 @@
+[
+  {
+    "fid": 2,
+    "wardNo": 1,
+    "wardName": "Ward_1"
+  },
+  {
+    "fid": 3,
+    "wardNo": 2,
+    "wardName": "Ward_2"
+  },
+  {
+    "fid": 4,
+    "wardNo": 3,
+    "wardName": "Ward_3"
+  },
+  {
+    "fid": 5,
+    "wardNo": 4,
+    "wardName": "Ward_4"
+  },
+  {
+    "fid": 7,
+    "wardNo": 5,
+    "wardName": "Ward_5"
+  },
+  {
+    "fid": 6,
+    "wardNo": 6,
+    "wardName": "Ward_6"
+  },
+  {
+    "fid": 12,
+    "wardNo": 7,
+    "wardName": "Ward_7"
+  },
+  {
+    "fid": 11,
+    "wardNo": 8,
+    "wardName": "Ward_8"
+  },
+  {
+    "fid": 1,
+    "wardNo": 9,
+    "wardName": "Ward_9"
+  },
+  {
+    "fid": 9,
+    "wardNo": 10,
+    "wardName": "Ward_10"
+  },
+  {
+    "fid": 10,
+    "wardNo": 11,
+    "wardName": "Ward_11"
+  },
+  {
+    "fid": 16,
+    "wardNo": 12,
+    "wardName": "Ward_12"
+  },
+  {
+    "fid": 15,
+    "wardNo": 13,
+    "wardName": "Ward_13"
+  },
+  {
+    "fid": 13,
+    "wardNo": 14,
+    "wardName": "Ward_14"
+  },
+  {
+    "fid": 14,
+    "wardNo": 15,
+    "wardName": "Ward_15"
+  },
+  {
+    "fid": 18,
+    "wardNo": 16,
+    "wardName": "Ward_16"
+  },
+  {
+    "fid": 8,
+    "wardNo": 17,
+    "wardName": "Ward_17"
+  },
+  {
+    "fid": 17,
+    "wardNo": 18,
+    "wardName": "Ward_18"
+  }
+]

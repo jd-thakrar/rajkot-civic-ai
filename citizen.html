@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citizen Portal — RMC Seva</title>
+  <meta name="description" content="Submit civic grievances to Rajkot Municipal Corporation in Gujarati, Hindi, or English." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="citizen">
+<div class="app-container">
+
+  <div id="api-status-banner" class="api-banner hidden"></div>
+  <div class="tricolor-bar"></div>
+
+  <header class="app-header app-header-modern">
+    <div class="header-left">
+      <a href="/" class="logo-area logo-link" title="Back to home">
+        <div class="logo-icon">🏛️</div>
+        <div>
+          <h1>RMC Seva</h1>
+          <p class="subtitle">Citizen Grievance Portal</p>
+        </div>
+      </a>
+      <span class="page-pill"><i class="fa-solid fa-users"></i> Citizen</span>
+    </div>
+
+    <div class="header-controls">
+      <a href="login.html" class="header-link-btn"><i class="fa-solid fa-chart-line"></i> Officer Login</a>
+      <div class="language-selector">
+        <i class="fa-solid fa-language"></i>
+        <select id="lang-switch" aria-label="Select language">
+          <option value="gu">ગુજરાતી</option>
+          <option value="en" selected>English</option>
+          <option value="hi">हिंदी</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main page-main">
+    <div class="citizen-grid">
+
+      <div class="card form-card">
+        <div class="card-header">
+          <h2><i class="fa-solid fa-pen-line"></i> Submit Civic Grievance</h2>
+          <p class="card-subtitle">Submit in Gujarati, Hindi, or English — text, voice, photo, or WhatsApp.</p>
+        </div>
+
+        <div class="channel-selector" role="tablist" aria-label="Input channel">
+          <button class="channel-btn active" data-channel="text" role="tab"><i class="fa-solid fa-keyboard"></i> Text</button>
+          <button class="channel-btn" data-channel="voice" role="tab"><i class="fa-solid fa-microphone"></i> Voice</button>
+          <button class="channel-btn" data-channel="photo" role="tab"><i class="fa-solid fa-camera"></i> Photo</button>
+          <button class="channel-btn" data-channel="whatsapp" role="tab"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+        </div>
+
+        <form id="suggestion-form" novalidate>
+          <div class="form-group">
+            <label for="form-area"><i class="fa-solid fa-location-dot"></i> Your Area / Locality <span class="label-hint">(1,695 RMC areas)</span></label>
+            <input type="text" id="form-area" list="area-datalist" placeholder="e.g. Madhavpur, Raiya, Mavdi, Kothariya…" autocomplete="off" />
+            <datalist id="area-datalist"></datalist>
+            <small id="form-area-hint" class="form-area-hint hidden"></small>
+          </div>
+          <div class="form-group">
+            <label for="form-ward"><i class="fa-solid fa-map-pin"></i> Select Your RMC Ward</label>
+            <select id="form-ward" required aria-required="true"></select>
+          </div>
+          <div class="form-group">
+            <label for="form-category"><i class="fa-solid fa-tag"></i> Select Issue Category</label>
+            <select id="form-category" required aria-required="true"></select>
+          </div>
+
+          <div class="channel-input-group active" id="input-text">
+            <div class="form-group">
+              <label for="form-text-content">Describe the Issue</label>
+              <textarea id="form-text-content" rows="5" placeholder="ઉ.દ: Ward 13 ma kachro bharayi gayo chhe…&#10;Or: Ward 9 drainage is blocked since last week…"></textarea>
+            </div>
+          </div>
+
+          <div class="channel-input-group" id="input-voice">
+            <div class="voice-recorder-box">
+              <div class="audio-wave-container">
+                <canvas id="audio-visualizer" aria-hidden="true"></canvas>
+                <div id="recording-status">Ready to record — uses your browser's microphone</div>
+              </div>
+              <div id="live-transcript" class="live-transcript-box" style="display:none"></div>
+              <div class="voice-controls">
+                <button type="button" class="btn btn-record" id="btn-voice-record"><i class="fa-solid fa-microphone"></i> Start Recording</button>
+                <button type="button" class="btn btn-stop-record" id="btn-voice-stop" disabled><i class="fa-solid fa-stop"></i> Stop</button>
+              </div>
+              <input type="hidden" id="voice-final-transcript" />
+              <div class="voice-transcription-preview hidden" id="voice-transcription-preview">
+                <h5><i class="fa-solid fa-language"></i> Voice Analysis</h5>
+                <div class="original-transcription"><strong>Transcribed:</strong> <span id="transcription-text"></span></div>
+                <div class="translated-transcription"><strong>English:</strong> <span id="translation-text"></span></div>
+                <div style="font-size:0.78rem;color:var(--navy);margin-top:0.4rem" id="voice-category-detected"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="channel-input-group" id="input-photo">
+            <div class="photo-upload-box">
+              <div class="photo-placeholder" id="photo-dropzone" role="button" tabindex="0">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>Click to upload a photo of the civic issue</p>
+                <input type="file" id="form-photo-file" accept="image/*" class="hidden" />
+              </div>
+              <div class="photo-preview-container hidden" id="photo-preview-container">
+                <img id="photo-preview-img" src="" alt="Preview" />
+                <div class="photo-details">
+                  <p id="photo-filename">filename.jpg</p>
+                  <button type="button" class="btn-remove-photo" id="btn-remove-photo"><i class="fa-solid fa-trash"></i></button>
+                </div>
+              </div>
+              <div class="photo-analysis-preview hidden" id="photo-analysis-preview">
+                <h5><i class="fa-solid fa-camera"></i> Photo Analysis</h5>
+                <p id="image-tags">Analyzing…</p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="form-photo-caption">Additional description <span class="label-hint">(optional)</span></label>
+                <textarea id="form-photo-caption" rows="3" placeholder="Describe the issue if needed…"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="channel-input-group" id="input-whatsapp">
+            <div class="whatsapp-instruction">
+              <i class="fa-brands fa-whatsapp" style="color:var(--green)"></i>
+              Use the <strong>WhatsApp panel on the right</strong> to simulate citizen messages.
+            </div>
+          </div>
+
+          <div id="analysis-result" class="hidden" style="margin-bottom:1rem"></div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-block" id="btn-submit-suggestion">
+              <i class="fa-solid fa-paper-plane"></i> Submit Grievance to RMC
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card whatsapp-card">
+        <div class="card-header whatsapp-header">
+          <div class="whatsapp-profile">
+            <div class="avatar">🏛</div>
+            <div>
+              <h3>RMC Seva Bot</h3>
+              <p class="status">Online · RMC Grievance Desk</p>
+            </div>
+          </div>
+        </div>
+        <div class="whatsapp-messages" id="whatsapp-messages" role="log">
+          <div class="msg msg-system"><span>Type in Gujarati, Hindi, or English. Your complaint receives a ticket ID instantly.</span></div>
+          <div class="msg msg-bot">
+            <div class="msg-content">
+              🙏 <strong>નમસ્કાર!</strong> આ RMC Seva Bot છે.
+              <div class="translation-tag">Hello! Register your grievance in Gujarati, Hindi, or English.</div>
+              <span class="time">Now</span>
+            </div>
+          </div>
+        </div>
+        <div class="whatsapp-footer">
+          <input type="text" id="whatsapp-input" placeholder="Ward 9 ma gutter overflow thay chhe…" />
+          <button class="wa-send-btn" id="whatsapp-send"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+        <div class="whatsapp-analyser-sidebar" id="whatsapp-analyser-sidebar">
+          <h4><i class="fa-solid fa-gears"></i> Processing Status</h4>
+          <div class="analyser-steps">
+            <div class="step" id="nlp-step-lang"><span class="bullet">1</span> Lang: <span class="val">—</span></div>
+            <div class="step" id="nlp-step-trans"><span class="bullet">2</span> Translated: <span class="val">—</span></div>
+            <div class="step" id="nlp-step-cat"><span class="bullet">3</span> Category: <span class="val">—</span></div>
+            <div class="step" id="nlp-step-ward"><span class="bullet">4</span> Ward: <span class="val">—</span></div>
+            <div class="step" id="nlp-step-ticket"><span class="bullet">5</span> Ticket: <span class="val">—</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-header">
+        <h3><i class="fa-solid fa-clock-rotate-left"></i> Live Citizen Grievance Feed</h3>
+        <div class="feed-toolbar">
+          <select id="feed-filter-ward"><option value="">All Wards</option></select>
+          <select id="feed-filter-category"><option value="">All Categories</option></select>
+          <select id="feed-filter-urgency">
+            <option value="">All Urgency</option>
+            <option value="critical">Critical</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="data-table" id="citizen-feed-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Ticket ID</th>
+              <th>Ward / Area</th>
+              <th>Original Message</th>
+              <th>Translation</th>
+              <th>Category</th>
+              <th>Urgency</th>
+            </tr>
+          </thead>
+          <tbody id="citizen-feed-body">
+            <tr><td colspan="7" class="empty-row">No grievances yet — submit one above ↑</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <span><strong>Rajkot Municipal Corporation</strong></span>
+    <span><a href="/">Home</a> · <a href="https://rmc.gov.in" target="_blank" rel="noopener">rmc.gov.in</a></span>
+  </footer>
+</div>
+
+<div id="submission-success-toast" class="toast hidden" role="alert">
+  <div class="toast-content">
+    <i class="fa-solid fa-circle-check"></i>
+    <div><h4>Grievance Registered</h4><p id="toast-message"></p></div>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

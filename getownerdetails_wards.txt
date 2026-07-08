@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="/rajkotcitygis/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/rajkotcitygis/css/bootstrap_css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/rajkotcitygis/css/citymap_css/403.css">
+	<title></title>
+</head>
+<body>
+	<div class="wrap">
+	  <article>
+	    <header>
+	      <h1 id="fittext1">You are not authorize to view this page,<br> Contact Administrator for the Access.</br><i class="fa fa-exclamation-triangle fa-fw"></i></h1>
+	    </header>
+	    <p id="fittext2">Access Denied</p>
+	    <a class="back-map-link" href="">Back To Home</a>
+   	  </article>
+	</div>
+	<script type="text/javascript" src="/rajkotcitygis/js/js_design/jquery.min.js"></script>
+	<script type="text/javascript" src="/rajkotcitygis/js/bootstrap_js/popper.min.js"></script>
+	<script type="text/javascript" src="/rajkotcitygis/js/bootstrap_js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	</script>
+</body>
+</html>
