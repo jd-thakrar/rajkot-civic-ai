@@ -332,12 +332,13 @@
         <div class="card project-list-card">
           <div class="card-header">
             <h2><i class="fa-solid fa-list-ol"></i> AI Prioritized Civic Works</h2>
-            <p class="card-subtitle">Score = Citizen Feedback Volume (40%) + Infrastructure Gap (40%) + Demographic Vulnerability (20%)</p>
+            <p class="card-subtitle">Score = Demand (30%) + Urgency (30%) + Data Gap (25%) + Population Helped (15%)</p>
             <div class="scoring-weights-controls">
               <span style="font-weight:600">Weights:</span>
-              <label>Feedback <input type="range" id="weight-feedback" min="0" max="100" value="40" /></label>
-              <label>Infra <input type="range" id="weight-infra" min="0" max="100" value="40" /></label>
-              <label>Demo <input type="range" id="weight-demo" min="0" max="100" value="20" /></label>
+              <label>Demand <input type="range" id="weight-demand" min="0" max="100" value="30" /></label>
+              <label>Urgency <input type="range" id="weight-urgency" min="0" max="100" value="30" /></label>
+              <label>Data Gap <input type="range" id="weight-data-gap" min="0" max="100" value="25" /></label>
+              <label>Pop Helped <input type="range" id="weight-pop-helped" min="0" max="100" value="15" /></label>
               <button class="btn btn-secondary btn-sm" id="btn-recalculate-weights">Recalculate</button>
             </div>
           </div>

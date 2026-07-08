@@ -332,5 +332,43 @@
       22.28032652571339,
       70.82032923815704
     ]
+  },
+  {
+    "id": "SUG-1783239168565",
+    "ticketId": "RMC/2026/W09/3130",
+    "wardId": "RMC-09",
+    "category": "solid_waste",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "ward 9 ma kachro",
+    "translatedContent": "Garbage in ward 9",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "The citizen is reporting garbage accumulation in Ward 9.",
+    "timestamp": "2026-07-05T08:12:48.565Z",
+    "source": "WhatsApp (RMC-09)",
+    "coords": [
+      22.276144950050295,
+      70.81794791343223
+    ]
+  },
+  {
+    "id": "SUG-1783397363658",
+    "ticketId": "RMC/2026/W02/1139",
+    "wardId": "RMC-02",
+    "category": "water",
+    "type": "whatsapp",
+    "language": "Gujarati",
+    "originalContent": "અમારા વિસ્તાર રૈયા રોડ માં છેલ્લા 5 દિવસ થી પાણી નથી આવતું. લોકો ખૂબ હેરાન છે",
+    "translatedContent": "In our area, Raiya Road, there has been no water supply for the last 5 days. People are very troubled.",
+    "sentiment": "negative",
+    "urgency": "high",
+    "keyConcern": "There has been no water supply in the Raiya Road area for the past 5 days, causing significant distress to residents.",
+    "timestamp": "2026-07-07T04:09:23.658Z",
+    "source": "WhatsApp (RMC-02)",
+    "coords": [
+      22.31108925281365,
+      70.79880689713714
+    ]
   }
 ]

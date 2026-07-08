@@ -1,0 +1,6782 @@
+{
+  "akshar nagar": {
+    "wardId": "RMC-01",
+    "displayName": "Akshar Nagar"
+  },
+  "alap green city": {
+    "wardId": "RMC-01",
+    "displayName": "Alap Green City"
+  },
+  "balkrushna park": {
+    "wardId": "RMC-01",
+    "displayName": "Balkrushna Park"
+  },
+  "bharatvan society": {
+    "wardId": "RMC-16",
+    "displayName": "Bharatvan Society"
+  },
+  "bharti nagar (150&#39; rd)": {
+    "wardId": "RMC-01",
+    "displayName": "Bharti Nagar (150&#39; Rd)"
+  },
+  "darshan residency": {
+    "wardId": "RMC-01",
+    "displayName": "Darshan Residency"
+  },
+  "dharam nagar (150&#39; ring rd)": {
+    "wardId": "RMC-01",
+    "displayName": "Dharam Nagar (150&#39; Ring Rd)"
+  },
+  "dharamraj nagar": {
+    "wardId": "RMC-01",
+    "displayName": "Dharamraj Nagar"
+  },
+  "dharm nagar mafatiapara": {
+    "wardId": "RMC-01",
+    "displayName": "Dharm Nagar Mafatiapara"
+  },
+  "dwarkesh park": {
+    "wardId": "RMC-13",
+    "displayName": "Dwarkesh Park"
+  },
+  "gandhigram": {
+    "wardId": "RMC-01",
+    "displayName": "Gandhigram"
+  },
+  "ganga villa residency": {
+    "wardId": "RMC-01",
+    "displayName": "Ganga Villa Residency"
+  },
+  "gautam nagar (gandhi gram)": {
+    "wardId": "RMC-01",
+    "displayName": "Gautam Nagar (gandhi Gram)"
+  },
+  "ghanteshwar": {
+    "wardId": "RMC-01",
+    "displayName": "Ghanteshwar"
+  },
+  "hari om socitey": {
+    "wardId": "RMC-01",
+    "displayName": "Hari Om Socitey"
+  },
+  "harsidhdhi dham society": {
+    "wardId": "RMC-01",
+    "displayName": "Harsidhdhi Dham Society"
+  },
+  "ishar park": {
+    "wardId": "RMC-01",
+    "displayName": "Ishar Park"
+  },
+  "j k park": {
+    "wardId": "RMC-01",
+    "displayName": "J K Park"
+  },
+  "jivantika nagar": {
+    "wardId": "RMC-01",
+    "displayName": "Jivantika Nagar"
+  },
+  "kailash dhara park": {
+    "wardId": "RMC-10",
+    "displayName": "Kailash Dhara Park"
+  },
+  "kashtbhanjan society": {
+    "wardId": "RMC-01",
+    "displayName": "Kashtbhanjan Society"
+  },
+  "keval palace": {
+    "wardId": "RMC-01",
+    "displayName": "Keval Palace"
+  },
+  "labhdeep society (gandhigram)": {
+    "wardId": "RMC-01",
+    "displayName": "Labhdeep Society (gandhigram)"
+  },
+  "lakha no banglow road": {
+    "wardId": "RMC-01",
+    "displayName": "Lakha No Banglow Road"
+  },
+  "laxmi residency": {
+    "wardId": "RMC-01",
+    "displayName": "Laxmi Residency"
+  },
+  "laxmiji park": {
+    "wardId": "RMC-01",
+    "displayName": "Laxmiji Park"
+  },
+  "mani nagar (nr. raiya rd.)": {
+    "wardId": "RMC-01",
+    "displayName": "Mani Nagar (Nr. Raiya Rd.)"
+  },
+  "mani nagar(nr. greenland chowkdi)": {
+    "wardId": "RMC-05",
+    "displayName": "Mani nagar(Nr. Greenland Chowkdi)"
+  },
+  "mochi nagar (labhdeep soc.)": {
+    "wardId": "RMC-01",
+    "displayName": "Mochi Nagar (labhdeep Soc.)"
+  },
+  "nand villa": {
+    "wardId": "RMC-01",
+    "displayName": "Nand Villa"
+  },
+  "new mahavir nagar": {
+    "wardId": "RMC-01",
+    "displayName": "New Mahavir Nagar"
+  },
+  "new mahavir society": {
+    "wardId": "RMC-01",
+    "displayName": "New Mahavir Society"
+  },
+  "oscar residency": {
+    "wardId": "RMC-01",
+    "displayName": "Oscar Residency"
+  },
+  "radhika park": {
+    "wardId": "RMC-01",
+    "displayName": "Radhika Park"
+  },
+  "raiya gram": {
+    "wardId": "RMC-01",
+    "displayName": "Raiya Gram"
+  },
+  "raiyadhar (mafatiyapara)": {
+    "wardId": "RMC-01",
+    "displayName": "Raiyadhar (mafatiyapara)"
+  },
+  "raiyadhar (slum)": {
+    "wardId": "RMC-01",
+    "displayName": "Raiyadhar (slum)"
+  },
+  "ramapir chowk to raiya dhar": {
+    "wardId": "RMC-01",
+    "displayName": "Ramapir Chowk To Raiya Dhar"
+  },
+  "rameshvar park (satadhar park)": {
+    "wardId": "RMC-01",
+    "displayName": "Rameshvar Park (satadhar Park)"
+  },
+  "ravi randal park": {
+    "wardId": "RMC-01",
+    "displayName": "Ravi Randal Park"
+  },
+  "ravi residency": {
+    "wardId": "RMC-01",
+    "displayName": "Ravi Residency"
+  },
+  "rmc quater": {
+    "wardId": "RMC-01",
+    "displayName": "Rmc Quater"
+  },
+  "rukshmani park": {
+    "wardId": "RMC-01",
+    "displayName": "Rukshmani Park"
+  },
+  "rushi vatika": {
+    "wardId": "RMC-01",
+    "displayName": "Rushi Vatika"
+  },
+  "s k chowk main road": {
+    "wardId": "RMC-01",
+    "displayName": "S K Chowk Main Road"
+  },
+  "samrudhdhi society": {
+    "wardId": "RMC-01",
+    "displayName": "Samrudhdhi Society"
+  },
+  "santosh park (behind sterling hospital)": {
+    "wardId": "RMC-01",
+    "displayName": "Santosh Park (Behind Sterling Hospital)"
+  },
+  "satadhar": {
+    "wardId": "RMC-01",
+    "displayName": "Satadhar"
+  },
+  "satyanaran park": {
+    "wardId": "RMC-01",
+    "displayName": "Satyanaran Park"
+  },
+  "shaha nagar": {
+    "wardId": "RMC-01",
+    "displayName": "Shaha Nagar"
+  },
+  "shakti nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Shakti Nagar"
+  },
+  "shanti nagar": {
+    "wardId": "RMC-01",
+    "displayName": "Shanti Nagar"
+  },
+  "shanti niketan avenue": {
+    "wardId": "RMC-01",
+    "displayName": "Shanti Niketan Avenue"
+  },
+  "shanti niketan park": {
+    "wardId": "RMC-01",
+    "displayName": "Shanti Niketan Park"
+  },
+  "shastri nagar (gandhigram)": {
+    "wardId": "RMC-01",
+    "displayName": "Shastri Nagar (gandhigram)"
+  },
+  "shivam park (dharam ngr)": {
+    "wardId": "RMC-01",
+    "displayName": "Shivam Park (dharam Ngr)"
+  },
+  "vidhyutnagar": {
+    "wardId": "RMC-08",
+    "displayName": "Vidhyutnagar"
+  },
+  "02 - other": {
+    "wardId": "RMC-02",
+    "displayName": "02 - OTHER"
+  },
+  "80 ft ring road": {
+    "wardId": "RMC-02",
+    "displayName": "80 Ft Ring Road"
+  },
+  "adarsh society": {
+    "wardId": "RMC-02",
+    "displayName": "Adarsh Society"
+  },
+  "airport road": {
+    "wardId": "RMC-02",
+    "displayName": "Airport Road"
+  },
+  "akashvani road(near galaxy cinema)": {
+    "wardId": "RMC-02",
+    "displayName": "Akashvani Road(Near Galaxy CInema)"
+  },
+  "alkapuri soc.": {
+    "wardId": "RMC-02",
+    "displayName": "Alkapuri Soc."
+  },
+  "amarjit nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Amarjit Nagar"
+  },
+  "amrapali road(near bridge)": {
+    "wardId": "RMC-02",
+    "displayName": "Amrapali Road(Near Bridge)"
+  },
+  "anjani society": {
+    "wardId": "RMC-02",
+    "displayName": "Anjani Society"
+  },
+  "aradhna society": {
+    "wardId": "RMC-02",
+    "displayName": "Aradhna Society"
+  },
+  "art gallary chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Art Gallary Chowk"
+  },
+  "ashok society": {
+    "wardId": "RMC-02",
+    "displayName": "Ashok Society"
+  },
+  "ashutosh society": {
+    "wardId": "RMC-02",
+    "displayName": "Ashutosh Society"
+  },
+  "avantika park": {
+    "wardId": "RMC-17",
+    "displayName": "Avantika Park"
+  },
+  "aviation society": {
+    "wardId": "RMC-02",
+    "displayName": "Aviation Society"
+  },
+  "bahumali bhavan": {
+    "wardId": "RMC-02",
+    "displayName": "Bahumali Bhavan"
+  },
+  "bajrang wadi main road": {
+    "wardId": "RMC-02",
+    "displayName": "Bajrang Wadi Main Road"
+  },
+  "bajrangwadi": {
+    "wardId": "RMC-02",
+    "displayName": "Bajrangwadi"
+  },
+  "bal bhavan": {
+    "wardId": "RMC-02",
+    "displayName": "Bal Bhavan"
+  },
+  "balbhavan chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Balbhavan Chowk"
+  },
+  "balbhavan chowk to police headquarter ring road": {
+    "wardId": "RMC-02",
+    "displayName": "Balbhavan Chowk to Police Headquarter Ring Road"
+  },
+  "balkunj hobby centre": {
+    "wardId": "RMC-02",
+    "displayName": "Balkunj Hobby Centre"
+  },
+  "bank of baroda society": {
+    "wardId": "RMC-02",
+    "displayName": "Bank of Baroda Society"
+  },
+  "bhajap karyalay kamlam road": {
+    "wardId": "RMC-02",
+    "displayName": "Bhajap karyalay kamlam road"
+  },
+  "bhavani park": {
+    "wardId": "RMC-02",
+    "displayName": "Bhavani Park"
+  },
+  "bhavna society": {
+    "wardId": "RMC-02",
+    "displayName": "BHavna Society"
+  },
+  "bhavna society rcc road": {
+    "wardId": "RMC-02",
+    "displayName": "BHavna Society RCC Road"
+  },
+  "bhomeshvar vadi": {
+    "wardId": "RMC-02",
+    "displayName": "Bhomeshvar Vadi"
+  },
+  "bhomeshvarplot": {
+    "wardId": "RMC-02",
+    "displayName": "Bhomeshvarplot"
+  },
+  "bhomeshwar society": {
+    "wardId": "RMC-02",
+    "displayName": "Bhomeshwar Society"
+  },
+  "birsha munda circle": {
+    "wardId": "RMC-02",
+    "displayName": "Birsha Munda Circle"
+  },
+  "chabutra ground": {
+    "wardId": "RMC-02",
+    "displayName": "Chabutra Ground"
+  },
+  "chaudhari high school": {
+    "wardId": "RMC-02",
+    "displayName": "Chaudhari High School"
+  },
+  "chhotu nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Chhotu Nagar"
+  },
+  "children play ground": {
+    "wardId": "RMC-02",
+    "displayName": "Children Play Ground"
+  },
+  "chinoy road": {
+    "wardId": "RMC-02",
+    "displayName": "Chinoy Road"
+  },
+  "chotu nagar slum": {
+    "wardId": "RMC-02",
+    "displayName": "Chotu Nagar Slum"
+  },
+  "chudasama plot": {
+    "wardId": "RMC-02",
+    "displayName": "Chudasama Plot"
+  },
+  "circuit house": {
+    "wardId": "RMC-02",
+    "displayName": "Circuit House"
+  },
+  "dhruv nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Dhruv Nagar"
+  },
+  "divya sidhdhi park": {
+    "wardId": "RMC-02",
+    "displayName": "Divya Sidhdhi Park"
+  },
+  "ekjan nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Ekjan Nagar"
+  },
+  "galaxy cinema": {
+    "wardId": "RMC-02",
+    "displayName": "Galaxy Cinema"
+  },
+  "ganatra wadi": {
+    "wardId": "RMC-02",
+    "displayName": "Ganatra Wadi"
+  },
+  "gayatri dham": {
+    "wardId": "RMC-02",
+    "displayName": "Gayatri Dham"
+  },
+  "geet gurjari society": {
+    "wardId": "RMC-02",
+    "displayName": "Geet Gurjari Society"
+  },
+  "girnar soc. (girnar talkies)": {
+    "wardId": "RMC-02",
+    "displayName": "Girnar Soc. (girnar Talkies)"
+  },
+  "gokuliya para": {
+    "wardId": "RMC-02",
+    "displayName": "Gokuliya Para"
+  },
+  "government hospital": {
+    "wardId": "RMC-02",
+    "displayName": "Government Hospital"
+  },
+  "government office(near race course)": {
+    "wardId": "RMC-02",
+    "displayName": "Government Office(Near Race Course)"
+  },
+  "government offices": {
+    "wardId": "RMC-02",
+    "displayName": "Government Offices"
+  },
+  "government offices and quarters": {
+    "wardId": "RMC-02",
+    "displayName": "Government Offices And Quarters"
+  },
+  "government press quarter (nr. jamnagar road)": {
+    "wardId": "RMC-02",
+    "displayName": "Government Press Quarter (Nr. Jamnagar Road)"
+  },
+  "government press quarter(nr. race course)": {
+    "wardId": "RMC-02",
+    "displayName": "Government Press Quarter(Nr. Race Course)"
+  },
+  "greenpark": {
+    "wardId": "RMC-02",
+    "displayName": "GreenPark"
+  },
+  "hari dham": {
+    "wardId": "RMC-02",
+    "displayName": "Hari Dham"
+  },
+  "hari park": {
+    "wardId": "RMC-02",
+    "displayName": "Hari Park"
+  },
+  "haridas nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Haridas Nagar"
+  },
+  "harihar chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Harihar Chowk"
+  },
+  "himat nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Himat Nagar"
+  },
+  "hospital chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Hospital Chowk"
+  },
+  "income tax soc. (aerodrome)": {
+    "wardId": "RMC-02",
+    "displayName": "Income Tax Soc. (aerodrome)"
+  },
+  "indoor department(race course)": {
+    "wardId": "RMC-02",
+    "displayName": "Indoor Department(Race Course)"
+  },
+  "indoor road": {
+    "wardId": "RMC-02",
+    "displayName": "Indoor Road"
+  },
+  "jagruti shramjivi society": {
+    "wardId": "RMC-02",
+    "displayName": "Jagruti Shramjivi Society"
+  },
+  "jain boarding area": {
+    "wardId": "RMC-02",
+    "displayName": "Jain Boarding Area"
+  },
+  "jam tower road": {
+    "wardId": "RMC-02",
+    "displayName": "Jam Tower Road"
+  },
+  "janta janaradhan society": {
+    "wardId": "RMC-02",
+    "displayName": "Janta Janaradhan Society"
+  },
+  "janta janaradhan society(near rajkruti)": {
+    "wardId": "RMC-02",
+    "displayName": "Janta Janaradhan Society(Near Rajkruti)"
+  },
+  "jasani park": {
+    "wardId": "RMC-02",
+    "displayName": "Jasani Park"
+  },
+  "javahar road": {
+    "wardId": "RMC-02",
+    "displayName": "Javahar Road"
+  },
+  "jilla panchayat chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Jilla Panchayat Chowk"
+  },
+  "jilla panchayat chowk to kishanpara chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Jilla Panchayat Chowk to Kishanpara Chowk"
+  },
+  "jilla panchayat chowk to police headquarter": {
+    "wardId": "RMC-02",
+    "displayName": "Jilla Panchayat Chowk to Police Headquarter"
+  },
+  "judge bungalow road(chaudhary high school )": {
+    "wardId": "RMC-02",
+    "displayName": "Judge Bungalow Road(Chaudhary High School )"
+  },
+  "kalpana chavla garden": {
+    "wardId": "RMC-02",
+    "displayName": "Kalpana Chavla Garden"
+  },
+  "kalyan nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Kalyan Nagar"
+  },
+  "kalyan society": {
+    "wardId": "RMC-17",
+    "displayName": "Kalyan Society"
+  },
+  "kashi vushvanath plot": {
+    "wardId": "RMC-02",
+    "displayName": "Kashi Vushvanath Plot"
+  },
+  "kasturba road": {
+    "wardId": "RMC-02",
+    "displayName": "Kasturba Road"
+  },
+  "kishanpara chowk": {
+    "wardId": "RMC-02",
+    "displayName": "Kishanpara Chowk"
+  },
+  "krishna kunj": {
+    "wardId": "RMC-02",
+    "displayName": "Krishna Kunj"
+  },
+  "maruti nagar": {
+    "wardId": "RMC-16",
+    "displayName": "Maruti nagar"
+  },
+  "mochi nagar (jamnagar rd)": {
+    "wardId": "RMC-02",
+    "displayName": "Mochi Nagar (jamnagar Rd)"
+  },
+  "mochi nagar(near shital park road)": {
+    "wardId": "RMC-02",
+    "displayName": "Mochi Nagar(Near Shital Park Road)"
+  },
+  "mochinagar society(near rajiv nagar)": {
+    "wardId": "RMC-02",
+    "displayName": "Mochinagar society(Near Rajiv Nagar)"
+  },
+  "mohit road": {
+    "wardId": "RMC-02",
+    "displayName": "Mohit Road"
+  },
+  "momin society": {
+    "wardId": "RMC-02",
+    "displayName": "Momin Society"
+  },
+  "navyug society": {
+    "wardId": "RMC-02",
+    "displayName": "Navyug Society"
+  },
+  "near jain derasar": {
+    "wardId": "RMC-02",
+    "displayName": "Near Jain Derasar"
+  },
+  "nehru nagar (amrapali)": {
+    "wardId": "RMC-02",
+    "displayName": "Nehru Nagar (amrapali)"
+  },
+  "new shyam nagar": {
+    "wardId": "RMC-02",
+    "displayName": "New Shyam Nagar"
+  },
+  "niranjan society": {
+    "wardId": "RMC-02",
+    "displayName": "Niranjan Society"
+  },
+  "nr. aamrapali fatak": {
+    "wardId": "RMC-02",
+    "displayName": "Nr. Aamrapali Fatak"
+  },
+  "padmakuvarba society": {
+    "wardId": "RMC-02",
+    "displayName": "Padmakuvarba Society"
+  },
+  "parvati park": {
+    "wardId": "RMC-02",
+    "displayName": "Parvati Park"
+  },
+  "patrakar society": {
+    "wardId": "RMC-02",
+    "displayName": "Patrakar Society"
+  },
+  "pavan park": {
+    "wardId": "RMC-02",
+    "displayName": "Pavan Park"
+  },
+  "police head quarters": {
+    "wardId": "RMC-02",
+    "displayName": "Police Head Quarters"
+  },
+  "pragati society": {
+    "wardId": "RMC-02",
+    "displayName": "Pragati Society"
+  },
+  "press colony": {
+    "wardId": "RMC-02",
+    "displayName": "Press Colony"
+  },
+  "puja park": {
+    "wardId": "RMC-16",
+    "displayName": "Puja Park"
+  },
+  "punit nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Punit Nagar"
+  },
+  "punit nagar-1": {
+    "wardId": "RMC-02",
+    "displayName": "Punit Nagar-1"
+  },
+  "punitnagar-2": {
+    "wardId": "RMC-02",
+    "displayName": "PunitNagar-2"
+  },
+  "pushpak park": {
+    "wardId": "RMC-02",
+    "displayName": "Pushpak Park"
+  },
+  "race cource park": {
+    "wardId": "RMC-02",
+    "displayName": "Race Cource Park"
+  },
+  "race course love street": {
+    "wardId": "RMC-02",
+    "displayName": "Race Course Love Street"
+  },
+  "race course step garden(shivaji statue)": {
+    "wardId": "RMC-02",
+    "displayName": "Race Course Step Garden(Shivaji Statue)"
+  },
+  "radio colony": {
+    "wardId": "RMC-02",
+    "displayName": "Radio Colony"
+  },
+  "raghunandan park": {
+    "wardId": "RMC-02",
+    "displayName": "Raghunandan Park"
+  },
+  "raice course": {
+    "wardId": "RMC-02",
+    "displayName": "Raice Course"
+  },
+  "raice course ring road": {
+    "wardId": "RMC-02",
+    "displayName": "Raice Course Ring Road"
+  },
+  "railnagar ward no.02 (bajrangwadi)": {
+    "wardId": "RMC-02",
+    "displayName": "Railnagar Ward no.02 (Bajrangwadi)"
+  },
+  "rajiv nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Rajiv Nagar"
+  },
+  "rajkot airport": {
+    "wardId": "RMC-02",
+    "displayName": "Rajkot Airport"
+  },
+  "rajkruti apartment": {
+    "wardId": "RMC-02",
+    "displayName": "RajKruti Apartment"
+  },
+  "rang upvan soc. (airport rd.)": {
+    "wardId": "RMC-02",
+    "displayName": "Rang Upvan Soc. (Airport Rd.)"
+  },
+  "ravi hotel road": {
+    "wardId": "RMC-02",
+    "displayName": "Ravi Hotel Road"
+  },
+  "raza nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Raza Nagar"
+  },
+  "sadar bazar one way": {
+    "wardId": "RMC-02",
+    "displayName": "Sadar Bazar One Way"
+  },
+  "sakhiya nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Sakhiya Nagar"
+  },
+  "sanjay nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Sanjay Nagar"
+  },
+  "sankalp siddhi park": {
+    "wardId": "RMC-02",
+    "displayName": "Sankalp siddhi park"
+  },
+  "sarvmangal": {
+    "wardId": "RMC-02",
+    "displayName": "Sarvmangal"
+  },
+  "saurabh society": {
+    "wardId": "RMC-02",
+    "displayName": "Saurabh Society"
+  },
+  "sheetal park society": {
+    "wardId": "RMC-02",
+    "displayName": "Sheetal Park Society"
+  },
+  "shichai nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Shichai Nagar"
+  },
+  "shital park main road": {
+    "wardId": "RMC-02",
+    "displayName": "Shital Park Main Road"
+  },
+  "shivaji park": {
+    "wardId": "RMC-02",
+    "displayName": "Shivaji Park"
+  },
+  "shivranjani park": {
+    "wardId": "RMC-02",
+    "displayName": "Shivranjani Park"
+  },
+  "shreeji avenue near rmc party plot road": {
+    "wardId": "RMC-02",
+    "displayName": "Shreeji Avenue Near RMC Party plot Road"
+  },
+  "shreyash society": {
+    "wardId": "RMC-02",
+    "displayName": "Shreyash Society"
+  },
+  "shrijee nagar": {
+    "wardId": "RMC-02",
+    "displayName": "Shrijee Nagar"
+  },
+  "shrof road": {
+    "wardId": "RMC-02",
+    "displayName": "Shrof Road"
+  },
+  "subhash nagar (amrapali)": {
+    "wardId": "RMC-02",
+    "displayName": "Subhash Nagar (amrapali)"
+  },
+  "sundaram shilp near rmc party plot": {
+    "wardId": "RMC-02",
+    "displayName": "Sundaram Shilp Near RMC Party plot"
+  },
+  "swapna siddhi park": {
+    "wardId": "RMC-02",
+    "displayName": "Swapna Siddhi Park"
+  },
+  "swastik society": {
+    "wardId": "RMC-02",
+    "displayName": "Swastik Society"
+  },
+  "takshashila society": {
+    "wardId": "RMC-16",
+    "displayName": "Takshashila Society"
+  },
+  "tarovar society": {
+    "wardId": "RMC-02",
+    "displayName": "Tarovar society"
+  },
+  "thakar hotel, platinum hotel, sbi": {
+    "wardId": "RMC-02",
+    "displayName": "Thakar Hotel, Platinum Hotel, SBI"
+  },
+  "upasana travel street": {
+    "wardId": "RMC-02",
+    "displayName": "Upasana Travel Street"
+  },
+  "usmaniya park": {
+    "wardId": "RMC-02",
+    "displayName": "Usmaniya Park"
+  },
+  "vakaner society": {
+    "wardId": "RMC-02",
+    "displayName": "Vakaner Society"
+  },
+  "vandan vatika": {
+    "wardId": "RMC-02",
+    "displayName": "Vandan Vatika"
+  },
+  "vasudha society": {
+    "wardId": "RMC-02",
+    "displayName": "Vasudha Society"
+  },
+  "vima nagar (amrapali)": {
+    "wardId": "RMC-02",
+    "displayName": "Vima Nagar (amrapali)"
+  },
+  "vima nagar (amrapali/nr. raiya road)": {
+    "wardId": "RMC-02",
+    "displayName": "Vima Nagar (amrapali/Nr. Raiya Road)"
+  },
+  "vivekanand society(nr. kishanpara chowk)": {
+    "wardId": "RMC-02",
+    "displayName": "Vivekanand Society(Nr. Kishanpara Chowk)"
+  },
+  "vivekanand society(opp. racecourse)": {
+    "wardId": "RMC-02",
+    "displayName": "Vivekanand Society(Opp. Racecourse)"
+  },
+  "yogeshwar society": {
+    "wardId": "RMC-17",
+    "displayName": "Yogeshwar Society"
+  },
+  "zepto road(nr rmc fire station)": {
+    "wardId": "RMC-02",
+    "displayName": "Zepto Road(Nr RMC FIre Station)"
+  },
+  "03 - other": {
+    "wardId": "RMC-03",
+    "displayName": "03 - OTHER"
+  },
+  "alaka society": {
+    "wardId": "RMC-03",
+    "displayName": "Alaka Society"
+  },
+  "amarnath park (nr. parsana nagar)": {
+    "wardId": "RMC-03",
+    "displayName": "Amarnath Park (Nr. Parsana Nagar)"
+  },
+  "amrut bhurabhai bram samaj": {
+    "wardId": "RMC-03",
+    "displayName": "Amrut Bhurabhai Bram Samaj"
+  },
+  "balaji mandir popat bhagat": {
+    "wardId": "RMC-03",
+    "displayName": "Balaji Mandir Popat Bhagat"
+  },
+  "balchand street ,navlakhi kendra": {
+    "wardId": "RMC-03",
+    "displayName": "Balchand Street ,navlakhi Kendra"
+  },
+  "balchand street raiya naka": {
+    "wardId": "RMC-03",
+    "displayName": "Balchand Street Raiya Naka"
+  },
+  "bardan gali": {
+    "wardId": "RMC-03",
+    "displayName": "Bardan Gali"
+  },
+  "bava gaur street": {
+    "wardId": "RMC-03",
+    "displayName": "Bava Gaur Street"
+  },
+  "bedi naka , pumping station": {
+    "wardId": "RMC-03",
+    "displayName": "Bedi Naka , Pumping Station"
+  },
+  "bedi naka road,bedi naka": {
+    "wardId": "RMC-03",
+    "displayName": "Bedi Naka Road,bedi Naka"
+  },
+  "bedinaka chowk": {
+    "wardId": "RMC-03",
+    "displayName": "Bedinaka Chowk"
+  },
+  "bheed bhanjan (nr. para bazar)": {
+    "wardId": "RMC-03",
+    "displayName": "Bheed Bhanjan (Nr. Para Bazar)"
+  },
+  "bhistivad": {
+    "wardId": "RMC-03",
+    "displayName": "Bhistivad"
+  },
+  "c.l.f bunglow": {
+    "wardId": "RMC-03",
+    "displayName": "C.l.f Bunglow"
+  },
+  "central jail": {
+    "wardId": "RMC-03",
+    "displayName": "Central Jail"
+  },
+  "central ware house": {
+    "wardId": "RMC-03",
+    "displayName": "Central Ware House"
+  },
+  "chamdi khatki vas": {
+    "wardId": "RMC-03",
+    "displayName": "Chamdi Khatki Vas"
+  },
+  "collector bunglow": {
+    "wardId": "RMC-03",
+    "displayName": "Collector Bunglow"
+  },
+  "collector office road": {
+    "wardId": "RMC-03",
+    "displayName": "Collector Office Road"
+  },
+  "court building": {
+    "wardId": "RMC-03",
+    "displayName": "Court Building"
+  },
+  "danapith": {
+    "wardId": "RMC-03",
+    "displayName": "Danapith"
+  },
+  "darbar gadh": {
+    "wardId": "RMC-03",
+    "displayName": "Darbar Gadh"
+  },
+  "darbar gadh to raiya naka": {
+    "wardId": "RMC-03",
+    "displayName": "Darbar Gadh To Raiya Naka"
+  },
+  "dev kuvarba school street": {
+    "wardId": "RMC-03",
+    "displayName": "Dev Kuvarba School Street"
+  },
+  "dhana pith, bardan gali": {
+    "wardId": "RMC-03",
+    "displayName": "Dhana Pith, Bardan Gali"
+  },
+  "dr.ambedkar school to dena bank": {
+    "wardId": "RMC-03",
+    "displayName": "Dr.ambedkar School To Dena Bank"
+  },
+  "d-type govt. qtrs": {
+    "wardId": "RMC-03",
+    "displayName": "D-Type Govt. Qtrs"
+  },
+  "gayak vadi": {
+    "wardId": "RMC-03",
+    "displayName": "Gayak Vadi"
+  },
+  "gayakvadi (north of jamnagar rd)": {
+    "wardId": "RMC-03",
+    "displayName": "Gayakvadi (north Of Jamnagar Rd)"
+  },
+  "gayakvadi (south of jamnagar rd)": {
+    "wardId": "RMC-03",
+    "displayName": "Gayakvadi (south Of Jamnagar Rd)"
+  },
+  "gayatri palace circle": {
+    "wardId": "RMC-03",
+    "displayName": "Gayatri Palace Circle"
+  },
+  "gebansha peer dargah": {
+    "wardId": "RMC-03",
+    "displayName": "Gebansha Peer Dargah"
+  },
+  "ghelaramji street, shree ranima rudima utaro": {
+    "wardId": "RMC-03",
+    "displayName": "Ghelaramji Street, Shree Ranima Rudima Utaro"
+  },
+  "government godown": {
+    "wardId": "RMC-03",
+    "displayName": "Government Godown"
+  },
+  "government quarter": {
+    "wardId": "RMC-03",
+    "displayName": "Government Quarter"
+  },
+  "gumansingh shopping center": {
+    "wardId": "RMC-03",
+    "displayName": "Gumansingh Shopping Center"
+  },
+  "hajarat  gebanshah pir road": {
+    "wardId": "RMC-03",
+    "displayName": "Hajarat  Gebanshah Pir Road"
+  },
+  "hansaraj nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Hansaraj Nagar"
+  },
+  "haveli road": {
+    "wardId": "RMC-03",
+    "displayName": "Haveli Road"
+  },
+  "hospi.chock to jamnagar road": {
+    "wardId": "RMC-03",
+    "displayName": "Hospi.chock To Jamnagar Road"
+  },
+  "hudco quarters (jamnagar rd)": {
+    "wardId": "RMC-03",
+    "displayName": "Hudco Quarters (jamnagar Rd)"
+  },
+  "i.p. mission": {
+    "wardId": "RMC-03",
+    "displayName": "I.p. Mission"
+  },
+  "i.pp mission church and school": {
+    "wardId": "RMC-03",
+    "displayName": "I.pp Mission Church And School"
+  },
+  "indira nagar (jamnagar rd)": {
+    "wardId": "RMC-03",
+    "displayName": "Indira Nagar (jamnagar Rd)"
+  },
+  "jalaram nagar (jamnagar rd)": {
+    "wardId": "RMC-03",
+    "displayName": "Jalaram Nagar (jamnagar Rd)"
+  },
+  "jamnagar road": {
+    "wardId": "RMC-03",
+    "displayName": "Jamnagar Road"
+  },
+  "jubeli chock ,police choki": {
+    "wardId": "RMC-03",
+    "displayName": "Jubeli Chock ,police Choki"
+  },
+  "jubilee garden": {
+    "wardId": "RMC-03",
+    "displayName": "Jubilee Garden"
+  },
+  "julelal nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Julelal Nagar"
+  },
+  "junction co.op. hous.soc.": {
+    "wardId": "RMC-03",
+    "displayName": "Junction Co.op. Hous.soc."
+  },
+  "junction main road": {
+    "wardId": "RMC-03",
+    "displayName": "Junction Main Road"
+  },
+  "junction plot": {
+    "wardId": "RMC-03",
+    "displayName": "Junction Plot"
+  },
+  "junction police to popat para": {
+    "wardId": "RMC-03",
+    "displayName": "Junction Police To Popat Para"
+  },
+  "juni collector office road": {
+    "wardId": "RMC-03",
+    "displayName": "Juni Collector Office Road"
+  },
+  "juni lodhavad": {
+    "wardId": "RMC-03",
+    "displayName": "Juni Lodhavad"
+  },
+  "kabrastan road": {
+    "wardId": "RMC-03",
+    "displayName": "Kabrastan Road"
+  },
+  "kadiya vad,bedi naka,": {
+    "wardId": "RMC-03",
+    "displayName": "Kadiya Vad,bedi Naka,"
+  },
+  "kailas vadi": {
+    "wardId": "RMC-03",
+    "displayName": "Kailas Vadi"
+  },
+  "kailash vadi circle to morbi house ,khali poll": {
+    "wardId": "RMC-03",
+    "displayName": "Kailash Vadi Circle To Morbi House ,khali Poll"
+  },
+  "kaishari hind pull , parevadi taraf": {
+    "wardId": "RMC-03",
+    "displayName": "Kaishari Hind Pull , Parevadi Taraf"
+  },
+  "kaishari hind pull to hospital chock": {
+    "wardId": "RMC-03",
+    "displayName": "Kaishari Hind Pull To Hospital Chock"
+  },
+  "kamesjvar gopalji street": {
+    "wardId": "RMC-03",
+    "displayName": "Kamesjvar Gopalji Street"
+  },
+  "karashan mulchand street": {
+    "wardId": "RMC-03",
+    "displayName": "Karashan Mulchand Street"
+  },
+  "kashata bhanjan hanuman": {
+    "wardId": "RMC-03",
+    "displayName": "Kashata Bhanjan Hanuman"
+  },
+  "kesari pool": {
+    "wardId": "RMC-03",
+    "displayName": "Kesari Pool"
+  },
+  "khatara stand": {
+    "wardId": "RMC-03",
+    "displayName": "Khatara Stand"
+  },
+  "khatki vas": {
+    "wardId": "RMC-03",
+    "displayName": "Khatki Vas"
+  },
+  "kitti para": {
+    "wardId": "RMC-03",
+    "displayName": "Kitti Para"
+  },
+  "krishana para,machhi bazar": {
+    "wardId": "RMC-03",
+    "displayName": "Krishana Para,machhi Bazar"
+  },
+  "krishanagar - 1": {
+    "wardId": "RMC-03",
+    "displayName": "Krishanagar - 1"
+  },
+  "laghubha saheb no utaro": {
+    "wardId": "RMC-03",
+    "displayName": "Laghubha Saheb No Utaro"
+  },
+  "lakha bapa ni vadi": {
+    "wardId": "RMC-03",
+    "displayName": "Lakha Bapa Ni Vadi"
+  },
+  "lalbahadur shastri nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Lalbahadur Shastri Nagar"
+  },
+  "lohana para": {
+    "wardId": "RMC-03",
+    "displayName": "Lohana Para"
+  },
+  "madhapar": {
+    "wardId": "RMC-03",
+    "displayName": "Madhapar"
+  },
+  "maftiapara": {
+    "wardId": "RMC-03",
+    "displayName": "Maftiapara"
+  },
+  "maha vijay kunvarba bag": {
+    "wardId": "RMC-03",
+    "displayName": "Maha Vijay Kunvarba Bag"
+  },
+  "maharaj ghelaramji mandir": {
+    "wardId": "RMC-03",
+    "displayName": "Maharaj Ghelaramji Mandir"
+  },
+  "marchapith road": {
+    "wardId": "RMC-03",
+    "displayName": "Marchapith Road"
+  },
+  "miyana vas mafatiya para": {
+    "wardId": "RMC-03",
+    "displayName": "Miyana Vas Mafatiya Para"
+  },
+  "mochhi bazar main road,": {
+    "wardId": "RMC-03",
+    "displayName": "Mochhi Bazar Main Road,"
+  },
+  "mochi bazar": {
+    "wardId": "RMC-03",
+    "displayName": "Mochi Bazar"
+  },
+  "morbi house circle": {
+    "wardId": "RMC-03",
+    "displayName": "Morbi House Circle"
+  },
+  "morbi house main road": {
+    "wardId": "RMC-03",
+    "displayName": "Morbi House Main Road"
+  },
+  "mosli line": {
+    "wardId": "RMC-03",
+    "displayName": "Mosli Line"
+  },
+  "mount police quarter": {
+    "wardId": "RMC-03",
+    "displayName": "Mount Police Quarter"
+  },
+  "nadi kantha main road, near  g.e.b.": {
+    "wardId": "RMC-03",
+    "displayName": "Nadi Kantha Main Road, Near  G.e.b."
+  },
+  "naklank chowk": {
+    "wardId": "RMC-03",
+    "displayName": "Naklank Chowk"
+  },
+  "nanu santosi nagar (near jilla jail)": {
+    "wardId": "RMC-03",
+    "displayName": "Nanu Santosi Nagar (near Jilla Jail)"
+  },
+  "narasang para": {
+    "wardId": "RMC-03",
+    "displayName": "Narasang Para"
+  },
+  "nathdwara park": {
+    "wardId": "RMC-03",
+    "displayName": "Nathdwara Park"
+  },
+  "navi darji bazar": {
+    "wardId": "RMC-03",
+    "displayName": "Navi Darji Bazar"
+  },
+  "navu rukhadiya para": {
+    "wardId": "RMC-03",
+    "displayName": "Navu Rukhadiya Para"
+  },
+  "near railway gate": {
+    "wardId": "RMC-03",
+    "displayName": "Near Railway Gate"
+  },
+  "near smashan diwal": {
+    "wardId": "RMC-03",
+    "displayName": "Near Smashan Diwal"
+  },
+  "near smashan gate": {
+    "wardId": "RMC-03",
+    "displayName": "Near Smashan Gate"
+  },
+  "old collector office main road": {
+    "wardId": "RMC-03",
+    "displayName": "Old Collector Office Main Road"
+  },
+  "old lodhavad": {
+    "wardId": "RMC-03",
+    "displayName": "Old Lodhavad"
+  },
+  "opp. popat para  jail": {
+    "wardId": "RMC-03",
+    "displayName": "Opp. Popat Para  Jail"
+  },
+  "para bazar": {
+    "wardId": "RMC-03",
+    "displayName": "Para Bazar"
+  },
+  "parevadi chock  to hospital taraf": {
+    "wardId": "RMC-04",
+    "displayName": "Parevadi Chock  To Hospital Taraf"
+  },
+  "parsana nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Parsana Nagar"
+  },
+  "popat para  to railnagar taraf": {
+    "wardId": "RMC-03",
+    "displayName": "Popat Para  To Railnagar Taraf"
+  },
+  "popat para krishana para mafatiyu": {
+    "wardId": "RMC-03",
+    "displayName": "Popat Para Krishana Para Mafatiyu"
+  },
+  "popat para main road": {
+    "wardId": "RMC-03",
+    "displayName": "Popat Para Main Road"
+  },
+  "popatpara": {
+    "wardId": "RMC-03",
+    "displayName": "Popatpara"
+  },
+  "radhe park": {
+    "wardId": "RMC-10",
+    "displayName": "Radhe Park"
+  },
+  "raghu nandan": {
+    "wardId": "RMC-03",
+    "displayName": "Raghu Nandan"
+  },
+  "rail nagar - 2": {
+    "wardId": "RMC-03",
+    "displayName": "Rail Nagar - 2"
+  },
+  "rail way junction main road": {
+    "wardId": "RMC-03",
+    "displayName": "Rail Way Junction Main Road"
+  },
+  "railway police to popat para": {
+    "wardId": "RMC-03",
+    "displayName": "Railway Police To Popat Para"
+  },
+  "railway quarter": {
+    "wardId": "RMC-03",
+    "displayName": "Railway Quarter"
+  },
+  "raiya naka to dev kuvraba school taraf,": {
+    "wardId": "RMC-03",
+    "displayName": "Raiya Naka To Dev Kuvraba School Taraf,"
+  },
+  "raiya naka tower, nr. para bazar": {
+    "wardId": "RMC-03",
+    "displayName": "Raiya Naka Tower, Nr. Para Bazar"
+  },
+  "ramnik aashram": {
+    "wardId": "RMC-03",
+    "displayName": "Ramnik Aashram"
+  },
+  "ranima rudima mandir": {
+    "wardId": "RMC-03",
+    "displayName": "Ranima Rudima Mandir"
+  },
+  "rashikash society": {
+    "wardId": "RMC-03",
+    "displayName": "Rashikash Society"
+  },
+  "refugy colony": {
+    "wardId": "RMC-03",
+    "displayName": "Refugy Colony"
+  },
+  "rukhadiya colony": {
+    "wardId": "RMC-03",
+    "displayName": "Rukhadiya Colony"
+  },
+  "rukhadiya para": {
+    "wardId": "RMC-03",
+    "displayName": "Rukhadiya Para"
+  },
+  "rukhadiya para main road": {
+    "wardId": "RMC-03",
+    "displayName": "Rukhadiya Para Main Road"
+  },
+  "sadhu vasavani road (kunj rd., nr. rail nagar)": {
+    "wardId": "RMC-03",
+    "displayName": "Sadhu Vasavani Road (Kunj Rd., Nr. Rail Nagar)"
+  },
+  "saibaba society": {
+    "wardId": "RMC-03",
+    "displayName": "Saibaba Society"
+  },
+  "santoshinagar mafatiapara": {
+    "wardId": "RMC-03",
+    "displayName": "Santoshinagar Mafatiapara"
+  },
+  "sarkari quaters": {
+    "wardId": "RMC-03",
+    "displayName": "Sarkari Quaters"
+  },
+  "sayala no utarao": {
+    "wardId": "RMC-03",
+    "displayName": "Sayala No Utarao"
+  },
+  "shastri seri": {
+    "wardId": "RMC-03",
+    "displayName": "Shastri Seri"
+  },
+  "shivam park": {
+    "wardId": "RMC-14",
+    "displayName": "Shivam Park"
+  },
+  "shraddhanand harijan was": {
+    "wardId": "RMC-03",
+    "displayName": "Shraddhanand Harijan Was"
+  },
+  "slum quarter(ward 3)": {
+    "wardId": "RMC-03",
+    "displayName": "Slum Quarter(ward 3)"
+  },
+  "small santoshi nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Small Santoshi Nagar"
+  },
+  "tilak plot": {
+    "wardId": "RMC-03",
+    "displayName": "Tilak Plot"
+  },
+  "topkhana": {
+    "wardId": "RMC-03",
+    "displayName": "Topkhana"
+  },
+  "valmiki vadi": {
+    "wardId": "RMC-03",
+    "displayName": "Valmiki Vadi"
+  },
+  "vivekanand nagar": {
+    "wardId": "RMC-03",
+    "displayName": "Vivekanand Nagar"
+  },
+  "04 - other": {
+    "wardId": "RMC-04",
+    "displayName": "04 - OTHER"
+  },
+  "balaji society": {
+    "wardId": "RMC-04",
+    "displayName": "Balaji Society"
+  },
+  "bedi para (kabrastan)": {
+    "wardId": "RMC-04",
+    "displayName": "Bedi Para (kabrastan)"
+  },
+  "bedi para (khodiyar para)": {
+    "wardId": "RMC-04",
+    "displayName": "Bedi Para (khodiyar Para)"
+  },
+  "bhagvati para": {
+    "wardId": "RMC-04",
+    "displayName": "Bhagvati Para"
+  },
+  "boricha society": {
+    "wardId": "RMC-04",
+    "displayName": "Boricha Society"
+  },
+  "chamadiya para": {
+    "wardId": "RMC-04",
+    "displayName": "Chamadiya Para"
+  },
+  "chamunda society": {
+    "wardId": "RMC-04",
+    "displayName": "Chamunda Society"
+  },
+  "dharam nagar (bhagwati para)": {
+    "wardId": "RMC-04",
+    "displayName": "Dharam Nagar (bhagwati Para)"
+  },
+  "gandhi smruti society": {
+    "wardId": "RMC-04",
+    "displayName": "Gandhi Smruti Society"
+  },
+  "ganesh nagar": {
+    "wardId": "RMC-04",
+    "displayName": "Ganesh Nagar"
+  },
+  "gayatri society": {
+    "wardId": "RMC-04",
+    "displayName": "Gayatri Society"
+  },
+  "ghanshyam society": {
+    "wardId": "RMC-04",
+    "displayName": "Ghanshyam Society"
+  },
+  "in amaki huseni": {
+    "wardId": "RMC-04",
+    "displayName": "In Amaki Huseni"
+  },
+  "jagdishan society": {
+    "wardId": "RMC-04",
+    "displayName": "Jagdishan Society"
+  },
+  "jamuna park (morvi rd)": {
+    "wardId": "RMC-04",
+    "displayName": "Jamuna Park (morvi Rd)"
+  },
+  "jay javan jay kishan society": {
+    "wardId": "RMC-04",
+    "displayName": "Jay Javan Jay Kishan Society"
+  },
+  "jayprakash nagar": {
+    "wardId": "RMC-04",
+    "displayName": "Jayprakash Nagar"
+  },
+  "khodiyar para (parevdi chowk)": {
+    "wardId": "RMC-04",
+    "displayName": "Khodiyar Para (parevdi Chowk)"
+  },
+  "krishna park (morbi rd)": {
+    "wardId": "RMC-04",
+    "displayName": "Krishna Park (morbi Rd)"
+  },
+  "kuvadava road (north side)": {
+    "wardId": "RMC-04",
+    "displayName": "Kuvadava Road (north Side)"
+  },
+  "lakhajiraj station": {
+    "wardId": "RMC-04",
+    "displayName": "Lakhajiraj Station"
+  },
+  "lati plot": {
+    "wardId": "RMC-04",
+    "displayName": "Lati Plot"
+  },
+  "mahakali nagar": {
+    "wardId": "RMC-04",
+    "displayName": "Mahakali Nagar"
+  },
+  "mahatma gandhi plot": {
+    "wardId": "RMC-04",
+    "displayName": "Mahatma Gandhi Plot"
+  },
+  "morbi road": {
+    "wardId": "RMC-04",
+    "displayName": "Morbi Road"
+  },
+  "nandan nagar": {
+    "wardId": "RMC-04",
+    "displayName": "Nandan Nagar"
+  },
+  "new jalaram society": {
+    "wardId": "RMC-04",
+    "displayName": "New Jalaram Society"
+  },
+  "parevadi chowk": {
+    "wardId": "RMC-04",
+    "displayName": "Parevadi Chowk"
+  },
+  "parshotam nagar": {
+    "wardId": "RMC-04",
+    "displayName": "Parshotam Nagar"
+  },
+  "riddhi siddhi society (jai-prakash ngr)": {
+    "wardId": "RMC-04",
+    "displayName": "Riddhi Siddhi Society (jaI-Prakash Ngr)"
+  },
+  "rohidas para": {
+    "wardId": "RMC-04",
+    "displayName": "Rohidas Para"
+  },
+  "sadguru nagar (kuvadava rd.)": {
+    "wardId": "RMC-04",
+    "displayName": "Sadguru Nagar (Kuvadava Rd.)"
+  },
+  "shakti society": {
+    "wardId": "RMC-04",
+    "displayName": "Shakti Society"
+  },
+  "shree vatika residency satelite chowk": {
+    "wardId": "RMC-04",
+    "displayName": "Shree Vatika Residency Satelite Chowk"
+  },
+  "velnath para": {
+    "wardId": "RMC-04",
+    "displayName": "Velnath Para"
+  },
+  "05 - other": {
+    "wardId": "RMC-05",
+    "displayName": "05 - OTHER"
+  },
+  "aado pedak road": {
+    "wardId": "RMC-05",
+    "displayName": "Aado Pedak Road"
+  },
+  "aamba bhagat soc.": {
+    "wardId": "RMC-05",
+    "displayName": "Aamba Bhagat Soc."
+  },
+  "alka park": {
+    "wardId": "RMC-05",
+    "displayName": "Alka Park"
+  },
+  "animal hospital": {
+    "wardId": "RMC-05",
+    "displayName": "Animal Hospital"
+  },
+  "arya nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Arya Nagar"
+  },
+  "auditorium": {
+    "wardId": "RMC-05",
+    "displayName": "Auditorium"
+  },
+  "avadhpuri soc.": {
+    "wardId": "RMC-05",
+    "displayName": "Avadhpuri Soc."
+  },
+  "bhagirath soc.": {
+    "wardId": "RMC-05",
+    "displayName": "Bhagirath Soc."
+  },
+  "bhavnagar road (ward 05 part)": {
+    "wardId": "RMC-05",
+    "displayName": "Bhavnagar Road (Ward 05 Part)"
+  },
+  "brahamaniya para": {
+    "wardId": "RMC-05",
+    "displayName": "Brahamaniya Para"
+  },
+  "champak nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Champak Nagar"
+  },
+  "gadhiya nagar 2": {
+    "wardId": "RMC-05",
+    "displayName": "Gadhiya nagar 2"
+  },
+  "gandhismriti society 1": {
+    "wardId": "RMC-05",
+    "displayName": "Gandhismriti Society 1"
+  },
+  "gandhismriti society 3": {
+    "wardId": "RMC-05",
+    "displayName": "Gandhismriti Society 3"
+  },
+  "gandhismruti society 2": {
+    "wardId": "RMC-05",
+    "displayName": "Gandhismruti Society 2"
+  },
+  "garden parotha house area": {
+    "wardId": "RMC-05",
+    "displayName": "Garden Parotha House Area"
+  },
+  "govind baug": {
+    "wardId": "RMC-05",
+    "displayName": "Govind Baug"
+  },
+  "govind baug main road (ward 05 part)": {
+    "wardId": "RMC-05",
+    "displayName": "Govind Baug Main Road (Ward 05 Part)"
+  },
+  "gramlaxmi society": {
+    "wardId": "RMC-05",
+    "displayName": "Gramlaxmi Society"
+  },
+  "greenland chowkdi": {
+    "wardId": "RMC-05",
+    "displayName": "Greenland Chowkdi"
+  },
+  "gujarat society": {
+    "wardId": "RMC-05",
+    "displayName": "Gujarat Society"
+  },
+  "hudco quarter(greenland chowkdi)": {
+    "wardId": "RMC-05",
+    "displayName": "Hudco Quarter(Greenland Chowkdi)"
+  },
+  "junu jakat naku (old octroi post)": {
+    "wardId": "RMC-05",
+    "displayName": "Junu Jakat Naku (old Octroi Post)"
+  },
+  "kabir tekri slum": {
+    "wardId": "RMC-05",
+    "displayName": "Kabir Tekri Slum"
+  },
+  "kailas dhara main road": {
+    "wardId": "RMC-05",
+    "displayName": "Kailas Dhara Main Road"
+  },
+  "kailash dhara society": {
+    "wardId": "RMC-05",
+    "displayName": "Kailash Dhara Society"
+  },
+  "keyur park": {
+    "wardId": "RMC-05",
+    "displayName": "Keyur Park"
+  },
+  "khodiyar park": {
+    "wardId": "RMC-05",
+    "displayName": "Khodiyar Park"
+  },
+  "kuvadava road (south side)": {
+    "wardId": "RMC-05",
+    "displayName": "Kuvadava Road (south Side)"
+  },
+  "kuvadava road octroi post": {
+    "wardId": "RMC-05",
+    "displayName": "Kuvadava Road Octroi Post"
+  },
+  "kuvadva police chowki": {
+    "wardId": "RMC-05",
+    "displayName": "Kuvadva Police Chowki"
+  },
+  "kuvadva road (ward 05 part)": {
+    "wardId": "RMC-05",
+    "displayName": "Kuvadva Road (Ward 05 Part)"
+  },
+  "l.p park": {
+    "wardId": "RMC-05",
+    "displayName": "L.P Park"
+  },
+  "lala hanuman street": {
+    "wardId": "RMC-05",
+    "displayName": "Lala hanuman Street"
+  },
+  "lalpari": {
+    "wardId": "RMC-05",
+    "displayName": "Lalpari"
+  },
+  "lalpari chek dam": {
+    "wardId": "RMC-05",
+    "displayName": "Lalpari Chek Dam"
+  },
+  "maldhari slum": {
+    "wardId": "RMC-05",
+    "displayName": "Maldhari Slum"
+  },
+  "manchha nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Manchha nagar"
+  },
+  "manhar society.-1": {
+    "wardId": "RMC-05",
+    "displayName": "Manhar Society.-1"
+  },
+  "manhar society.-2": {
+    "wardId": "RMC-05",
+    "displayName": "Manhar Society.-2"
+  },
+  "mani nagar (nr. green land chowkdi)": {
+    "wardId": "RMC-05",
+    "displayName": "Mani Nagar (Nr. Green Land Chowkdi)"
+  },
+  "marketing yard": {
+    "wardId": "RMC-05",
+    "displayName": "Marketing Yard"
+  },
+  "maruti nagar (kuvadva rd)": {
+    "wardId": "RMC-05",
+    "displayName": "Maruti Nagar (kuvadva Rd)"
+  },
+  "maruti nagar 1": {
+    "wardId": "RMC-05",
+    "displayName": "Maruti nagar 1"
+  },
+  "maruti nagar 2": {
+    "wardId": "RMC-05",
+    "displayName": "Maruti nagar 2"
+  },
+  "maruti nagar 3": {
+    "wardId": "RMC-05",
+    "displayName": "Maruti nagar 3"
+  },
+  "meera park": {
+    "wardId": "RMC-05",
+    "displayName": "Meera Park"
+  },
+  "narayan nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Narayan nagar"
+  },
+  "narsinh nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Narsinh nagar"
+  },
+  "navagam main road": {
+    "wardId": "RMC-05",
+    "displayName": "Navagam Main Road"
+  },
+  "near shivangi`s gate": {
+    "wardId": "RMC-05",
+    "displayName": "Near Shivangi`s Gate"
+  },
+  "new gandhi smruti": {
+    "wardId": "RMC-05",
+    "displayName": "New Gandhi Smruti"
+  },
+  "new gandhi society": {
+    "wardId": "RMC-11",
+    "displayName": "New Gandhi Society"
+  },
+  "new shkati ( nandubaug)": {
+    "wardId": "RMC-05",
+    "displayName": "New Shkati ( Nandubaug)"
+  },
+  "new shkati society (shakti co. op.hou. soc.)": {
+    "wardId": "RMC-05",
+    "displayName": "New Shkati Society (Shakti Co. Op.Hou. Soc.)"
+  },
+  "new shkati society(nr. water tank)": {
+    "wardId": "RMC-05",
+    "displayName": "New Shkati Society(Nr. Water Tank)"
+  },
+  "patel colony": {
+    "wardId": "RMC-13",
+    "displayName": "Patel Colony"
+  },
+  "patel park(pedak road)": {
+    "wardId": "RMC-05",
+    "displayName": "Patel Park(Pedak Road)"
+  },
+  "pedak road": {
+    "wardId": "RMC-05",
+    "displayName": "Pedak Road"
+  },
+  "pedak sanstha": {
+    "wardId": "RMC-05",
+    "displayName": "Pedak Sanstha"
+  },
+  "pradhyuman road/sant kabir road(ward no.05 part)": {
+    "wardId": "RMC-05",
+    "displayName": "Pradhyuman Road/Sant Kabir Road(Ward No.05 Part)"
+  },
+  "prajapati nagar/sitaram society": {
+    "wardId": "RMC-05",
+    "displayName": "Prajapati Nagar/Sitaram Society"
+  },
+  "raghuvir park": {
+    "wardId": "RMC-09",
+    "displayName": "Raghuvir Park"
+  },
+  "ranchhod nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Ranchhod nagar"
+  },
+  "ranchhod wadi": {
+    "wardId": "RMC-05",
+    "displayName": "Ranchhod wadi"
+  },
+  "ratnadeep society": {
+    "wardId": "RMC-05",
+    "displayName": "Ratnadeep Society"
+  },
+  "rmc aawas yojana(valmiki awas yojna)": {
+    "wardId": "RMC-05",
+    "displayName": "RMC Aawas Yojana(Valmiki Awas Yojna)"
+  },
+  "rmc navagam aawas yojana": {
+    "wardId": "RMC-05",
+    "displayName": "RMC Navagam Aawas Yojana"
+  },
+  "rmc school no.67": {
+    "wardId": "RMC-05",
+    "displayName": "RMC School No.67"
+  },
+  "rmc swimming pool": {
+    "wardId": "RMC-05",
+    "displayName": "RMC Swimming Pool"
+  },
+  "rto rajkot": {
+    "wardId": "RMC-05",
+    "displayName": "RTO Rajkot"
+  },
+  "sadguru bag": {
+    "wardId": "RMC-05",
+    "displayName": "Sadguru Bag"
+  },
+  "sadguru gaumata mandir": {
+    "wardId": "RMC-05",
+    "displayName": "Sadguru Gaumata Mandir"
+  },
+  "sadguru ranchhodnagar": {
+    "wardId": "RMC-05",
+    "displayName": "Sadguru Ranchhodnagar"
+  },
+  "saint kabir road (north)": {
+    "wardId": "RMC-05",
+    "displayName": "Saint Kabir Road (north)"
+  },
+  "saint kabir society": {
+    "wardId": "RMC-05",
+    "displayName": "Saint Kabir Society"
+  },
+  "samju park": {
+    "wardId": "RMC-05",
+    "displayName": "Samju Park"
+  },
+  "sanskar villa society": {
+    "wardId": "RMC-05",
+    "displayName": "Sanskar Villa Society"
+  },
+  "sant kabir road(ward 05 part)": {
+    "wardId": "RMC-05",
+    "displayName": "Sant Kabir Road(Ward 05 Part)"
+  },
+  "sardar patel colony": {
+    "wardId": "RMC-05",
+    "displayName": "Sardar Patel Colony"
+  },
+  "satellite park": {
+    "wardId": "RMC-12",
+    "displayName": "Satellite Park"
+  },
+  "shiv nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Shiv Nagar"
+  },
+  "shiv para": {
+    "wardId": "RMC-05",
+    "displayName": "Shiv para"
+  },
+  "shiv shrusti society": {
+    "wardId": "RMC-05",
+    "displayName": "Shiv Shrusti Society"
+  },
+  "shivam nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Shivam nagar"
+  },
+  "shkati society": {
+    "wardId": "RMC-05",
+    "displayName": "Shkati Society"
+  },
+  "shkati society-1 to 13 (navagam 56)": {
+    "wardId": "RMC-05",
+    "displayName": "Shkati Society-1 to 13 (Navagam 56)"
+  },
+  "shree ram society": {
+    "wardId": "RMC-05",
+    "displayName": "Shree Ram Society"
+  },
+  "shyamji krushan varma garden": {
+    "wardId": "RMC-05",
+    "displayName": "Shyamji Krushan Varma Garden"
+  },
+  "siddhivinayak society": {
+    "wardId": "RMC-05",
+    "displayName": "Siddhivinayak Society"
+  },
+  "telephone exchange": {
+    "wardId": "RMC-05",
+    "displayName": "Telephone Exchange"
+  },
+  "triveni society": {
+    "wardId": "RMC-05",
+    "displayName": "Triveni Society"
+  },
+  "vallbha nagar": {
+    "wardId": "RMC-05",
+    "displayName": "Vallbha nagar"
+  },
+  "vrajbhumi maldhari society": {
+    "wardId": "RMC-05",
+    "displayName": "Vrajbhumi Maldhari Society"
+  },
+  "vrundavan society(marketing yard)": {
+    "wardId": "RMC-05",
+    "displayName": "Vrundavan Society(Marketing Yard)"
+  },
+  "ward office + b division police station": {
+    "wardId": "RMC-05",
+    "displayName": "Ward Office + B Division Police Station"
+  },
+  "06 - other": {
+    "wardId": "RMC-06",
+    "displayName": "06 - OTHER"
+  },
+  "aji dam chokdi": {
+    "wardId": "RMC-06",
+    "displayName": "Aji Dam Chokdi"
+  },
+  "ambika nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Ambika Nagar"
+  },
+  "anmol park": {
+    "wardId": "RMC-06",
+    "displayName": "Anmol Park"
+  },
+  "balakrushna soc": {
+    "wardId": "RMC-06",
+    "displayName": "Balakrushna Soc"
+  },
+  "bedi para (shramjivi)": {
+    "wardId": "RMC-06",
+    "displayName": "Bedi Para (shramjivi)"
+  },
+  "bhaiya nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Bhaiya Nagar"
+  },
+  "chunara vad": {
+    "wardId": "RMC-06",
+    "displayName": "Chunara Vad"
+  },
+  "dudh dairy vistar (milk dairy area)": {
+    "wardId": "RMC-06",
+    "displayName": "Dudh Dairy Vistar (milk Dairy Area)"
+  },
+  "e. s. w. quarter": {
+    "wardId": "RMC-06",
+    "displayName": "E. S. W. Quarter"
+  },
+  "gokul nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Gokul Nagar"
+  },
+  "gokul raksha vala": {
+    "wardId": "RMC-06",
+    "displayName": "Gokul Raksha Vala"
+  },
+  "gujarat housing board quarters(marketing yard)": {
+    "wardId": "RMC-06",
+    "displayName": "Gujarat Housing Board Quarters(marketing Yard)"
+  },
+  "kabrastan (bedi para)": {
+    "wardId": "RMC-06",
+    "displayName": "Kabrastan (bedi Para)"
+  },
+  "kabrastan (pedak rd)": {
+    "wardId": "RMC-06",
+    "displayName": "Kabrastan (pedak Rd)"
+  },
+  "kanak nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Kanak Nagar"
+  },
+  "mahesh nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Mahesh Nagar"
+  },
+  "man sarovar society": {
+    "wardId": "RMC-06",
+    "displayName": "Man Sarovar Society"
+  },
+  "man sarovar(ring road)": {
+    "wardId": "RMC-06",
+    "displayName": "Man Sarovar(ring Road)"
+  },
+  "manhar para": {
+    "wardId": "RMC-06",
+    "displayName": "Manhar Para"
+  },
+  "mayur nagar": {
+    "wardId": "RMC-06",
+    "displayName": "Mayur Nagar"
+  },
+  "new shakti plot": {
+    "wardId": "RMC-06",
+    "displayName": "New Shakti Plot"
+  },
+  "opp. mamek park": {
+    "wardId": "RMC-06",
+    "displayName": "Opp. Mamek Park"
+  },
+  "pani na tanka valo road": {
+    "wardId": "RMC-06",
+    "displayName": "Pani Na Tanka Valo Road"
+  },
+  "panjara pole": {
+    "wardId": "RMC-06",
+    "displayName": "Panjara Pole"
+  },
+  "pradyuman park": {
+    "wardId": "RMC-06",
+    "displayName": "Pradyuman Park"
+  },
+  "raja ram society": {
+    "wardId": "RMC-06",
+    "displayName": "Raja Ram Society"
+  },
+  "rajaram society": {
+    "wardId": "RMC-06",
+    "displayName": "Rajaram Society"
+  },
+  "ramnath mahadev": {
+    "wardId": "RMC-06",
+    "displayName": "Ramnath Mahadev"
+  },
+  "rampark": {
+    "wardId": "RMC-06",
+    "displayName": "Rampark"
+  },
+  "ranchhod nagar (w6)": {
+    "wardId": "RMC-06",
+    "displayName": "Ranchhod Nagar (w6)"
+  },
+  "riddhi siddhi society (doodh sagar rd)": {
+    "wardId": "RMC-06",
+    "displayName": "Riddhi Siddhi Society (doodh Sagar Rd)"
+  },
+  "sadguru soc.": {
+    "wardId": "RMC-06",
+    "displayName": "Sadguru Soc."
+  },
+  "saifi colony": {
+    "wardId": "RMC-06",
+    "displayName": "Saifi Colony"
+  },
+  "saint kabir road (south)": {
+    "wardId": "RMC-06",
+    "displayName": "Saint Kabir Road (south)"
+  },
+  "satyam park": {
+    "wardId": "RMC-06",
+    "displayName": "Satyam Park"
+  },
+  "shakti society (fire brigade)": {
+    "wardId": "RMC-06",
+    "displayName": "Shakti Society (fire Brigade)"
+  },
+  "shakti society (vimal hospital)": {
+    "wardId": "RMC-06",
+    "displayName": "Shakti Society (vimal Hospital)"
+  },
+  "shramjivi society (bedi para)": {
+    "wardId": "RMC-06",
+    "displayName": "Shramjivi Society (bedi Para)"
+  },
+  "shri ram park(ring road)": {
+    "wardId": "RMC-06",
+    "displayName": "Shri Ram Park(ring Road)"
+  },
+  "shri ranchhod nagar (bedi para)": {
+    "wardId": "RMC-06",
+    "displayName": "Shri Ranchhod Nagar (bedi Para)"
+  },
+  "silver nest society main road": {
+    "wardId": "RMC-06",
+    "displayName": "Silver Nest Society Main Road"
+  },
+  "silver nest society street no.1": {
+    "wardId": "RMC-06",
+    "displayName": "Silver Nest Society Street No.1"
+  },
+  "silver nest society street no.2": {
+    "wardId": "RMC-06",
+    "displayName": "Silver Nest Society Street No.2"
+  },
+  "silver nest society street no.3": {
+    "wardId": "RMC-06",
+    "displayName": "Silver Nest Society Street No.3"
+  },
+  "silver nest society street no.5": {
+    "wardId": "RMC-06",
+    "displayName": "Silver Nest Society Street No.5"
+  },
+  "sitaram society": {
+    "wardId": "RMC-16",
+    "displayName": "Sitaram Society"
+  },
+  "07 - other": {
+    "wardId": "RMC-07",
+    "displayName": "07 - OTHER"
+  },
+  "ajmera apartment": {
+    "wardId": "RMC-07",
+    "displayName": "Ajmera Apartment"
+  },
+  "alfred high school (gandhi museum)": {
+    "wardId": "RMC-07",
+    "displayName": "Alfred High School (Gandhi Museum)"
+  },
+  "ashapura main road to kenal road": {
+    "wardId": "RMC-07",
+    "displayName": "Ashapura Main Road To Kenal Road"
+  },
+  "bapu na bavla chock": {
+    "wardId": "RMC-07",
+    "displayName": "Bapu Na Bavla Chock"
+  },
+  "bavajiraj road": {
+    "wardId": "RMC-07",
+    "displayName": "Bavajiraj Road"
+  },
+  "bhakti nagar station plot (east of rail line)": {
+    "wardId": "RMC-07",
+    "displayName": "Bhakti Nagar Station Plot (east Of Rail Line)"
+  },
+  "bhakti nagar station plot (west of rail line)": {
+    "wardId": "RMC-07",
+    "displayName": "Bhakti Nagar Station Plot (west Of Rail Line)"
+  },
+  "bhavani nagar (ramnath para)": {
+    "wardId": "RMC-07",
+    "displayName": "Bhavani Nagar (ramnath Para)"
+  },
+  "bheel vas": {
+    "wardId": "RMC-07",
+    "displayName": "Bheel Vas"
+  },
+  "bhupendra road": {
+    "wardId": "RMC-07",
+    "displayName": "Bhupendra Road"
+  },
+  "bhut khana chock": {
+    "wardId": "RMC-07",
+    "displayName": "Bhut Khana Chock"
+  },
+  "college vadi (jagnath plot)": {
+    "wardId": "RMC-07",
+    "displayName": "College Vadi (jagnath Plot)"
+  },
+  "d.d. colony": {
+    "wardId": "RMC-07",
+    "displayName": "D.d. Colony"
+  },
+  "dhanvantari marg , prahlad plot -32 same": {
+    "wardId": "RMC-07",
+    "displayName": "Dhanvantari Marg , Prahlad Plot -32 Same"
+  },
+  "dharmandara college": {
+    "wardId": "RMC-07",
+    "displayName": "Dharmandara College"
+  },
+  "dharmendra rd": {
+    "wardId": "RMC-07",
+    "displayName": "Dharmendra rd"
+  },
+  "dhebar road (west side)": {
+    "wardId": "RMC-07",
+    "displayName": "Dhebar Road (west Side)"
+  },
+  "dhebar road (zalavad tras. side)": {
+    "wardId": "RMC-07",
+    "displayName": "Dhebar Road (Zalavad Tras. Side)"
+  },
+  "divan para": {
+    "wardId": "RMC-07",
+    "displayName": "Divan Para"
+  },
+  "garediya kuva road": {
+    "wardId": "RMC-07",
+    "displayName": "Garediya Kuva Road"
+  },
+  "gavli wad": {
+    "wardId": "RMC-07",
+    "displayName": "Gavli Wad"
+  },
+  "ghee kanta rd": {
+    "wardId": "RMC-07",
+    "displayName": "Ghee Kanta rd"
+  },
+  "gondal road (east side upto rail line)": {
+    "wardId": "RMC-07",
+    "displayName": "Gondal Road (east Side Upto Rail Line)"
+  },
+  "gondal road (west side upto rail line)": {
+    "wardId": "RMC-07",
+    "displayName": "Gondal Road (west Side Upto Rail Line)"
+  },
+  "govt. servant soc. (bh.ag office)": {
+    "wardId": "RMC-07",
+    "displayName": "Govt. Servant Soc. (bh.ag Office)"
+  },
+  "gujari bazar": {
+    "wardId": "RMC-07",
+    "displayName": "Gujari Bazar"
+  },
+  "gunda vadi janana hospital to kenal": {
+    "wardId": "RMC-07",
+    "displayName": "Gunda Vadi Janana Hospital To Kenal"
+  },
+  "gunda vadi janana to palace road": {
+    "wardId": "RMC-07",
+    "displayName": "Gunda Vadi Janana To Palace Road"
+  },
+  "gymkhana": {
+    "wardId": "RMC-07",
+    "displayName": "Gymkhana"
+  },
+  "harijan vas": {
+    "wardId": "RMC-07",
+    "displayName": "Harijan Vas"
+  },
+  "hathi khana": {
+    "wardId": "RMC-14",
+    "displayName": "Hathi Khana"
+  },
+  "head post office": {
+    "wardId": "RMC-07",
+    "displayName": "Head Post Office"
+  },
+  "hemu gadhavi marg": {
+    "wardId": "RMC-07",
+    "displayName": "Hemu Gadhavi Marg"
+  },
+  "jagnath plot": {
+    "wardId": "RMC-07",
+    "displayName": "Jagnath Plot"
+  },
+  "jain chal": {
+    "wardId": "RMC-07",
+    "displayName": "Jain Chal"
+  },
+  "jankalayan society": {
+    "wardId": "RMC-07",
+    "displayName": "Jankalayan Society"
+  },
+  "janta society": {
+    "wardId": "RMC-07",
+    "displayName": "Janta Society"
+  },
+  "jilla panchayat office": {
+    "wardId": "RMC-07",
+    "displayName": "Jilla Panchayat Office"
+  },
+  "juni gadhi vad": {
+    "wardId": "RMC-07",
+    "displayName": "Juni Gadhi Vad"
+  },
+  "juni khadpith": {
+    "wardId": "RMC-07",
+    "displayName": "Juni Khadpith"
+  },
+  "kadhiyavad nirashrit balashram": {
+    "wardId": "RMC-07",
+    "displayName": "Kadhiyavad Nirashrit Balashram"
+  },
+  "kadiya nav line": {
+    "wardId": "RMC-07",
+    "displayName": "Kadiya Nav Line"
+  },
+  "kanak road": {
+    "wardId": "RMC-07",
+    "displayName": "Kanak Road"
+  },
+  "karan para": {
+    "wardId": "RMC-07",
+    "displayName": "Karan Para"
+  },
+  "karan para main road": {
+    "wardId": "RMC-07",
+    "displayName": "Karan Para Main Road"
+  },
+  "karansingh ji main road": {
+    "wardId": "RMC-07",
+    "displayName": "Karansingh Ji Main Road"
+  },
+  "kathiawad": {
+    "wardId": "RMC-07",
+    "displayName": "Kathiawad"
+  },
+  "kenal road": {
+    "wardId": "RMC-14",
+    "displayName": "Kenal Road"
+  },
+  "keshubhai &#39;s eye hospital": {
+    "wardId": "RMC-07",
+    "displayName": "Keshubhai &#39;s Eye Hospital"
+  },
+  "khoja khana": {
+    "wardId": "RMC-07",
+    "displayName": "Khoja Khana"
+  },
+  "kishan para": {
+    "wardId": "RMC-07",
+    "displayName": "Kishan Para"
+  },
+  "kishorsingji road": {
+    "wardId": "RMC-07",
+    "displayName": "Kishorsingji Road"
+  },
+  "kotak sheri": {
+    "wardId": "RMC-07",
+    "displayName": "Kotak Sheri"
+  },
+  "l.i.c. society": {
+    "wardId": "RMC-07",
+    "displayName": "L.i.c. Society"
+  },
+  "lakhajiraj rd": {
+    "wardId": "RMC-07",
+    "displayName": "Lakhajiraj rd"
+  },
+  "limda chowk": {
+    "wardId": "RMC-07",
+    "displayName": "Limda Chowk"
+  },
+  "loha nagar": {
+    "wardId": "RMC-07",
+    "displayName": "Loha Nagar"
+  },
+  "malviya street": {
+    "wardId": "RMC-07",
+    "displayName": "Malviya Street"
+  },
+  "mangla road": {
+    "wardId": "RMC-07",
+    "displayName": "Mangla Road"
+  },
+  "manhar plot": {
+    "wardId": "RMC-07",
+    "displayName": "Manhar Plot"
+  },
+  "moti tanki chok": {
+    "wardId": "RMC-07",
+    "displayName": "Moti Tanki Chok"
+  },
+  "municipal chock": {
+    "wardId": "RMC-07",
+    "displayName": "Municipal Chock"
+  },
+  "nava naka road": {
+    "wardId": "RMC-07",
+    "displayName": "Nava Naka Road"
+  },
+  "navjivan para": {
+    "wardId": "RMC-07",
+    "displayName": "Navjivan Para"
+  },
+  "palace road": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road"
+  },
+  "palace road , modern selection": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road , Modern Selection"
+  },
+  "palace road , santosh sweet": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road , Santosh Sweet"
+  },
+  "palace road , santosh sweet ,prahlad -15": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road , Santosh Sweet ,prahlad -15"
+  },
+  "palace road ashapura na mataji": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road Ashapura Na Mataji"
+  },
+  "palace road near resham": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road Near Resham"
+  },
+  "palace road prahlad plot - 6": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road Prahlad Plot - 6"
+  },
+  "palace road prahlad plot - 6 corner": {
+    "wardId": "RMC-07",
+    "displayName": "Palace Road Prahlad Plot - 6 Corner"
+  },
+  "panchnath plot": {
+    "wardId": "RMC-07",
+    "displayName": "Panchnath Plot"
+  },
+  "prahalad plot": {
+    "wardId": "RMC-07",
+    "displayName": "Prahalad Plot"
+  },
+  "raghuvir para": {
+    "wardId": "RMC-07",
+    "displayName": "Raghuvir Para"
+  },
+  "raj dev street , sanganava chock": {
+    "wardId": "RMC-07",
+    "displayName": "Raj Dev Street , Sanganava Chock"
+  },
+  "raj kumar college": {
+    "wardId": "RMC-07",
+    "displayName": "Raj Kumar College"
+  },
+  "rajput para": {
+    "wardId": "RMC-07",
+    "displayName": "Rajput Para"
+  },
+  "rajshree cinema ,bhupendra road": {
+    "wardId": "RMC-07",
+    "displayName": "Rajshree Cinema ,bhupendra Road"
+  },
+  "ramkrushna nagar (east)": {
+    "wardId": "RMC-07",
+    "displayName": "Ramkrushna Nagar (east)"
+  },
+  "ramkrushna nagar (west)": {
+    "wardId": "RMC-07",
+    "displayName": "Ramkrushna Nagar (west)"
+  },
+  "ramnath para": {
+    "wardId": "RMC-07",
+    "displayName": "Ramnath Para"
+  },
+  "revenue society": {
+    "wardId": "RMC-07",
+    "displayName": "Revenue Society"
+  },
+  "s. t. bus stand": {
+    "wardId": "RMC-07",
+    "displayName": "S. T. Bus Stand"
+  },
+  "sadar bazar (vinod bakery rd.)": {
+    "wardId": "RMC-07",
+    "displayName": "Sadar Bazar (Vinod Bakery Rd.)"
+  },
+  "sanganva chock": {
+    "wardId": "RMC-07",
+    "displayName": "Sanganva Chock"
+  },
+  "sardar nagar (east of tagore rd)": {
+    "wardId": "RMC-07",
+    "displayName": "Sardar Nagar (east Of Tagore Rd)"
+  },
+  "sardar nagar (west)": {
+    "wardId": "RMC-07",
+    "displayName": "Sardar Nagar (west)"
+  },
+  "sarvoday society": {
+    "wardId": "RMC-07",
+    "displayName": "Sarvoday Society"
+  },
+  "shakti colony": {
+    "wardId": "RMC-07",
+    "displayName": "Shakti Colony"
+  },
+  "sharda nagar (mangala rd)": {
+    "wardId": "RMC-07",
+    "displayName": "Sharda Nagar (mangala Rd)"
+  },
+  "sir lakhaji raj main road": {
+    "wardId": "RMC-07",
+    "displayName": "Sir Lakhaji Raj Main Road"
+  },
+  "soni bazar": {
+    "wardId": "RMC-07",
+    "displayName": "Soni Bazar"
+  },
+  "stock exchange office": {
+    "wardId": "RMC-07",
+    "displayName": "Stock Exchange Office"
+  },
+  "thakkarbapa harijan vas": {
+    "wardId": "RMC-07",
+    "displayName": "Thakkarbapa Harijan Vas"
+  },
+  "trikon bag chock": {
+    "wardId": "RMC-07",
+    "displayName": "Trikon Bag Chock"
+  },
+  "udhyog nagar colony (bhaktinagar)": {
+    "wardId": "RMC-07",
+    "displayName": "Udhyog Nagar Colony (bhaktinagar)"
+  },
+  "vardhman nagar": {
+    "wardId": "RMC-07",
+    "displayName": "Vardhman Nagar"
+  },
+  "vidya nagar": {
+    "wardId": "RMC-07",
+    "displayName": "Vidya Nagar"
+  },
+  "vijay plot": {
+    "wardId": "RMC-07",
+    "displayName": "Vijay Plot"
+  },
+  "virani high school": {
+    "wardId": "RMC-07",
+    "displayName": "Virani High School"
+  },
+  "virmaya plot": {
+    "wardId": "RMC-07",
+    "displayName": "Virmaya Plot"
+  },
+  "yagnik road": {
+    "wardId": "RMC-07",
+    "displayName": "Yagnik Road"
+  },
+  "08 - other": {
+    "wardId": "RMC-08",
+    "displayName": "08 - OTHER"
+  },
+  "a.p. park": {
+    "wardId": "RMC-08",
+    "displayName": "A.p. Park"
+  },
+  "a.p. plot": {
+    "wardId": "RMC-08",
+    "displayName": "A.p. Plot"
+  },
+  "aavkar avenue": {
+    "wardId": "RMC-08",
+    "displayName": "Aavkar Avenue"
+  },
+  "abhilasha park": {
+    "wardId": "RMC-08",
+    "displayName": "Abhilasha Park"
+  },
+  "akshar marg": {
+    "wardId": "RMC-08",
+    "displayName": "Akshar Marg"
+  },
+  "amarnath plot": {
+    "wardId": "RMC-08",
+    "displayName": "Amarnath Plot"
+  },
+  "ambika park (raiya rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Ambika Park (raiya Rd)"
+  },
+  "amin marg": {
+    "wardId": "RMC-08",
+    "displayName": "Amin Marg"
+  },
+  "amrakunj society": {
+    "wardId": "RMC-08",
+    "displayName": "Amrakunj Society"
+  },
+  "amrapali railway cross to hanuman madhi": {
+    "wardId": "RMC-08",
+    "displayName": "Amrapali Railway Cross To Hanuman Madhi"
+  },
+  "amrutpark society": {
+    "wardId": "RMC-08",
+    "displayName": "Amrutpark Society"
+  },
+  "amupama society": {
+    "wardId": "RMC-08",
+    "displayName": "Amupama Society"
+  },
+  "ananta nagar (b/h. ramdham soc., kalawad rd.)": {
+    "wardId": "RMC-08",
+    "displayName": "Ananta Nagar (B/h. Ramdham Soc., Kalawad Rd.)"
+  },
+  "ananta private (kalawad rd.)": {
+    "wardId": "RMC-08",
+    "displayName": "Ananta Private (Kalawad Rd.)"
+  },
+  "anupam nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Anupam Nagar"
+  },
+  "anupama society": {
+    "wardId": "RMC-08",
+    "displayName": "Anupama Society"
+  },
+  "arjun park": {
+    "wardId": "RMC-17",
+    "displayName": "Arjun Park"
+  },
+  "arogya bhavan main road": {
+    "wardId": "RMC-08",
+    "displayName": "Arogya Bhavan Main Road"
+  },
+  "arvindbhai maniyar apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Arvindbhai Maniyar Apartment"
+  },
+  "astron society": {
+    "wardId": "RMC-08",
+    "displayName": "Astron Society"
+  },
+  "atithi apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Atithi Apartment"
+  },
+  "banshi park": {
+    "wardId": "RMC-08",
+    "displayName": "Banshi Park"
+  },
+  "bansidhar park": {
+    "wardId": "RMC-08",
+    "displayName": "Bansidhar Park"
+  },
+  "bhaktidham (gulabvatika)": {
+    "wardId": "RMC-08",
+    "displayName": "Bhaktidham (gulabvatika)"
+  },
+  "bharatvan society (kalavad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Bharatvan Society (kalavad Rd)"
+  },
+  "bhimravnagar": {
+    "wardId": "RMC-08",
+    "displayName": "Bhimravnagar"
+  },
+  "brahmakunj garden": {
+    "wardId": "RMC-08",
+    "displayName": "Brahmakunj Garden"
+  },
+  "brahmakunj soc": {
+    "wardId": "RMC-08",
+    "displayName": "Brahmakunj Soc"
+  },
+  "central poll": {
+    "wardId": "RMC-08",
+    "displayName": "Central Poll"
+  },
+  "central poll, nr. cosmo building": {
+    "wardId": "RMC-08",
+    "displayName": "Central Poll, Nr. Cosmo Building"
+  },
+  "chandra park (opp. west zone office)": {
+    "wardId": "RMC-08",
+    "displayName": "Chandra Park (Opp. West Zone Office)"
+  },
+  "chandraprbhu aprtment": {
+    "wardId": "RMC-08",
+    "displayName": "Chandraprbhu Aprtment"
+  },
+  "chitrakut society (indraprasth ngr)": {
+    "wardId": "RMC-08",
+    "displayName": "Chitrakut Society (indraprasth Ngr)"
+  },
+  "college vadi (new)(kalavad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "College Vadi (new)(kalavad Rd)"
+  },
+  "dasi jivan para": {
+    "wardId": "RMC-08",
+    "displayName": "Dasi Jivan Para"
+  },
+  "dena bank society": {
+    "wardId": "RMC-08",
+    "displayName": "Dena Bank Society"
+  },
+  "dev nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Dev Nagar"
+  },
+  "dreamhil apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Dreamhil Apartment"
+  },
+  "field marshal kanya chhatralay main road": {
+    "wardId": "RMC-08",
+    "displayName": "Field Marshal Kanya Chhatralay Main Road"
+  },
+  "ganga sagar society": {
+    "wardId": "RMC-08",
+    "displayName": "Ganga Sagar Society"
+  },
+  "gangapark complex": {
+    "wardId": "RMC-08",
+    "displayName": "Gangapark Complex"
+  },
+  "gangdev park": {
+    "wardId": "RMC-08",
+    "displayName": "Gangdev Park"
+  },
+  "gautam nagar (kalavad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Gautam Nagar (kalavad Rd)"
+  },
+  "gold coin(one street)": {
+    "wardId": "RMC-08",
+    "displayName": "Gold Coin(one Street)"
+  },
+  "goldan park": {
+    "wardId": "RMC-08",
+    "displayName": "Goldan Park"
+  },
+  "govardhan society": {
+    "wardId": "RMC-08",
+    "displayName": "Govardhan Society"
+  },
+  "gujarat housing board area (mahila college)": {
+    "wardId": "RMC-08",
+    "displayName": "Gujarat Housing Board Area (mahila College)"
+  },
+  "gulab nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Gulab Nagar"
+  },
+  "gulab vatika": {
+    "wardId": "RMC-08",
+    "displayName": "Gulab Vatika"
+  },
+  "gulab vihar (chandra park)": {
+    "wardId": "RMC-08",
+    "displayName": "Gulab Vihar (chandra Park)"
+  },
+  "gurudev park": {
+    "wardId": "RMC-08",
+    "displayName": "Gurudev Park"
+  },
+  "hanuman madhi chowk to nirmala school": {
+    "wardId": "RMC-08",
+    "displayName": "Hanuman Madhi Chowk To Nirmala School"
+  },
+  "harihar society": {
+    "wardId": "RMC-08",
+    "displayName": "Harihar Society"
+  },
+  "hillberg apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Hillberg Apartment"
+  },
+  "hiltone apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Hiltone Apartment"
+  },
+  "hinglaj nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Hinglaj Nagar"
+  },
+  "indralok residency": {
+    "wardId": "RMC-08",
+    "displayName": "Indralok Residency"
+  },
+  "indraprastha aprtment": {
+    "wardId": "RMC-08",
+    "displayName": "Indraprastha Aprtment"
+  },
+  "indraprastha nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Indraprastha Nagar"
+  },
+  "jagnnath plot": {
+    "wardId": "RMC-08",
+    "displayName": "Jagnnath Plot"
+  },
+  "jaldeep park": {
+    "wardId": "RMC-08",
+    "displayName": "Jaldeep Park"
+  },
+  "janavi park": {
+    "wardId": "RMC-08",
+    "displayName": "Janavi Park"
+  },
+  "janki complex": {
+    "wardId": "RMC-08",
+    "displayName": "Janki Complex"
+  },
+  "janki park": {
+    "wardId": "RMC-08",
+    "displayName": "Janki Park"
+  },
+  "jay park": {
+    "wardId": "RMC-08",
+    "displayName": "Jay Park"
+  },
+  "jay shakti": {
+    "wardId": "RMC-08",
+    "displayName": "Jay Shakti"
+  },
+  "jaygeet society": {
+    "wardId": "RMC-08",
+    "displayName": "Jaygeet Society"
+  },
+  "jayjit society": {
+    "wardId": "RMC-08",
+    "displayName": "Jayjit Society"
+  },
+  "jaymal parmar marg": {
+    "wardId": "RMC-08",
+    "displayName": "Jaymal Parmar Marg"
+  },
+  "jivan vihar society": {
+    "wardId": "RMC-08",
+    "displayName": "Jivan Vihar Society"
+  },
+  "jivandeep society": {
+    "wardId": "RMC-08",
+    "displayName": "Jivandeep Society"
+  },
+  "jivnath park": {
+    "wardId": "RMC-08",
+    "displayName": "Jivnath Park"
+  },
+  "kailas dham": {
+    "wardId": "RMC-08",
+    "displayName": "Kailas Dham"
+  },
+  "kailash dham": {
+    "wardId": "RMC-08",
+    "displayName": "Kailash Dham"
+  },
+  "kailash nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Kailash Nagar"
+  },
+  "kailsh society": {
+    "wardId": "RMC-08",
+    "displayName": "Kailsh Society"
+  },
+  "kalavad road": {
+    "wardId": "RMC-11",
+    "displayName": "Kalavad Road"
+  },
+  "karan park": {
+    "wardId": "RMC-08",
+    "displayName": "Karan Park"
+  },
+  "kastrui aprtmant": {
+    "wardId": "RMC-08",
+    "displayName": "Kastrui Aprtmant"
+  },
+  "kirti nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Kirti Nagar"
+  },
+  "kirtinagar": {
+    "wardId": "RMC-08",
+    "displayName": "Kirtinagar"
+  },
+  "kotecha nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Kotecha Nagar"
+  },
+  "kristal aprtmant": {
+    "wardId": "RMC-08",
+    "displayName": "Kristal Aprtmant"
+  },
+  "krushna nagar (laxmi nagar)": {
+    "wardId": "RMC-08",
+    "displayName": "Krushna Nagar (laxmi Nagar)"
+  },
+  "landmark aprtment": {
+    "wardId": "RMC-08",
+    "displayName": "Landmark Aprtment"
+  },
+  "laxmi nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Laxmi Nagar"
+  },
+  "laxmi society (north of laxmi ngr main rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Laxmi Society (north Of Laxmi Ngr Main Rd)"
+  },
+  "limbudi wadi": {
+    "wardId": "RMC-08",
+    "displayName": "Limbudi Wadi"
+  },
+  "madhav watika": {
+    "wardId": "RMC-08",
+    "displayName": "Madhav Watika"
+  },
+  "mahavir nagar / society": {
+    "wardId": "RMC-08",
+    "displayName": "Mahavir Nagar / Society"
+  },
+  "mahavir park": {
+    "wardId": "RMC-08",
+    "displayName": "Mahavir Park"
+  },
+  "mahila college chowk": {
+    "wardId": "RMC-08",
+    "displayName": "Mahila College Chowk"
+  },
+  "mahila college road": {
+    "wardId": "RMC-08",
+    "displayName": "Mahila College Road"
+  },
+  "mangal park": {
+    "wardId": "RMC-08",
+    "displayName": "Mangal Park"
+  },
+  "manglam park": {
+    "wardId": "RMC-08",
+    "displayName": "Manglam Park"
+  },
+  "megh maya nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Megh Maya Nagar"
+  },
+  "meghmalhar apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Meghmalhar Apartment"
+  },
+  "meghmaya nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Meghmaya Nagar"
+  },
+  "milan society (kalavad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Milan Society (kalavad Rd)"
+  },
+  "mohannagar": {
+    "wardId": "RMC-08",
+    "displayName": "Mohannagar"
+  },
+  "muni awas yogna panchvati park": {
+    "wardId": "RMC-08",
+    "displayName": "Muni Awas Yogna Panchvati Park"
+  },
+  "municipal staff society": {
+    "wardId": "RMC-08",
+    "displayName": "Municipal Staff Society"
+  },
+  "nagrik bank (nr. kotecha chowk, kalawad rd.)": {
+    "wardId": "RMC-08",
+    "displayName": "Nagrik Bank (Nr. Kotecha Chowk, Kalawad Rd.)"
+  },
+  "nagrik bank society (nr. nirmala convent school)": {
+    "wardId": "RMC-08",
+    "displayName": "Nagrik Bank Society (Nr. Nirmala Convent School)"
+  },
+  "nalanda nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Nalanda Nagar"
+  },
+  "nalanda society": {
+    "wardId": "RMC-08",
+    "displayName": "Nalanda Society"
+  },
+  "nalndapark": {
+    "wardId": "RMC-08",
+    "displayName": "Nalndapark"
+  },
+  "nand kishor": {
+    "wardId": "RMC-08",
+    "displayName": "Nand Kishor"
+  },
+  "nandikishor": {
+    "wardId": "RMC-08",
+    "displayName": "Nandikishor"
+  },
+  "narayan nagar (heart hospital)": {
+    "wardId": "RMC-08",
+    "displayName": "Narayan Nagar (heart Hospital)"
+  },
+  "narmada park": {
+    "wardId": "RMC-08",
+    "displayName": "Narmada Park"
+  },
+  "navjyot park": {
+    "wardId": "RMC-08",
+    "displayName": "Navjyot Park"
+  },
+  "navkar flat": {
+    "wardId": "RMC-08",
+    "displayName": "Navkar Flat"
+  },
+  "new collegewadi society": {
+    "wardId": "RMC-08",
+    "displayName": "New Collegewadi Society"
+  },
+  "new radhanagar": {
+    "wardId": "RMC-08",
+    "displayName": "New Radhanagar"
+  },
+  "newmaruti park": {
+    "wardId": "RMC-08",
+    "displayName": "Newmaruti Park"
+  },
+  "nirmala road": {
+    "wardId": "RMC-08",
+    "displayName": "Nirmala Road"
+  },
+  "nutan nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Nutan Nagar"
+  },
+  "nutannagar": {
+    "wardId": "RMC-08",
+    "displayName": "Nutannagar"
+  },
+  "omkar residency": {
+    "wardId": "RMC-08",
+    "displayName": "Omkar Residency"
+  },
+  "opp. jalaram petrol pump": {
+    "wardId": "RMC-08",
+    "displayName": "Opp. Jalaram Petrol Pump"
+  },
+  "pancharatana park": {
+    "wardId": "RMC-08",
+    "displayName": "Pancharatana Park"
+  },
+  "panchavati main road,shradha dairy": {
+    "wardId": "RMC-08",
+    "displayName": "Panchavati Main Road,shradha Dairy"
+  },
+  "panchratna park": {
+    "wardId": "RMC-08",
+    "displayName": "Panchratna Park"
+  },
+  "panchvati nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Panchvati Nagar"
+  },
+  "panchvati park": {
+    "wardId": "RMC-08",
+    "displayName": "Panchvati Park"
+  },
+  "panchvati society": {
+    "wardId": "RMC-08",
+    "displayName": "Panchvati Society"
+  },
+  "pandit dindayal upadhyay marg": {
+    "wardId": "RMC-08",
+    "displayName": "Pandit Dindayal Upadhyay Marg"
+  },
+  "parivar park": {
+    "wardId": "RMC-08",
+    "displayName": "Parivar Park"
+  },
+  "parmeshwar park": {
+    "wardId": "RMC-13",
+    "displayName": "Parmeshwar Park"
+  },
+  "parna kutir": {
+    "wardId": "RMC-08",
+    "displayName": "Parna Kutir"
+  },
+  "piramid tower": {
+    "wardId": "RMC-08",
+    "displayName": "Piramid Tower"
+  },
+  "planery bunglows": {
+    "wardId": "RMC-08",
+    "displayName": "Planery Bunglows"
+  },
+  "pradhuman bunglows": {
+    "wardId": "RMC-08",
+    "displayName": "Pradhuman Bunglows"
+  },
+  "purnima society": {
+    "wardId": "RMC-08",
+    "displayName": "Purnima Society"
+  },
+  "radha nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Radha Nagar"
+  },
+  "radha nagar purnima society": {
+    "wardId": "RMC-08",
+    "displayName": "Radha Nagar Purnima Society"
+  },
+  "railway under bridge, kalawad road": {
+    "wardId": "RMC-08",
+    "displayName": "Railway Under Bridge, Kalawad Road"
+  },
+  "railway under bridge, pag pala road": {
+    "wardId": "RMC-08",
+    "displayName": "Railway Under Bridge, Pag Pala Road"
+  },
+  "raj nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Raj Nagar"
+  },
+  "raj residency": {
+    "wardId": "RMC-12",
+    "displayName": "Raj Residency"
+  },
+  "rajan park": {
+    "wardId": "RMC-08",
+    "displayName": "Rajan Park"
+  },
+  "rajhans society": {
+    "wardId": "RMC-08",
+    "displayName": "Rajhans Society"
+  },
+  "rajhil apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Rajhil Apartment"
+  },
+  "rajnagar": {
+    "wardId": "RMC-08",
+    "displayName": "Rajnagar"
+  },
+  "ram aprtmenr": {
+    "wardId": "RMC-08",
+    "displayName": "Ram Aprtmenr"
+  },
+  "ramdham": {
+    "wardId": "RMC-08",
+    "displayName": "Ramdham"
+  },
+  "rarrani aprtment": {
+    "wardId": "RMC-08",
+    "displayName": "Rarrani Aprtment"
+  },
+  "royal avenue": {
+    "wardId": "RMC-08",
+    "displayName": "Royal Avenue"
+  },
+  "rudraksh apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Rudraksh Apartment"
+  },
+  "s.b.s. society": {
+    "wardId": "RMC-08",
+    "displayName": "S.b.s. Society"
+  },
+  "sagar apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Sagar Apartment"
+  },
+  "sahakar nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Sahakar Nagar"
+  },
+  "sahkar main road": {
+    "wardId": "RMC-17",
+    "displayName": "Sahkar Main Road"
+  },
+  "sai nagar (kalawad rd.)": {
+    "wardId": "RMC-08",
+    "displayName": "Sai Nagar (Kalawad Rd.)"
+  },
+  "saket park": {
+    "wardId": "RMC-08",
+    "displayName": "Saket Park"
+  },
+  "samarpan society": {
+    "wardId": "RMC-08",
+    "displayName": "Samarpan Society"
+  },
+  "sankalp siddhi hanuman": {
+    "wardId": "RMC-08",
+    "displayName": "Sankalp Siddhi Hanuman"
+  },
+  "sant bhojalram road": {
+    "wardId": "RMC-08",
+    "displayName": "Sant Bhojalram Road"
+  },
+  "saraswati society": {
+    "wardId": "RMC-08",
+    "displayName": "Saraswati Society"
+  },
+  "sarswati nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Sarswati Nagar"
+  },
+  "saurabh bunglows": {
+    "wardId": "RMC-08",
+    "displayName": "Saurabh Bunglows"
+  },
+  "saurbh residenent": {
+    "wardId": "RMC-08",
+    "displayName": "Saurbh Residenent"
+  },
+  "setubandh society": {
+    "wardId": "RMC-08",
+    "displayName": "Setubandh Society"
+  },
+  "shantiniketan soc. (w08)": {
+    "wardId": "RMC-08",
+    "displayName": "Shantiniketan Soc. (w08)"
+  },
+  "shastri nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Shastri Nagar"
+  },
+  "shiv park (kalawad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Shiv Park (kalawad Rd)"
+  },
+  "shivam nagar main road": {
+    "wardId": "RMC-08",
+    "displayName": "Shivam Nagar Main Road"
+  },
+  "shivbhumi": {
+    "wardId": "RMC-08",
+    "displayName": "Shivbhumi"
+  },
+  "shivpark apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Shivpark Apartment"
+  },
+  "shree society": {
+    "wardId": "RMC-08",
+    "displayName": "Shree Society"
+  },
+  "shri colony main road": {
+    "wardId": "RMC-08",
+    "displayName": "Shri Colony Main Road"
+  },
+  "shri vidhyakunj co-o. soc": {
+    "wardId": "RMC-08",
+    "displayName": "Shri Vidhyakunj CO-O. Soc"
+  },
+  "shrinathji soc. (kalawad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Shrinathji Soc. (kalawad Rd)"
+  },
+  "shyamnagar": {
+    "wardId": "RMC-08",
+    "displayName": "Shyamnagar"
+  },
+  "siddharth nagar (kalavad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Siddharth Nagar (kalavad Rd)"
+  },
+  "silver avenue": {
+    "wardId": "RMC-08",
+    "displayName": "Silver Avenue"
+  },
+  "silver park": {
+    "wardId": "RMC-08",
+    "displayName": "Silver Park"
+  },
+  "silver sand society": {
+    "wardId": "RMC-08",
+    "displayName": "Silver Sand Society"
+  },
+  "silver stone": {
+    "wardId": "RMC-08",
+    "displayName": "Silver Stone"
+  },
+  "silvershine": {
+    "wardId": "RMC-08",
+    "displayName": "Silvershine"
+  },
+  "sitara towar": {
+    "wardId": "RMC-08",
+    "displayName": "Sitara Towar"
+  },
+  "sojitra nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Sojitra Nagar"
+  },
+  "sri colony": {
+    "wardId": "RMC-08",
+    "displayName": "Sri Colony"
+  },
+  "star apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Star Apartment"
+  },
+  "sugam society": {
+    "wardId": "RMC-08",
+    "displayName": "Sugam Society"
+  },
+  "surya nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Surya Nagar"
+  },
+  "surya park": {
+    "wardId": "RMC-08",
+    "displayName": "Surya Park"
+  },
+  "suryoday society (kalawad rd)": {
+    "wardId": "RMC-08",
+    "displayName": "Suryoday Society (kalawad Rd)"
+  },
+  "swaminarayan temple": {
+    "wardId": "RMC-08",
+    "displayName": "Swaminarayan Temple"
+  },
+  "swastik apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Swastik Apartment"
+  },
+  "tagorenagar": {
+    "wardId": "RMC-08",
+    "displayName": "Tagorenagar"
+  },
+  "tanti park": {
+    "wardId": "RMC-08",
+    "displayName": "Tanti Park"
+  },
+  "tapovan society": {
+    "wardId": "RMC-08",
+    "displayName": "Tapovan Society"
+  },
+  "tripada": {
+    "wardId": "RMC-08",
+    "displayName": "Tripada"
+  },
+  "tripada society": {
+    "wardId": "RMC-08",
+    "displayName": "Tripada Society"
+  },
+  "trisha-1-2": {
+    "wardId": "RMC-08",
+    "displayName": "TrishA-1-2"
+  },
+  "vaishali nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Vaishali Nagar"
+  },
+  "vidyakunj soc.": {
+    "wardId": "RMC-08",
+    "displayName": "Vidyakunj Soc."
+  },
+  "vidyut nagar": {
+    "wardId": "RMC-08",
+    "displayName": "Vidyut Nagar"
+  },
+  "vrajwatica society": {
+    "wardId": "RMC-08",
+    "displayName": "Vrajwatica Society"
+  },
+  "west zone office": {
+    "wardId": "RMC-08",
+    "displayName": "West Zone Office"
+  },
+  "west zone office main road": {
+    "wardId": "RMC-08",
+    "displayName": "West Zone Office Main Road"
+  },
+  "yogi darshan society": {
+    "wardId": "RMC-08",
+    "displayName": "Yogi Darshan Society"
+  },
+  "yogi niketan": {
+    "wardId": "RMC-08",
+    "displayName": "Yogi Niketan"
+  },
+  "yogiamrut apartment": {
+    "wardId": "RMC-08",
+    "displayName": "Yogiamrut Apartment"
+  },
+  "yogidarshan society": {
+    "wardId": "RMC-08",
+    "displayName": "Yogidarshan Society"
+  },
+  "yoginiketan society": {
+    "wardId": "RMC-08",
+    "displayName": "Yoginiketan Society"
+  },
+  "yogiraj aprtment": {
+    "wardId": "RMC-08",
+    "displayName": "Yogiraj Aprtment"
+  },
+  "yogivandana society": {
+    "wardId": "RMC-08",
+    "displayName": "Yogivandana Society"
+  },
+  "09 - other": {
+    "wardId": "RMC-09",
+    "displayName": "09 - OTHER"
+  },
+  "aai nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Aai Nagar"
+  },
+  "aalap enclav": {
+    "wardId": "RMC-09",
+    "displayName": "Aalap Enclav"
+  },
+  "ajanta park (raiya rd)": {
+    "wardId": "RMC-09",
+    "displayName": "Ajanta Park (raiya Rd)"
+  },
+  "akshar park": {
+    "wardId": "RMC-09",
+    "displayName": "Akshar Park"
+  },
+  "amarnath park (nr. gangotri park, university rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "Amarnath Park (Nr. Gangotri Park, University Rd.)"
+  },
+  "amee society": {
+    "wardId": "RMC-09",
+    "displayName": "Amee Society"
+  },
+  "anamika society": {
+    "wardId": "RMC-09",
+    "displayName": "Anamika Society"
+  },
+  "anjali park (gandhigram rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "Anjali Park (Gandhigram Rd.)"
+  },
+  "anjani park": {
+    "wardId": "RMC-09",
+    "displayName": "Anjani Park"
+  },
+  "archana park": {
+    "wardId": "RMC-09",
+    "displayName": "Archana Park"
+  },
+  "arya avenew": {
+    "wardId": "RMC-09",
+    "displayName": "Arya Avenew"
+  },
+  "ashopalav park": {
+    "wardId": "RMC-09",
+    "displayName": "Ashopalav Park"
+  },
+  "avakar society": {
+    "wardId": "RMC-09",
+    "displayName": "Avakar Society"
+  },
+  "balakdas society": {
+    "wardId": "RMC-09",
+    "displayName": "Balakdas Society"
+  },
+  "bhid bhanjan": {
+    "wardId": "RMC-09",
+    "displayName": "Bhid Bhanjan"
+  },
+  "bombay housing society": {
+    "wardId": "RMC-09",
+    "displayName": "Bombay Housing Society"
+  },
+  "chandan park (raiya rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "Chandan Park (Raiya Rd.)"
+  },
+  "darshan park": {
+    "wardId": "RMC-09",
+    "displayName": "Darshan Park"
+  },
+  "deepak society": {
+    "wardId": "RMC-09",
+    "displayName": "Deepak Society"
+  },
+  "dharmaraj park": {
+    "wardId": "RMC-09",
+    "displayName": "Dharmaraj Park"
+  },
+  "doctor society": {
+    "wardId": "RMC-09",
+    "displayName": "Doctor Society"
+  },
+  "eklavya nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Eklavya Nagar"
+  },
+  "forest colony": {
+    "wardId": "RMC-09",
+    "displayName": "Forest Colony"
+  },
+  "gandhi nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Gandhi Nagar"
+  },
+  "ganesh park": {
+    "wardId": "RMC-09",
+    "displayName": "Ganesh Park"
+  },
+  "gangamaiya park": {
+    "wardId": "RMC-09",
+    "displayName": "Gangamaiya Park"
+  },
+  "gangotri park": {
+    "wardId": "RMC-09",
+    "displayName": "Gangotri Park"
+  },
+  "gangotri park road,": {
+    "wardId": "RMC-09",
+    "displayName": "Gangotri Park Road,"
+  },
+  "giriraj nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Giriraj Nagar"
+  },
+  "gujarat housing board": {
+    "wardId": "RMC-09",
+    "displayName": "Gujarat Housing Board"
+  },
+  "gul mahor residency": {
+    "wardId": "RMC-09",
+    "displayName": "Gul Mahor Residency"
+  },
+  "gunatit nagar (150&#39; ring road)": {
+    "wardId": "RMC-09",
+    "displayName": "Gunatit Nagar (150&#39; Ring Road)"
+  },
+  "gunjan vihar society": {
+    "wardId": "RMC-09",
+    "displayName": "Gunjan Vihar Society"
+  },
+  "hari nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Hari Nagar"
+  },
+  "hiraman nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Hiraman Nagar"
+  },
+  "indian park": {
+    "wardId": "RMC-09",
+    "displayName": "Indian Park"
+  },
+  "j. m. c. nagar": {
+    "wardId": "RMC-09",
+    "displayName": "J. M. C. Nagar"
+  },
+  "janakpuri": {
+    "wardId": "RMC-09",
+    "displayName": "Janakpuri"
+  },
+  "kailas park": {
+    "wardId": "RMC-09",
+    "displayName": "Kailas Park"
+  },
+  "kerala park": {
+    "wardId": "RMC-09",
+    "displayName": "Kerala Park"
+  },
+  "kidvai nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Kidvai Nagar"
+  },
+  "kismat nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Kismat Nagar"
+  },
+  "krishna park": {
+    "wardId": "RMC-09",
+    "displayName": "Krishna Park"
+  },
+  "laxmi chhaya society": {
+    "wardId": "RMC-09",
+    "displayName": "Laxmi Chhaya Society"
+  },
+  "laxmichhaya": {
+    "wardId": "RMC-09",
+    "displayName": "Laxmichhaya"
+  },
+  "lucky park": {
+    "wardId": "RMC-09",
+    "displayName": "Lucky Park"
+  },
+  "madhav residency": {
+    "wardId": "RMC-12",
+    "displayName": "Madhav Residency"
+  },
+  "madhuvan society": {
+    "wardId": "RMC-09",
+    "displayName": "Madhuvan Society"
+  },
+  "mahadev park": {
+    "wardId": "RMC-09",
+    "displayName": "Mahadev Park"
+  },
+  "mahalaxmi nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Mahalaxmi Nagar"
+  },
+  "meera nagar (raiya rd)": {
+    "wardId": "RMC-09",
+    "displayName": "Meera Nagar (raiya Rd)"
+  },
+  "mombasa park": {
+    "wardId": "RMC-09",
+    "displayName": "Mombasa Park"
+  },
+  "munjaka": {
+    "wardId": "RMC-09",
+    "displayName": "Munjaka"
+  },
+  "nandan van raiya rd": {
+    "wardId": "RMC-09",
+    "displayName": "Nandan Van raiya rd"
+  },
+  "natraj nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Natraj Nagar"
+  },
+  "neminath": {
+    "wardId": "RMC-09",
+    "displayName": "Neminath"
+  },
+  "neminath-vitrag soc.": {
+    "wardId": "RMC-09",
+    "displayName": "NeminatH-Vitrag Soc."
+  },
+  "new ambika park": {
+    "wardId": "RMC-09",
+    "displayName": "New Ambika Park"
+  },
+  "new balmukund society": {
+    "wardId": "RMC-09",
+    "displayName": "New Balmukund Society"
+  },
+  "new rang upvan soc. (raiya rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "New Rang Upvan Soc. (Raiya Rd.)"
+  },
+  "nilkamal park": {
+    "wardId": "RMC-16",
+    "displayName": "Nilkamal Park"
+  },
+  "nilkanth nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Nilkanth Nagar"
+  },
+  "nivedita nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Nivedita Nagar"
+  },
+  "nurani para": {
+    "wardId": "RMC-09",
+    "displayName": "Nurani Para"
+  },
+  "om residency": {
+    "wardId": "RMC-11",
+    "displayName": "Om Residency"
+  },
+  "oscer city": {
+    "wardId": "RMC-09",
+    "displayName": "Oscer City"
+  },
+  "pancheswar park, new 150 ft ring road": {
+    "wardId": "RMC-09",
+    "displayName": "PANCHESWAR PARK, NEW 150 FT RING ROAD"
+  },
+  "parijat residency": {
+    "wardId": "RMC-09",
+    "displayName": "Parijat Residency"
+  },
+  "parijat society": {
+    "wardId": "RMC-09",
+    "displayName": "Parijat Society"
+  },
+  "parimal society": {
+    "wardId": "RMC-09",
+    "displayName": "Parimal Society"
+  },
+  "parmeshwar society": {
+    "wardId": "RMC-17",
+    "displayName": "Parmeshwar Society"
+  },
+  "patel park (somnath soc.)": {
+    "wardId": "RMC-09",
+    "displayName": "Patel Park (somnath Soc.)"
+  },
+  "patidar residency": {
+    "wardId": "RMC-09",
+    "displayName": "Patidar Residency"
+  },
+  "peramount park": {
+    "wardId": "RMC-09",
+    "displayName": "Peramount Park"
+  },
+  "raiya teliphone exchange": {
+    "wardId": "RMC-09",
+    "displayName": "Raiya Teliphone Exchange"
+  },
+  "ram nagar (raiya rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "Ram Nagar (Raiya Rd.)"
+  },
+  "ravi ratna park": {
+    "wardId": "RMC-09",
+    "displayName": "Ravi Ratna Park"
+  },
+  "riddhi siddhi society (raiya rd)": {
+    "wardId": "RMC-09",
+    "displayName": "Riddhi Siddhi Society (raiya Rd)"
+  },
+  "rmc aavas yojna": {
+    "wardId": "RMC-10",
+    "displayName": "Rmc Aavas Yojna"
+  },
+  "rushikesh society": {
+    "wardId": "RMC-09",
+    "displayName": "Rushikesh Society"
+  },
+  "sadguru park": {
+    "wardId": "RMC-09",
+    "displayName": "Sadguru Park"
+  },
+  "sadhu vasavani school road (nr. university rd.)": {
+    "wardId": "RMC-09",
+    "displayName": "Sadhu Vasavani School Road (Nr. University Rd.)"
+  },
+  "sales tax society": {
+    "wardId": "RMC-09",
+    "displayName": "Sales Tax Society"
+  },
+  "samanvay society": {
+    "wardId": "RMC-09",
+    "displayName": "Samanvay Society"
+  },
+  "sarita park": {
+    "wardId": "RMC-09",
+    "displayName": "Sarita Park"
+  },
+  "sarkari karmachari society": {
+    "wardId": "RMC-10",
+    "displayName": "Sarkari Karmachari Society"
+  },
+  "sarshwati park": {
+    "wardId": "RMC-09",
+    "displayName": "Sarshwati Park"
+  },
+  "satelight park": {
+    "wardId": "RMC-09",
+    "displayName": "Satelight Park"
+  },
+  "saurashtra university karmachari society": {
+    "wardId": "RMC-09",
+    "displayName": "Saurashtra University Karmachari Society"
+  },
+  "savgun society": {
+    "wardId": "RMC-09",
+    "displayName": "Savgun Society"
+  },
+  "shakuntal society": {
+    "wardId": "RMC-09",
+    "displayName": "Shakuntal Society"
+  },
+  "shankutal society": {
+    "wardId": "RMC-09",
+    "displayName": "Shankutal Society"
+  },
+  "shantiniketan soc.": {
+    "wardId": "RMC-09",
+    "displayName": "Shantiniketan Soc."
+  },
+  "shilpan basera": {
+    "wardId": "RMC-09",
+    "displayName": "Shilpan Basera"
+  },
+  "shilpankunj society": {
+    "wardId": "RMC-09",
+    "displayName": "Shilpankunj Society"
+  },
+  "shiv para (raiya rd)": {
+    "wardId": "RMC-09",
+    "displayName": "Shiv Para (raiya Rd)"
+  },
+  "shivam society": {
+    "wardId": "RMC-09",
+    "displayName": "Shivam Society"
+  },
+  "shreeji park": {
+    "wardId": "RMC-09",
+    "displayName": "Shreeji Park"
+  },
+  "somnath society": {
+    "wardId": "RMC-11",
+    "displayName": "Somnath Society"
+  },
+  "swagat residency": {
+    "wardId": "RMC-09",
+    "displayName": "Swagat Residency"
+  },
+  "telegraf society": {
+    "wardId": "RMC-09",
+    "displayName": "Telegraf Society"
+  },
+  "topland residency": {
+    "wardId": "RMC-09",
+    "displayName": "Topland Residency"
+  },
+  "trilok park": {
+    "wardId": "RMC-09",
+    "displayName": "Trilok Park"
+  },
+  "triveni society (university rd)": {
+    "wardId": "RMC-09",
+    "displayName": "Triveni Society (university Rd)"
+  },
+  "tulshi park": {
+    "wardId": "RMC-09",
+    "displayName": "Tulshi Park"
+  },
+  "tulsi park(ring road)": {
+    "wardId": "RMC-09",
+    "displayName": "Tulsi Park(ring Road)"
+  },
+  "utsav park": {
+    "wardId": "RMC-09",
+    "displayName": "Utsav Park"
+  },
+  "vishvakarma society": {
+    "wardId": "RMC-09",
+    "displayName": "Vishvakarma Society"
+  },
+  "yamuna park": {
+    "wardId": "RMC-09",
+    "displayName": "Yamuna Park"
+  },
+  "yogeshvar park": {
+    "wardId": "RMC-09",
+    "displayName": "Yogeshvar Park"
+  },
+  "yogi nagar": {
+    "wardId": "RMC-09",
+    "displayName": "Yogi Nagar"
+  },
+  "yogi nagar paramount society": {
+    "wardId": "RMC-09",
+    "displayName": "Yogi Nagar Paramount Society"
+  },
+  "10 - other": {
+    "wardId": "RMC-10",
+    "displayName": "10 - OTHER"
+  },
+  "a. g. society": {
+    "wardId": "RMC-10",
+    "displayName": "A. G. Society"
+  },
+  "aalishan apparment street": {
+    "wardId": "RMC-10",
+    "displayName": "Aalishan Apparment Street"
+  },
+  "aditya - 2 residency": {
+    "wardId": "RMC-10",
+    "displayName": "Aditya - 2 Residency"
+  },
+  "africa colony": {
+    "wardId": "RMC-10",
+    "displayName": "Africa Colony"
+  },
+  "aksharvadi": {
+    "wardId": "RMC-10",
+    "displayName": "Aksharvadi"
+  },
+  "alap avenue": {
+    "wardId": "RMC-10",
+    "displayName": "Alap Avenue"
+  },
+  "alap century": {
+    "wardId": "RMC-10",
+    "displayName": "Alap Century"
+  },
+  "alap heritage": {
+    "wardId": "RMC-10",
+    "displayName": "Alap Heritage"
+  },
+  "alay residency": {
+    "wardId": "RMC-10",
+    "displayName": "Alay Residency"
+  },
+  "ami park": {
+    "wardId": "RMC-10",
+    "displayName": "Ami Park"
+  },
+  "amrut nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Amrut Nagar"
+  },
+  "amruta society": {
+    "wardId": "RMC-10",
+    "displayName": "Amruta Society"
+  },
+  "arogya kendra (nr. nana mova circle)": {
+    "wardId": "RMC-10",
+    "displayName": "Arogya Kendra (Nr. Nana Mova Circle)"
+  },
+  "balmukund soc.": {
+    "wardId": "RMC-10",
+    "displayName": "Balmukund Soc."
+  },
+  "bansari society": {
+    "wardId": "RMC-10",
+    "displayName": "Bansari Society"
+  },
+  "basera park": {
+    "wardId": "RMC-10",
+    "displayName": "Basera Park"
+  },
+  "bhagat shingh corner to ghanshyam nagar main road": {
+    "wardId": "RMC-10",
+    "displayName": "Bhagat Shingh Corner To Ghanshyam Nagar Main Road"
+  },
+  "bhavani nagar (nr. pushkar dham)": {
+    "wardId": "RMC-10",
+    "displayName": "Bhavani Nagar (Nr. Pushkar Dham)"
+  },
+  "brahmasamaj society": {
+    "wardId": "RMC-10",
+    "displayName": "Brahmasamaj Society"
+  },
+  "bramha samaj &amp; vishnuvihar": {
+    "wardId": "RMC-10",
+    "displayName": "Bramha Samaj &amp; Vishnuvihar"
+  },
+  "casacoper apartment road": {
+    "wardId": "RMC-10",
+    "displayName": "Casacoper Apartment Road"
+  },
+  "central excise quarters": {
+    "wardId": "RMC-10",
+    "displayName": "Central Excise Quarters"
+  },
+  "central pol, 150 foot road": {
+    "wardId": "RMC-10",
+    "displayName": "Central Pol, 150 Foot Road"
+  },
+  "central poll, aalap road": {
+    "wardId": "RMC-10",
+    "displayName": "Central Poll, Aalap Road"
+  },
+  "chaitanya bunglow": {
+    "wardId": "RMC-10",
+    "displayName": "Chaitanya Bunglow"
+  },
+  "chitrakut dham (jyoti ngr)": {
+    "wardId": "RMC-10",
+    "displayName": "Chitrakut Dham (jyoti Ngr)"
+  },
+  "darshan society": {
+    "wardId": "RMC-10",
+    "displayName": "Darshan Society"
+  },
+  "deepvan park": {
+    "wardId": "RMC-10",
+    "displayName": "Deepvan Park"
+  },
+  "deshal dev nagar, gnanjivan": {
+    "wardId": "RMC-10",
+    "displayName": "Deshal Dev Nagar, Gnanjivan"
+  },
+  "dipvan park": {
+    "wardId": "RMC-10",
+    "displayName": "Dipvan Park"
+  },
+  "dursanchar aavas": {
+    "wardId": "RMC-10",
+    "displayName": "Dursanchar Aavas"
+  },
+  "eng. co. housing soc": {
+    "wardId": "RMC-10",
+    "displayName": "Eng. Co. Housing Soc"
+  },
+  "fulwadi park": {
+    "wardId": "RMC-10",
+    "displayName": "Fulwadi Park"
+  },
+  "geet gunjan residency": {
+    "wardId": "RMC-10",
+    "displayName": "Geet Gunjan Residency"
+  },
+  "ghanshyam nagar (jyoti nagar)": {
+    "wardId": "RMC-10",
+    "displayName": "Ghanshyam Nagar (jyoti Nagar)"
+  },
+  "gnanjivan society": {
+    "wardId": "RMC-10",
+    "displayName": "Gnanjivan Society"
+  },
+  "government avas": {
+    "wardId": "RMC-10",
+    "displayName": "Government Avas"
+  },
+  "gujarat housing board quarters(w11)": {
+    "wardId": "RMC-10",
+    "displayName": "Gujarat Housing Board Quarters(w11)"
+  },
+  "gulmahor society": {
+    "wardId": "RMC-10",
+    "displayName": "Gulmahor Society"
+  },
+  "gunjan park": {
+    "wardId": "RMC-10",
+    "displayName": "Gunjan Park"
+  },
+  "guruji nagar aavash yojna": {
+    "wardId": "RMC-10",
+    "displayName": "Guruji Nagar Aavash Yojna"
+  },
+  "gurujinagar": {
+    "wardId": "RMC-10",
+    "displayName": "Gurujinagar"
+  },
+  "i. o. c. quarters": {
+    "wardId": "RMC-10",
+    "displayName": "I. O. C. Quarters"
+  },
+  "indira circle to kalawad road": {
+    "wardId": "RMC-10",
+    "displayName": "Indira Circle To Kalawad Road"
+  },
+  "isha bunglow, uni. road": {
+    "wardId": "RMC-10",
+    "displayName": "Isha Bunglow, Uni. Road"
+  },
+  "jalaram nagar (university rd, after indira circle)": {
+    "wardId": "RMC-10",
+    "displayName": "Jalaram Nagar (university Rd, After Indira Circle)"
+  },
+  "jalaram nagar (university rd, before indira circle": {
+    "wardId": "RMC-10",
+    "displayName": "Jalaram Nagar (university Rd, Before Indira Circle"
+  },
+  "jivan jyot": {
+    "wardId": "RMC-10",
+    "displayName": "Jivan Jyot"
+  },
+  "jivan nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Jivan Nagar"
+  },
+  "jyoti nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Jyoti Nagar"
+  },
+  "kailesh kevalam green land society": {
+    "wardId": "RMC-10",
+    "displayName": "Kailesh Kevalam Green Land Society"
+  },
+  "kalawad road": {
+    "wardId": "RMC-10",
+    "displayName": "Kalawad Road"
+  },
+  "kevalam society": {
+    "wardId": "RMC-10",
+    "displayName": "Kevalam Society"
+  },
+  "krishna park (snk school)": {
+    "wardId": "RMC-10",
+    "displayName": "Krishna Park (snk School)"
+  },
+  "kumkum park": {
+    "wardId": "RMC-10",
+    "displayName": "Kumkum Park"
+  },
+  "lorence school": {
+    "wardId": "RMC-10",
+    "displayName": "Lorence School"
+  },
+  "manav flat": {
+    "wardId": "RMC-10",
+    "displayName": "Manav Flat"
+  },
+  "manumangal society": {
+    "wardId": "RMC-10",
+    "displayName": "Manumangal Society"
+  },
+  "maruti park": {
+    "wardId": "RMC-10",
+    "displayName": "Maruti Park"
+  },
+  "milap nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Milap Nagar"
+  },
+  "nana mava gam tal": {
+    "wardId": "RMC-10",
+    "displayName": "Nana Mava Gam Tal"
+  },
+  "nandan van(w,11)kal/uni.rd": {
+    "wardId": "RMC-10",
+    "displayName": "Nandan Van(w,11)kal/uni.rd"
+  },
+  "nandi park": {
+    "wardId": "RMC-10",
+    "displayName": "Nandi Park"
+  },
+  "navin nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Navin Nagar"
+  },
+  "new ambedkar nagar": {
+    "wardId": "RMC-10",
+    "displayName": "New Ambedkar Nagar"
+  },
+  "nidhi karmachari society": {
+    "wardId": "RMC-10",
+    "displayName": "Nidhi Karmachari Society"
+  },
+  "nills city anclave": {
+    "wardId": "RMC-10",
+    "displayName": "Nills City Anclave"
+  },
+  "nills city estral": {
+    "wardId": "RMC-10",
+    "displayName": "Nills City Estral"
+  },
+  "nills green avenew": {
+    "wardId": "RMC-10",
+    "displayName": "Nills Green Avenew"
+  },
+  "nisarg banglow, nills green avenew same": {
+    "wardId": "RMC-10",
+    "displayName": "Nisarg Banglow, Nills Green Avenew Same"
+  },
+  "opp. ashashvani": {
+    "wardId": "RMC-10",
+    "displayName": "Opp. Ashashvani"
+  },
+  "panchayat nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Panchayat Nagar"
+  },
+  "paras society (raiya rd)": {
+    "wardId": "RMC-10",
+    "displayName": "Paras Society (raiya Rd)"
+  },
+  "parimal school": {
+    "wardId": "RMC-10",
+    "displayName": "Parimal School"
+  },
+  "phulvadi park": {
+    "wardId": "RMC-10",
+    "displayName": "Phulvadi Park"
+  },
+  "prakash society (raiya rd)": {
+    "wardId": "RMC-10",
+    "displayName": "Prakash Society (raiya Rd)"
+  },
+  "puskar dham": {
+    "wardId": "RMC-10",
+    "displayName": "Puskar Dham"
+  },
+  "r.k.nagar": {
+    "wardId": "RMC-10",
+    "displayName": "R.k.nagar"
+  },
+  "r.m.c. avas yojana": {
+    "wardId": "RMC-10",
+    "displayName": "R.m.c. Avas Yojana"
+  },
+  "radha park": {
+    "wardId": "RMC-10",
+    "displayName": "Radha Park"
+  },
+  "raj co op housing society": {
+    "wardId": "RMC-10",
+    "displayName": "Raj Co Op Housing Society"
+  },
+  "ram plot, near  a.g.": {
+    "wardId": "RMC-10",
+    "displayName": "Ram Plot, Near  A.g."
+  },
+  "raval nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Raval Nagar"
+  },
+  "ravi park": {
+    "wardId": "RMC-10",
+    "displayName": "Ravi Park"
+  },
+  "roop residency": {
+    "wardId": "RMC-12",
+    "displayName": "Roop Residency"
+  },
+  "royal park": {
+    "wardId": "RMC-10",
+    "displayName": "Royal Park"
+  },
+  "ruda nagar - 1": {
+    "wardId": "RMC-10",
+    "displayName": "Ruda Nagar - 1"
+  },
+  "ruda nagar - 2": {
+    "wardId": "RMC-10",
+    "displayName": "Ruda Nagar - 2"
+  },
+  "rural housing board (ag quaters)": {
+    "wardId": "RMC-10",
+    "displayName": "Rural Housing Board (ag Quaters)"
+  },
+  "rutvan park": {
+    "wardId": "RMC-10",
+    "displayName": "Rutvan Park"
+  },
+  "s. n. k. school": {
+    "wardId": "RMC-10",
+    "displayName": "S. N. K. School"
+  },
+  "sadguru colony flat": {
+    "wardId": "RMC-10",
+    "displayName": "Sadguru Colony Flat"
+  },
+  "sadguru nagar (uni. rd)": {
+    "wardId": "RMC-10",
+    "displayName": "Sadguru Nagar (uni. Rd)"
+  },
+  "sadguruvandana dham": {
+    "wardId": "RMC-10",
+    "displayName": "Sadguruvandana Dham"
+  },
+  "sagun residency": {
+    "wardId": "RMC-10",
+    "displayName": "Sagun Residency"
+  },
+  "sai baba park": {
+    "wardId": "RMC-10",
+    "displayName": "Sai Baba Park"
+  },
+  "satya sai heart hospital": {
+    "wardId": "RMC-10",
+    "displayName": "Satya Sai Heart Hospital"
+  },
+  "saurashtra kala kendra": {
+    "wardId": "RMC-10",
+    "displayName": "Saurashtra Kala Kendra"
+  },
+  "saurashtra university road": {
+    "wardId": "RMC-10",
+    "displayName": "Saurashtra University Road"
+  },
+  "shakti nagar (ram park)": {
+    "wardId": "RMC-10",
+    "displayName": "Shakti Nagar (ram Park)"
+  },
+  "shanti van": {
+    "wardId": "RMC-10",
+    "displayName": "Shanti Van"
+  },
+  "shantivan society": {
+    "wardId": "RMC-10",
+    "displayName": "Shantivan Society"
+  },
+  "sharda nagar (kalavad rd)": {
+    "wardId": "RMC-10",
+    "displayName": "Sharda Nagar (kalavad Rd)"
+  },
+  "shilpan resident": {
+    "wardId": "RMC-10",
+    "displayName": "Shilpan Resident"
+  },
+  "shiv aradhana society": {
+    "wardId": "RMC-10",
+    "displayName": "Shiv Aradhana Society"
+  },
+  "shiv sangam": {
+    "wardId": "RMC-10",
+    "displayName": "Shiv Sangam"
+  },
+  "shiv sangam residancy": {
+    "wardId": "RMC-10",
+    "displayName": "Shiv Sangam Residancy"
+  },
+  "shiv shakti colony": {
+    "wardId": "RMC-10",
+    "displayName": "Shiv Shakti Colony"
+  },
+  "shiv shrusti": {
+    "wardId": "RMC-10",
+    "displayName": "Shiv Shrusti"
+  },
+  "shivdham": {
+    "wardId": "RMC-10",
+    "displayName": "Shivdham"
+  },
+  "shivdrashati society": {
+    "wardId": "RMC-10",
+    "displayName": "Shivdrashati Society"
+  },
+  "shivsangam": {
+    "wardId": "RMC-10",
+    "displayName": "Shivsangam"
+  },
+  "shraddha deep park": {
+    "wardId": "RMC-10",
+    "displayName": "Shraddha Deep Park"
+  },
+  "shree rampark": {
+    "wardId": "RMC-17",
+    "displayName": "Shree Rampark"
+  },
+  "shreenathji park": {
+    "wardId": "RMC-10",
+    "displayName": "Shreenathji Park"
+  },
+  "shri swati society": {
+    "wardId": "RMC-10",
+    "displayName": "Shri Swati Society"
+  },
+  "shrijikrupa bunglows": {
+    "wardId": "RMC-10",
+    "displayName": "Shrijikrupa Bunglows"
+  },
+  "shyam park": {
+    "wardId": "RMC-10",
+    "displayName": "Shyam Park"
+  },
+  "shyamal vihar society": {
+    "wardId": "RMC-10",
+    "displayName": "Shyamal Vihar Society"
+  },
+  "sopan/madhav bunglow": {
+    "wardId": "RMC-10",
+    "displayName": "Sopan/madhav Bunglow"
+  },
+  "swati society": {
+    "wardId": "RMC-10",
+    "displayName": "Swati Society"
+  },
+  "tirth residency": {
+    "wardId": "RMC-10",
+    "displayName": "Tirth Residency"
+  },
+  "tirupati nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Tirupati Nagar"
+  },
+  "tirupati society": {
+    "wardId": "RMC-10",
+    "displayName": "Tirupati Society"
+  },
+  "toral park": {
+    "wardId": "RMC-10",
+    "displayName": "Toral Park"
+  },
+  "umiya park - chowk": {
+    "wardId": "RMC-10",
+    "displayName": "Umiya Park - Chowk"
+  },
+  "uni. road to kalawad road": {
+    "wardId": "RMC-10",
+    "displayName": "Uni. Road To Kalawad Road"
+  },
+  "vambay avas yojana": {
+    "wardId": "RMC-10",
+    "displayName": "Vambay Avas Yojana"
+  },
+  "vilap nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Vilap Nagar"
+  },
+  "vimal nagar": {
+    "wardId": "RMC-10",
+    "displayName": "Vimal Nagar"
+  },
+  "vishnu vihar society": {
+    "wardId": "RMC-10",
+    "displayName": "Vishnu Vihar Society"
+  },
+  "vrujkamal street": {
+    "wardId": "RMC-10",
+    "displayName": "Vrujkamal Street"
+  },
+  "vrundavan society (kalavad rd)": {
+    "wardId": "RMC-10",
+    "displayName": "Vrundavan Society (kalavad Rd)"
+  },
+  "yogi park": {
+    "wardId": "RMC-10",
+    "displayName": "Yogi Park"
+  },
+  "11 - other": {
+    "wardId": "RMC-11",
+    "displayName": "11 - OTHER"
+  },
+  "aditya park": {
+    "wardId": "RMC-11",
+    "displayName": "Aditya Park"
+  },
+  "akashdip soc": {
+    "wardId": "RMC-11",
+    "displayName": "Akashdip Soc"
+  },
+  "akshar vatika": {
+    "wardId": "RMC-11",
+    "displayName": "Akshar Vatika"
+  },
+  "alay park, nanamava road": {
+    "wardId": "RMC-11",
+    "displayName": "Alay Park, Nanamava Road"
+  },
+  "ambika township": {
+    "wardId": "RMC-11",
+    "displayName": "Ambika Township"
+  },
+  "angan resicom": {
+    "wardId": "RMC-11",
+    "displayName": "Angan Resicom"
+  },
+  "avashar vatika": {
+    "wardId": "RMC-11",
+    "displayName": "Avashar Vatika"
+  },
+  "backbone park": {
+    "wardId": "RMC-11",
+    "displayName": "Backbone Park"
+  },
+  "balaji hall road": {
+    "wardId": "RMC-11",
+    "displayName": "Balaji Hall Road"
+  },
+  "bhaktidham (mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Bhaktidham (mavdi)"
+  },
+  "bharat nagar (mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Bharat Nagar (mavdi)"
+  },
+  "bhim nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Bhim Nagar"
+  },
+  "dhanlakshami park (movadi)": {
+    "wardId": "RMC-11",
+    "displayName": "Dhanlakshami Park (movadi)"
+  },
+  "dharam nagar (om nagar)": {
+    "wardId": "RMC-11",
+    "displayName": "Dharam Nagar (om Nagar)"
+  },
+  "dwarkadham": {
+    "wardId": "RMC-11",
+    "displayName": "Dwarkadham"
+  },
+  "everest park": {
+    "wardId": "RMC-11",
+    "displayName": "Everest Park"
+  },
+  "gam tal": {
+    "wardId": "RMC-11",
+    "displayName": "Gam Tal"
+  },
+  "gel park (movadi)": {
+    "wardId": "RMC-11",
+    "displayName": "Gel Park (movadi)"
+  },
+  "girnar majur colony": {
+    "wardId": "RMC-11",
+    "displayName": "Girnar Majur Colony"
+  },
+  "girnar society": {
+    "wardId": "RMC-13",
+    "displayName": "Girnar Society"
+  },
+  "gol residency": {
+    "wardId": "RMC-11",
+    "displayName": "Gol Residency"
+  },
+  "govind park": {
+    "wardId": "RMC-11",
+    "displayName": "Govind Park"
+  },
+  "govindratna": {
+    "wardId": "RMC-11",
+    "displayName": "Govindratna"
+  },
+  "govindratna bunglows": {
+    "wardId": "RMC-11",
+    "displayName": "Govindratna Bunglows"
+  },
+  "govindratna rmc aavash yojna": {
+    "wardId": "RMC-11",
+    "displayName": "Govindratna Rmc Aavash Yojna"
+  },
+  "green city": {
+    "wardId": "RMC-11",
+    "displayName": "Green City"
+  },
+  "green park(mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Green Park(mavdi)"
+  },
+  "gyan saurabh vidhya mandir street": {
+    "wardId": "RMC-11",
+    "displayName": "Gyan Saurabh Vidhya Mandir Street"
+  },
+  "hari society": {
+    "wardId": "RMC-11",
+    "displayName": "Hari Society"
+  },
+  "jamuna heritage": {
+    "wardId": "RMC-11",
+    "displayName": "Jamuna Heritage"
+  },
+  "jay bhim nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Jay Bhim Nagar"
+  },
+  "jivraj park": {
+    "wardId": "RMC-11",
+    "displayName": "Jivraj Park"
+  },
+  "kalyan park": {
+    "wardId": "RMC-11",
+    "displayName": "Kalyan Park"
+  },
+  "khodal hotel 40 feet main road": {
+    "wardId": "RMC-11",
+    "displayName": "Khodal Hotel 40 Feet Main Road"
+  },
+  "krishna park (somnath soc.)": {
+    "wardId": "RMC-11",
+    "displayName": "Krishna Park (somnath Soc.)"
+  },
+  "labh deep society (nr. mavdi chowkdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Labh Deep Society (Nr. Mavdi Chowkdi)"
+  },
+  "laxmi society (south of laxmi ngr main rd)": {
+    "wardId": "RMC-11",
+    "displayName": "Laxmi Society (south Of Laxmi Ngr Main Rd)"
+  },
+  "madhuvan park": {
+    "wardId": "RMC-16",
+    "displayName": "Madhuvan Park"
+  },
+  "maruti nagar (mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Maruti Nagar (mavdi)"
+  },
+  "matel soc": {
+    "wardId": "RMC-11",
+    "displayName": "Matel Soc"
+  },
+  "mavdi": {
+    "wardId": "RMC-11",
+    "displayName": "Mavdi"
+  },
+  "mavdi gam tal": {
+    "wardId": "RMC-11",
+    "displayName": "Mavdi Gam Tal"
+  },
+  "mota mauva": {
+    "wardId": "RMC-11",
+    "displayName": "Mota Mauva"
+  },
+  "murlidhar society - 1": {
+    "wardId": "RMC-11",
+    "displayName": "Murlidhar Society - 1"
+  },
+  "nagbai": {
+    "wardId": "RMC-11",
+    "displayName": "Nagbai"
+  },
+  "nava plot(mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Nava Plot(mavdi)"
+  },
+  "nehru nagar (mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Nehru Nagar (mavdi)"
+  },
+  "new lakshmi soc": {
+    "wardId": "RMC-11",
+    "displayName": "New Lakshmi Soc"
+  },
+  "new rajdeep society": {
+    "wardId": "RMC-11",
+    "displayName": "New Rajdeep Society"
+  },
+  "nutan adivasi industries": {
+    "wardId": "RMC-11",
+    "displayName": "Nutan Adivasi Industries"
+  },
+  "old om nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Old Om Nagar"
+  },
+  "om ashish residency": {
+    "wardId": "RMC-11",
+    "displayName": "Om Ashish Residency"
+  },
+  "om nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Om Nagar"
+  },
+  "omkar nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Omkar Nagar"
+  },
+  "pathak school": {
+    "wardId": "RMC-11",
+    "displayName": "Pathak School"
+  },
+  "poonam soc": {
+    "wardId": "RMC-11",
+    "displayName": "Poonam Soc"
+  },
+  "prajapati society": {
+    "wardId": "RMC-11",
+    "displayName": "Prajapati Society"
+  },
+  "pranami park": {
+    "wardId": "RMC-11",
+    "displayName": "Pranami Park"
+  },
+  "priyadarshan": {
+    "wardId": "RMC-11",
+    "displayName": "Priyadarshan"
+  },
+  "punam society": {
+    "wardId": "RMC-11",
+    "displayName": "Punam Society"
+  },
+  "radheshyam society": {
+    "wardId": "RMC-11",
+    "displayName": "Radheshyam Society"
+  },
+  "rajdeep": {
+    "wardId": "RMC-11",
+    "displayName": "Rajdeep"
+  },
+  "ram vihar": {
+    "wardId": "RMC-11",
+    "displayName": "Ram Vihar"
+  },
+  "rang nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Rang Nagar"
+  },
+  "rani park (opp. radhe krishna dairy)": {
+    "wardId": "RMC-11",
+    "displayName": "Rani Park (opp. Radhe Krishna Dairy)"
+  },
+  "rmc avas yojana vambay avas yojana": {
+    "wardId": "RMC-11",
+    "displayName": "Rmc Avas Yojana Vambay Avas Yojana"
+  },
+  "sagar chowk": {
+    "wardId": "RMC-11",
+    "displayName": "Sagar Chowk"
+  },
+  "sardar nagar society": {
+    "wardId": "RMC-11",
+    "displayName": "Sardar Nagar Society"
+  },
+  "sardar patel park": {
+    "wardId": "RMC-11",
+    "displayName": "Sardar Patel Park"
+  },
+  "sarkari quarters": {
+    "wardId": "RMC-11",
+    "displayName": "Sarkari Quarters"
+  },
+  "shastri nagar (mavdi)": {
+    "wardId": "RMC-11",
+    "displayName": "Shastri Nagar (mavdi)"
+  },
+  "shastri nagar (nana mava)": {
+    "wardId": "RMC-11",
+    "displayName": "Shastri Nagar (nana Mava)"
+  },
+  "shiv ganga soc.": {
+    "wardId": "RMC-11",
+    "displayName": "Shiv Ganga Soc."
+  },
+  "shivdham society": {
+    "wardId": "RMC-11",
+    "displayName": "Shivdham Society"
+  },
+  "shivganga society": {
+    "wardId": "RMC-11",
+    "displayName": "Shivganga Society"
+  },
+  "shri bai mata mandir": {
+    "wardId": "RMC-11",
+    "displayName": "Shri Bai Mata Mandir"
+  },
+  "shri hari soc.": {
+    "wardId": "RMC-11",
+    "displayName": "Shri Hari Soc."
+  },
+  "silver gold recedency": {
+    "wardId": "RMC-11",
+    "displayName": "Silver Gold Recedency"
+  },
+  "sorathiya park": {
+    "wardId": "RMC-11",
+    "displayName": "Sorathiya Park"
+  },
+  "swagat society": {
+    "wardId": "RMC-11",
+    "displayName": "Swagat Society"
+  },
+  "swaminarayan gurukul": {
+    "wardId": "RMC-11",
+    "displayName": "Swaminarayan Gurukul"
+  },
+  "swaminarayan park": {
+    "wardId": "RMC-11",
+    "displayName": "Swaminarayan Park"
+  },
+  "tapas park": {
+    "wardId": "RMC-11",
+    "displayName": "Tapas Park"
+  },
+  "testing": {
+    "wardId": "RMC-11",
+    "displayName": "Testing"
+  },
+  "tirupati park": {
+    "wardId": "RMC-12",
+    "displayName": "Tirupati Park"
+  },
+  "toward the jivraj park": {
+    "wardId": "RMC-11",
+    "displayName": "Toward The Jivraj Park"
+  },
+  "tulsi park": {
+    "wardId": "RMC-11",
+    "displayName": "Tulsi Park"
+  },
+  "uday nagar (kalavad rd)": {
+    "wardId": "RMC-11",
+    "displayName": "Uday Nagar (kalavad Rd)"
+  },
+  "upashana park": {
+    "wardId": "RMC-11",
+    "displayName": "Upashana Park"
+  },
+  "upashana park rmc aavash yojna": {
+    "wardId": "RMC-11",
+    "displayName": "Upashana Park Rmc Aavash Yojna"
+  },
+  "vallabhvidya nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Vallabhvidya Nagar"
+  },
+  "veldeep society": {
+    "wardId": "RMC-11",
+    "displayName": "Veldeep Society"
+  },
+  "viral nagar": {
+    "wardId": "RMC-11",
+    "displayName": "Viral Nagar"
+  },
+  "vrajbhumi park": {
+    "wardId": "RMC-11",
+    "displayName": "Vrajbhumi Park"
+  },
+  "12 - other": {
+    "wardId": "RMC-12",
+    "displayName": "12 - OTHER"
+  },
+  "25 sq.mt. plot (25 variya)": {
+    "wardId": "RMC-12",
+    "displayName": "25 Sq.mt. Plot (25 Variya)"
+  },
+  "adivasi nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Adivasi Nagar"
+  },
+  "akhil flat": {
+    "wardId": "RMC-12",
+    "displayName": "Akhil Flat"
+  },
+  "akshardham": {
+    "wardId": "RMC-12",
+    "displayName": "Akshardham"
+  },
+  "alay vatika": {
+    "wardId": "RMC-12",
+    "displayName": "Alay Vatika"
+  },
+  "amidhan park": {
+    "wardId": "RMC-12",
+    "displayName": "Amidhan Park"
+  },
+  "anjali park (nr. govardhan chowk, 150&#39; ft. ring rd.)": {
+    "wardId": "RMC-12",
+    "displayName": "Anjali Park (Nr. Govardhan Chowk, 150&#39; Ft. Ring Rd.)"
+  },
+  "ankur nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Ankur Nagar"
+  },
+  "aryaman residency": {
+    "wardId": "RMC-12",
+    "displayName": "Aryaman Residency"
+  },
+  "astha resi. (w12)": {
+    "wardId": "RMC-12",
+    "displayName": "Astha Resi. (w12)"
+  },
+  "bajrang society main road": {
+    "wardId": "RMC-12",
+    "displayName": "Bajrang Society Main Road"
+  },
+  "bhattha area": {
+    "wardId": "RMC-12",
+    "displayName": "Bhattha Area"
+  },
+  "bhavani nagar (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Bhavani Nagar (mavdi)"
+  },
+  "d.m.park": {
+    "wardId": "RMC-12",
+    "displayName": "D.m.park"
+  },
+  "deepjyot society": {
+    "wardId": "RMC-12",
+    "displayName": "Deepjyot Society"
+  },
+  "dhara gas godowon": {
+    "wardId": "RMC-12",
+    "displayName": "Dhara Gas Godowon"
+  },
+  "dwarkadish society": {
+    "wardId": "RMC-12",
+    "displayName": "Dwarkadish Society"
+  },
+  "eagle residency": {
+    "wardId": "RMC-12",
+    "displayName": "Eagle Residency"
+  },
+  "girnagar society": {
+    "wardId": "RMC-12",
+    "displayName": "Girnagar Society"
+  },
+  "girnar society (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Girnar Society (mavdi)"
+  },
+  "gitanjali society": {
+    "wardId": "RMC-12",
+    "displayName": "Gitanjali Society"
+  },
+  "gokul residency": {
+    "wardId": "RMC-12",
+    "displayName": "Gokul Residency"
+  },
+  "gokuldham": {
+    "wardId": "RMC-12",
+    "displayName": "Gokuldham"
+  },
+  "gokuldham area": {
+    "wardId": "RMC-12",
+    "displayName": "Gokuldham Area"
+  },
+  "gokulnagar": {
+    "wardId": "RMC-16",
+    "displayName": "Gokulnagar"
+  },
+  "gopal nagar park": {
+    "wardId": "RMC-12",
+    "displayName": "Gopal Nagar Park"
+  },
+  "govind ratna (2)": {
+    "wardId": "RMC-12",
+    "displayName": "Govind Ratna (2)"
+  },
+  "gujarat housing board (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Gujarat Housing Board (mavdi)"
+  },
+  "gurudev park nr. rangoli bungalows(w-12)": {
+    "wardId": "RMC-12",
+    "displayName": "Gurudev Park Nr. Rangoli Bungalows(W-12)"
+  },
+  "gurudev park tapan school st.(w-12)": {
+    "wardId": "RMC-12",
+    "displayName": "Gurudev Park Tapan School St.(W-12)"
+  },
+  "haridwar society": {
+    "wardId": "RMC-13",
+    "displayName": "Haridwar Society"
+  },
+  "himalay park": {
+    "wardId": "RMC-12",
+    "displayName": "Himalay Park"
+  },
+  "ila lodhaviya quarters": {
+    "wardId": "RMC-12",
+    "displayName": "Ila Lodhaviya Quarters"
+  },
+  "jadeshvar park": {
+    "wardId": "RMC-12",
+    "displayName": "Jadeshvar Park"
+  },
+  "jalaram society": {
+    "wardId": "RMC-12",
+    "displayName": "Jalaram Society"
+  },
+  "jalaram society yogeshvar dairy": {
+    "wardId": "RMC-12",
+    "displayName": "Jalaram Society Yogeshvar Dairy"
+  },
+  "jaljit nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Jaljit Nagar"
+  },
+  "janki avenue": {
+    "wardId": "RMC-12",
+    "displayName": "Janki Avenue"
+  },
+  "jashraj nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Jashraj Nagar"
+  },
+  "k.k. park": {
+    "wardId": "RMC-12",
+    "displayName": "K.k. Park"
+  },
+  "kadiya nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Kadiya Nagar"
+  },
+  "kailash park": {
+    "wardId": "RMC-12",
+    "displayName": "Kailash Park"
+  },
+  "kishan park": {
+    "wardId": "RMC-12",
+    "displayName": "Kishan Park"
+  },
+  "krishna bunglows": {
+    "wardId": "RMC-12",
+    "displayName": "Krishna Bunglows"
+  },
+  "madhav park(mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Madhav Park(mavdi)"
+  },
+  "madhav society": {
+    "wardId": "RMC-12",
+    "displayName": "Madhav Society"
+  },
+  "madhuram society": {
+    "wardId": "RMC-12",
+    "displayName": "Madhuram Society"
+  },
+  "mavdi industrial area": {
+    "wardId": "RMC-12",
+    "displayName": "Mavdi Industrial Area"
+  },
+  "murlidhar mandir": {
+    "wardId": "RMC-12",
+    "displayName": "Murlidhar Mandir"
+  },
+  "murlidhar temple": {
+    "wardId": "RMC-12",
+    "displayName": "Murlidhar Temple"
+  },
+  "nandan van mavdi": {
+    "wardId": "RMC-12",
+    "displayName": "Nandan Van mavdi"
+  },
+  "nandvan nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Nandvan Nagar"
+  },
+  "new akashdeep society": {
+    "wardId": "RMC-12",
+    "displayName": "New Akashdeep Society"
+  },
+  "new gopal park": {
+    "wardId": "RMC-12",
+    "displayName": "New Gopal Park"
+  },
+  "panchnath society": {
+    "wardId": "RMC-12",
+    "displayName": "Panchnath Society"
+  },
+  "prakash society": {
+    "wardId": "RMC-12",
+    "displayName": "Prakash Society"
+  },
+  "pramukh nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Pramukh Nagar"
+  },
+  "punit nagar society": {
+    "wardId": "RMC-12",
+    "displayName": "Punit Nagar Society"
+  },
+  "punit park": {
+    "wardId": "RMC-12",
+    "displayName": "Punit Park"
+  },
+  "radhika park society": {
+    "wardId": "RMC-12",
+    "displayName": "Radhika Park Society"
+  },
+  "rameshvar society (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Rameshvar Society (mavdi)"
+  },
+  "rangoli bunglows": {
+    "wardId": "RMC-12",
+    "displayName": "Rangoli Bunglows"
+  },
+  "rani park": {
+    "wardId": "RMC-12",
+    "displayName": "Rani Park"
+  },
+  "sadbhavna residency": {
+    "wardId": "RMC-12",
+    "displayName": "Sadbhavna Residency"
+  },
+  "sagar residency": {
+    "wardId": "RMC-12",
+    "displayName": "Sagar Residency"
+  },
+  "sai dham society": {
+    "wardId": "RMC-12",
+    "displayName": "Sai Dham Society"
+  },
+  "saidham": {
+    "wardId": "RMC-12",
+    "displayName": "Saidham"
+  },
+  "sarasvatinagar 25 ch. mt.": {
+    "wardId": "RMC-12",
+    "displayName": "Sarasvatinagar 25 Ch. Mt."
+  },
+  "satnam karmachari society": {
+    "wardId": "RMC-12",
+    "displayName": "Satnam Karmachari Society"
+  },
+  "shakti nagar society (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Shakti Nagar Society (mavdi)"
+  },
+  "shri nandanvan society": {
+    "wardId": "RMC-12",
+    "displayName": "Shri Nandanvan Society"
+  },
+  "shri punit park": {
+    "wardId": "RMC-12",
+    "displayName": "Shri Punit Park"
+  },
+  "shrinathji society (mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Shrinathji Society (mavdi)"
+  },
+  "shyam park(mavdi)": {
+    "wardId": "RMC-12",
+    "displayName": "Shyam Park(mavdi)"
+  },
+  "shyamal city": {
+    "wardId": "RMC-12",
+    "displayName": "Shyamal City"
+  },
+  "shyamal society": {
+    "wardId": "RMC-12",
+    "displayName": "Shyamal Society"
+  },
+  "somnath avenue": {
+    "wardId": "RMC-12",
+    "displayName": "Somnath Avenue"
+  },
+  "sukhsagar society": {
+    "wardId": "RMC-12",
+    "displayName": "Sukhsagar Society"
+  },
+  "swaminarayan nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Swaminarayan Nagar"
+  },
+  "tirupati industrial area": {
+    "wardId": "RMC-12",
+    "displayName": "Tirupati Industrial Area"
+  },
+  "uday nagar (gokul nagar)": {
+    "wardId": "RMC-12",
+    "displayName": "Uday Nagar (gokul Nagar)"
+  },
+  "vaikunthdham": {
+    "wardId": "RMC-12",
+    "displayName": "Vaikunthdham"
+  },
+  "vavdi village": {
+    "wardId": "RMC-12",
+    "displayName": "Vavdi Village"
+  },
+  "vinayak nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Vinayak Nagar"
+  },
+  "vishnu nagar": {
+    "wardId": "RMC-12",
+    "displayName": "Vishnu Nagar"
+  },
+  "vishveshvar housing society": {
+    "wardId": "RMC-12",
+    "displayName": "Vishveshvar Housing Society"
+  },
+  "vrundavan society (gondal rd.)": {
+    "wardId": "RMC-12",
+    "displayName": "Vrundavan Society (Gondal Rd.)"
+  },
+  "yogeshvar dham": {
+    "wardId": "RMC-12",
+    "displayName": "Yogeshvar Dham"
+  },
+  "13 - other": {
+    "wardId": "RMC-13",
+    "displayName": "13 - OTHER"
+  },
+  "150 ft ring road rajpath avenue apartment": {
+    "wardId": "RMC-13",
+    "displayName": "150 ft ring road rajpath avenue apartment"
+  },
+  "alka society": {
+    "wardId": "RMC-13",
+    "displayName": "Alka Society"
+  },
+  "amar nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Amar Nagar"
+  },
+  "amarnagar-1(new)": {
+    "wardId": "RMC-13",
+    "displayName": "AmarnagaR-1(new)"
+  },
+  "amarnagar-2(old)": {
+    "wardId": "RMC-13",
+    "displayName": "AmarnagaR-2(old)"
+  },
+  "ambaji kadva main road": {
+    "wardId": "RMC-13",
+    "displayName": "Ambaji Kadva Main Road"
+  },
+  "ambaji kadva plot": {
+    "wardId": "RMC-13",
+    "displayName": "Ambaji Kadva Plot"
+  },
+  "ambedkar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Ambedkar Main Road"
+  },
+  "ambedkar nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Ambedkar Nagar"
+  },
+  "ambedkarnagar mavdi quarter": {
+    "wardId": "RMC-13",
+    "displayName": "Ambedkarnagar Mavdi Quarter"
+  },
+  "asopalav park": {
+    "wardId": "RMC-13",
+    "displayName": "Asopalav Park"
+  },
+  "avas yojana": {
+    "wardId": "RMC-13",
+    "displayName": "Avas Yojana"
+  },
+  "balaji industrial area": {
+    "wardId": "RMC-13",
+    "displayName": "Balaji Industrial Area"
+  },
+  "bharat petrol pump and commercial area": {
+    "wardId": "RMC-13",
+    "displayName": "Bharat Petrol Pump and Commercial Area"
+  },
+  "bholenath society": {
+    "wardId": "RMC-13",
+    "displayName": "Bholenath Society"
+  },
+  "brahmakumari road": {
+    "wardId": "RMC-13",
+    "displayName": "Brahmakumari Road"
+  },
+  "chadresh nagar howker zone": {
+    "wardId": "RMC-13",
+    "displayName": "Chadresh Nagar Howker Zone"
+  },
+  "chamunda nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Chamunda Nagar"
+  },
+  "chamunda nagar/khodiyar nagar(kothariya)": {
+    "wardId": "RMC-13",
+    "displayName": "Chamunda Nagar/Khodiyar Nagar(Kothariya)"
+  },
+  "chandra nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Chandra Nagar"
+  },
+  "chandresh nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Chandresh Nagar"
+  },
+  "chandreshnagar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Chandreshnagar Main Road"
+  },
+  "dhara gas godown road": {
+    "wardId": "RMC-13",
+    "displayName": "Dhara gas godown road"
+  },
+  "dinkar colony": {
+    "wardId": "RMC-13",
+    "displayName": "Dinkar Colony"
+  },
+  "doshi hospital road": {
+    "wardId": "RMC-13",
+    "displayName": "Doshi Hospital Road"
+  },
+  "geeta nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Geeta Nagar"
+  },
+  "getco geb office": {
+    "wardId": "RMC-13",
+    "displayName": "GETCO GEB Office"
+  },
+  "girnar yojana": {
+    "wardId": "RMC-13",
+    "displayName": "Girnar Yojana"
+  },
+  "gokul nagar ind.": {
+    "wardId": "RMC-13",
+    "displayName": "Gokul Nagar Ind."
+  },
+  "gokuldham main road": {
+    "wardId": "RMC-13",
+    "displayName": "Gokuldham Main Road"
+  },
+  "gondal road (west side from rail line)": {
+    "wardId": "RMC-13",
+    "displayName": "Gondal Road (west Side From Rail Line)"
+  },
+  "gulabwadi": {
+    "wardId": "RMC-13",
+    "displayName": "Gulabwadi"
+  },
+  "gunatit nagar (guru prasad chowk)": {
+    "wardId": "RMC-13",
+    "displayName": "Gunatit Nagar (Guru Prasad Chowk)"
+  },
+  "guruprasad society": {
+    "wardId": "RMC-13",
+    "displayName": "Guruprasad Society"
+  },
+  "h j doshi hospital": {
+    "wardId": "RMC-13",
+    "displayName": "H J Doshi Hospital"
+  },
+  "j d pathak society (nr. hj doshi hospital)": {
+    "wardId": "RMC-13",
+    "displayName": "J D Pathak Society (Nr. HJ Doshi Hospital)"
+  },
+  "j d pathak society(nr. krishnanagar main road)": {
+    "wardId": "RMC-13",
+    "displayName": "J D Pathak Society(Nr. Krishnanagar Main Road)"
+  },
+  "jalyan nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Jalyan Nagar"
+  },
+  "jamna park": {
+    "wardId": "RMC-13",
+    "displayName": "Jamna Park"
+  },
+  "jayant k g main road": {
+    "wardId": "RMC-13",
+    "displayName": "Jayant K G Main Road"
+  },
+  "jayant k g society": {
+    "wardId": "RMC-13",
+    "displayName": "Jayant K G Society"
+  },
+  "kailashben ramani marg": {
+    "wardId": "RMC-13",
+    "displayName": "Kailashben Ramani Marg"
+  },
+  "khodiyar nagar (mavdi)": {
+    "wardId": "RMC-13",
+    "displayName": "Khodiyar Nagar (mavdi)"
+  },
+  "khodiyar nagar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Khodiyar Nagar Main Road"
+  },
+  "krushna nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Krushna Nagar"
+  },
+  "krushna nagar (rmc city civic center)": {
+    "wardId": "RMC-13",
+    "displayName": "Krushna Nagar (rmc City Civic Center)"
+  },
+  "krushna nagar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Krushna Nagar Main Road"
+  },
+  "lodheshvar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Lodheshvar Main Road"
+  },
+  "lodheshwar": {
+    "wardId": "RMC-13",
+    "displayName": "Lodheshwar"
+  },
+  "m p park/divya park": {
+    "wardId": "RMC-13",
+    "displayName": "M P Park/Divya Park"
+  },
+  "mahadev vadi": {
+    "wardId": "RMC-13",
+    "displayName": "Mahadev Vadi"
+  },
+  "mahadevwadi": {
+    "wardId": "RMC-13",
+    "displayName": "Mahadevwadi"
+  },
+  "malaviya nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Malaviya Nagar"
+  },
+  "mani nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Mani Nagar"
+  },
+  "mansata ind area": {
+    "wardId": "RMC-13",
+    "displayName": "Mansata Ind Area"
+  },
+  "maruti industrial area(kothariya)": {
+    "wardId": "RMC-13",
+    "displayName": "Maruti Industrial Area(KOthariya)"
+  },
+  "maruti nandan": {
+    "wardId": "RMC-13",
+    "displayName": "Maruti Nandan"
+  },
+  "mavdi fire bridged": {
+    "wardId": "RMC-13",
+    "displayName": "Mavdi Fire Bridged"
+  },
+  "mavdi panchayat quarters": {
+    "wardId": "RMC-13",
+    "displayName": "Mavdi Panchayat Quarters"
+  },
+  "mavdi plot": {
+    "wardId": "RMC-13",
+    "displayName": "Mavdi Plot"
+  },
+  "mayani nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Mayani Nagar"
+  },
+  "milan society (mavdi)": {
+    "wardId": "RMC-13",
+    "displayName": "Milan Society (mavdi)"
+  },
+  "naval nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Naval Nagar"
+  },
+  "naval nagar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Naval Nagar Main Road"
+  },
+  "naval nagar road": {
+    "wardId": "RMC-13",
+    "displayName": "Naval Nagar Road"
+  },
+  "naval nagar(mavdi)": {
+    "wardId": "RMC-13",
+    "displayName": "Naval Nagar(mavdi)"
+  },
+  "navrang para": {
+    "wardId": "RMC-13",
+    "displayName": "Navrang Para"
+  },
+  "new khodiyar nagar": {
+    "wardId": "RMC-13",
+    "displayName": "New Khodiyar Nagar"
+  },
+  "new mayani nagar": {
+    "wardId": "RMC-13",
+    "displayName": "New Mayani Nagar"
+  },
+  "new papayawadi": {
+    "wardId": "RMC-13",
+    "displayName": "New papayawadi"
+  },
+  "new vishwanagar": {
+    "wardId": "RMC-13",
+    "displayName": "New Vishwanagar"
+  },
+  "old papayawadi": {
+    "wardId": "RMC-13",
+    "displayName": "Old Papayawadi"
+  },
+  "opp. gurukul area": {
+    "wardId": "RMC-13",
+    "displayName": "Opp. Gurukul Area"
+  },
+  "p and t colony": {
+    "wardId": "RMC-13",
+    "displayName": "P And T Colony"
+  },
+  "p d malaviya college": {
+    "wardId": "RMC-13",
+    "displayName": "P D Malaviya College"
+  },
+  "panchshil 80 ft road": {
+    "wardId": "RMC-13",
+    "displayName": "Panchshil 80 Ft Road"
+  },
+  "panchshil main road": {
+    "wardId": "RMC-13",
+    "displayName": "Panchshil Main Road"
+  },
+  "panchshil society": {
+    "wardId": "RMC-13",
+    "displayName": "Panchshil Society"
+  },
+  "papaiya wadi": {
+    "wardId": "RMC-13",
+    "displayName": "Papaiya Wadi"
+  },
+  "pariwar park": {
+    "wardId": "RMC-13",
+    "displayName": "Pariwar Park"
+  },
+  "patel park (chandra ngr)": {
+    "wardId": "RMC-13",
+    "displayName": "Patel Park (chandra Ngr)"
+  },
+  "pooja park 3": {
+    "wardId": "RMC-13",
+    "displayName": "Pooja Park 3"
+  },
+  "prabhutva nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Prabhutva Nagar"
+  },
+  "prashant casting": {
+    "wardId": "RMC-13",
+    "displayName": "Prashant Casting"
+  },
+  "radhekrishna nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Radhekrishna Nagar"
+  },
+  "ram nagar (gondal rd)": {
+    "wardId": "RMC-13",
+    "displayName": "Ram Nagar (gondal Rd)"
+  },
+  "rameshwar park (chandresh ngr mn rd)": {
+    "wardId": "RMC-13",
+    "displayName": "Rameshwar Park (chandresh Ngr Mn Rd)"
+  },
+  "rk park/tirupati ind area": {
+    "wardId": "RMC-13",
+    "displayName": "RK Park/Tirupati Ind ARea"
+  },
+  "rmc avas yojana - ban lab quarter": {
+    "wardId": "RMC-13",
+    "displayName": "RMC AVAS YOJANA - BAN LAB QUARTER"
+  },
+  "rmc avas yojana - guruprad chowk": {
+    "wardId": "RMC-13",
+    "displayName": "RMC AVAS YOJANA - GURUPRAD CHOWK"
+  },
+  "rmc avas yojana opp. dalibai hostel": {
+    "wardId": "RMC-13",
+    "displayName": "RMC AVAS YOJANA OPP. DALIBAI HOSTEL"
+  },
+  "samrat industrial area": {
+    "wardId": "RMC-13",
+    "displayName": "Samrat Industrial Area"
+  },
+  "samrat nagar main road": {
+    "wardId": "RMC-13",
+    "displayName": "Samrat Nagar Main Road"
+  },
+  "shobhna society": {
+    "wardId": "RMC-13",
+    "displayName": "Shobhna Society"
+  },
+  "shramjivi society": {
+    "wardId": "RMC-14",
+    "displayName": "Shramjivi Society"
+  },
+  "st workshop": {
+    "wardId": "RMC-13",
+    "displayName": "ST Workshop"
+  },
+  "swashray society": {
+    "wardId": "RMC-13",
+    "displayName": "Swashray Society"
+  },
+  "swashray society(nr. sramjivi society)": {
+    "wardId": "RMC-13",
+    "displayName": "Swashray Society(Nr. Sramjivi Society)"
+  },
+  "tapu bhavan": {
+    "wardId": "RMC-13",
+    "displayName": "Tapu Bhavan"
+  },
+  "triveni nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Triveni Nagar"
+  },
+  "umakant pandit": {
+    "wardId": "RMC-13",
+    "displayName": "Umakant Pandit"
+  },
+  "umakant udhyog nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Umakant Udhyog Nagar"
+  },
+  "vaidh vadi": {
+    "wardId": "RMC-13",
+    "displayName": "Vaidh Vadi"
+  },
+  "vavdi/vishwakarma industrial area": {
+    "wardId": "RMC-13",
+    "displayName": "Vavdi/Vishwakarma Industrial Area"
+  },
+  "vinay nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Vinay Nagar"
+  },
+  "vishva nagar": {
+    "wardId": "RMC-13",
+    "displayName": "Vishva Nagar"
+  },
+  "vishwanagar": {
+    "wardId": "RMC-13",
+    "displayName": "Vishwanagar"
+  },
+  "14 - other": {
+    "wardId": "RMC-14",
+    "displayName": "14 - OTHER"
+  },
+  "80feet road": {
+    "wardId": "RMC-14",
+    "displayName": "80Feet Road"
+  },
+  "amrut park": {
+    "wardId": "RMC-14",
+    "displayName": "Amrut Park"
+  },
+  "anand nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Anand Nagar"
+  },
+  "anandnagar main road": {
+    "wardId": "RMC-14",
+    "displayName": "Anandnagar Main Road"
+  },
+  "bapu nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Bapu Nagar"
+  },
+  "bapu nagar main road": {
+    "wardId": "RMC-14",
+    "displayName": "Bapu Nagar Main Road"
+  },
+  "bhakti nagar police station area": {
+    "wardId": "RMC-14",
+    "displayName": "Bhakti Nagar Police Station Area"
+  },
+  "bhakti nagar society": {
+    "wardId": "RMC-14",
+    "displayName": "Bhakti Nagar Society"
+  },
+  "bhakti nagar society (geeta mandir side)": {
+    "wardId": "RMC-14",
+    "displayName": "Bhakti Nagar Society (Geeta Mandir Side)"
+  },
+  "bhakti nagar society (north side)": {
+    "wardId": "RMC-14",
+    "displayName": "Bhakti Nagar Society (North Side)"
+  },
+  "bhakti nagar society (south side)": {
+    "wardId": "RMC-14",
+    "displayName": "Bhakti Nagar Society (South Side)"
+  },
+  "dadi baug": {
+    "wardId": "RMC-14",
+    "displayName": "Dadi Baug"
+  },
+  "damjibhai dudhagra road(kevda vadi main road)": {
+    "wardId": "RMC-14",
+    "displayName": "Damjibhai Dudhagra Road(Kevda Vadi Main Road)"
+  },
+  "dayanand nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Dayanand Nagar"
+  },
+  "debar road (ward 14 part)": {
+    "wardId": "RMC-14",
+    "displayName": "Debar Road (Ward 14 Part)"
+  },
+  "dharma jivan society": {
+    "wardId": "RMC-14",
+    "displayName": "Dharma Jivan Society"
+  },
+  "dholariya nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Dholariya Nagar"
+  },
+  "dudhasagar road (old jail to bhanjidada bridge) (ward 14 part)": {
+    "wardId": "RMC-14",
+    "displayName": "DUDHASAGAR ROAD (OLD JAIL TO BHANJIDADA BRIDGE) (WARD 14 PART)"
+  },
+  "ekta nagar slum quarter": {
+    "wardId": "RMC-14",
+    "displayName": "Ekta Nagar Slum Quarter"
+  },
+  "gayatri nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Gayatri Nagar"
+  },
+  "gayatri nagar main road": {
+    "wardId": "RMC-14",
+    "displayName": "Gayatri Nagar Main Road"
+  },
+  "ghanchi vad": {
+    "wardId": "RMC-14",
+    "displayName": "Ghanchi Vad"
+  },
+  "gita nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Gita Nagar"
+  },
+  "gopal nagar": {
+    "wardId": "RMC-14",
+    "displayName": "Gopal Nagar"
+  },
+  "govind para": {
+    "wardId": "RMC-14",
+    "displayName": "Govind Para"
+  },
+  "gulab nagar(behind swimming poll)": {
+    "wardId": "RMC-14",
+    "displayName": "Gulab Nagar(Behind Swimming Poll)"
+  },
+  "gulab nagar(behind ward office)": {
+    "wardId": "RMC-14",
+    "displayName": "Gulab Nagar(Behind Ward Office)"
+  },
+  "gunda vadi": {
+    "wardId": "RMC-14",
+    "displayName": "Gunda Vadi"
+  },
+  "jayraj plot": {
+    "wardId": "RMC-14",
+    "displayName": "Jayraj Plot"
+  },
+  "jayram park": {
+    "wardId": "RMC-14",
+    "displayName": "Jayram Park"
+  },
+  "jilla garden headworks": {
+    "wardId": "RMC-14",
+    "displayName": "Jilla Garden Headworks"
+  },
+  "juni jail police quarter": {
+    "wardId": "RMC-14",
+    "displayName": "Juni Jail Police Quarter"
+  },
+  "kanta stri vikas gruh": {
+    "wardId": "RMC-14",
+    "displayName": "Kanta Stri Vikas Gruh"
+  },
+  "kapad mill": {
+    "wardId": "RMC-14",
+    "displayName": "Kapad Mill"
+  },
+  "kevda vadi": {
+    "wardId": "RMC-14",
+    "displayName": "Kevda Vadi"
+  },
+  "kothariya colony": {
+    "wardId": "RMC-14",
+    "displayName": "Kothariya Colony"
+  },
+  "kothariya colony northside of 80feet road": {
+    "wardId": "RMC-14",
+    "displayName": "Kothariya Colony Northside of 80Feet Road"
+  },
+  "kothariya colony south side of 80feet road": {
+    "wardId": "RMC-14",
+    "displayName": "Kothariya Colony South side of 80Feet Road"
+  },
+  "kumbhar vada": {
+    "wardId": "RMC-14",
+    "displayName": "Kumbhar Vada"
+  },
+  "lalludi vokli": {
+    "wardId": "RMC-14",
+    "displayName": "Lalludi Vokli"
+  },
+  "laxmi vadi": {
+    "wardId": "RMC-14",
+    "displayName": "Laxmi Vadi"
+  },
+  "laxmi vadi (9)": {
+    "wardId": "RMC-14",
+    "displayName": "Laxmi Vadi (9)"
+  },
+  "laxmiwadi main road": {
+    "wardId": "RMC-14",
+    "displayName": "Laxmiwadi Main Road"
+  },
+  "madhuram park(kiran park)": {
+    "wardId": "RMC-14",
+    "displayName": "Madhuram Park(Kiran Park)"
+  },
+  "master society": {
+    "wardId": "RMC-14",
+    "displayName": "Master Society"
+  },
+  "master society 13": {
+    "wardId": "RMC-14",
+    "displayName": "Master Society 13"
+  },
+  "mayurpark": {
+    "wardId": "RMC-14",
+    "displayName": "MayurPark"
+  },
+  "mill para": {
+    "wardId": "RMC-14",
+    "displayName": "Mill Para"
+  },
+  "mill para main road": {
+    "wardId": "RMC-14",
+    "displayName": "Mill Para Main Road"
+  },
+  "navyug para": {
+    "wardId": "RMC-14",
+    "displayName": "Navyug Para"
+  },
+  "new bapu nagar": {
+    "wardId": "RMC-14",
+    "displayName": "New Bapu Nagar"
+  },
+  "new ghanchi vad": {
+    "wardId": "RMC-14",
+    "displayName": "New Ghanchi Vad"
+  },
+  "new kumbhar vada": {
+    "wardId": "RMC-14",
+    "displayName": "New Kumbhar Vada"
+  },
+  "old bapu nagar)": {
+    "wardId": "RMC-14",
+    "displayName": "Old Bapu Nagar)"
+  },
+  "old ghanchi vad": {
+    "wardId": "RMC-14",
+    "displayName": "Old Ghanchi Vad"
+  },
+  "old jail road (14 part)": {
+    "wardId": "RMC-14",
+    "displayName": "Old Jail Road (14 Part)"
+  },
+  "palace  road(14 part)": {
+    "wardId": "RMC-14",
+    "displayName": "Palace  Road(14 Part)"
+  },
+  "pardi main road": {
+    "wardId": "RMC-14",
+    "displayName": "Pardi Main Road"
+  },
+  "pujara plot": {
+    "wardId": "RMC-14",
+    "displayName": "Pujara Plot"
+  },
+  "pujara plot main road": {
+    "wardId": "RMC-14",
+    "displayName": "pujara plot main road"
+  },
+  "sardar patel swimming pool": {
+    "wardId": "RMC-14",
+    "displayName": "Sardar Patel Swimming Pool"
+  },
+  "sheth highschool": {
+    "wardId": "RMC-14",
+    "displayName": "Sheth HighSchool"
+  },
+  "sorathiya plot": {
+    "wardId": "RMC-14",
+    "displayName": "Sorathiya Plot"
+  },
+  "sorathiyawadi": {
+    "wardId": "RMC-14",
+    "displayName": "Sorathiyawadi"
+  },
+  "vaghari vas": {
+    "wardId": "RMC-14",
+    "displayName": "Vaghari Vas"
+  },
+  "vaniya wadi": {
+    "wardId": "RMC-14",
+    "displayName": "Vaniya wadi"
+  },
+  "vasundhara society": {
+    "wardId": "RMC-14",
+    "displayName": "Vasundhara Society"
+  },
+  "15 - other": {
+    "wardId": "RMC-15",
+    "displayName": "15 - OTHER"
+  },
+  "25 variya plot (bhavnagar rd. opp. patel pan)": {
+    "wardId": "RMC-15",
+    "displayName": "25 Variya Plot (Bhavnagar Rd. Opp. Patel Pan)"
+  },
+  "80 feet road (nr. amul circle bhavnagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "80 Feet Road (Nr. Amul Circle Bhavnagar Rd.)"
+  },
+  "aji dam": {
+    "wardId": "RMC-15",
+    "displayName": "Aji Dam"
+  },
+  "aji vasahat": {
+    "wardId": "RMC-15",
+    "displayName": "Aji Vasahat"
+  },
+  "ambedkar nagar (aji)": {
+    "wardId": "RMC-15",
+    "displayName": "Ambedkar Nagar (aji)"
+  },
+  "ambedkar nagar (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Ambedkar Nagar (Thorala)"
+  },
+  "ardhana soc. near shala no.49": {
+    "wardId": "RMC-15",
+    "displayName": "Ardhana Soc. Near Shala No.49"
+  },
+  "avadh park (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Avadh Park (Thorala)"
+  },
+  "bapa sitaram": {
+    "wardId": "RMC-15",
+    "displayName": "Bapa Sitaram"
+  },
+  "bhagvati society": {
+    "wardId": "RMC-15",
+    "displayName": "Bhagvati Society"
+  },
+  "bharat nagar (aji river)": {
+    "wardId": "RMC-15",
+    "displayName": "Bharat Nagar (aji River)"
+  },
+  "bhavnagar road": {
+    "wardId": "RMC-15",
+    "displayName": "Bhavnagar Road"
+  },
+  "chunara vad (bhavnagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Chunara Vad (Bhavnagar Rd.)"
+  },
+  "dalit nagar (mafatiyu)": {
+    "wardId": "RMC-15",
+    "displayName": "Dalit Nagar (mafatiyu)"
+  },
+  "dash oradi (nr. haidari chowk)": {
+    "wardId": "RMC-15",
+    "displayName": "Dash Oradi (Nr. Haidari Chowk)"
+  },
+  "din dayal ind. (iti rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Din Dayal Ind. (ITI Rd.)"
+  },
+  "dudh sagar road": {
+    "wardId": "RMC-15",
+    "displayName": "Dudh Sagar Road"
+  },
+  "faruki society (dudh sagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Faruki Society (Dudh Sagar Rd.)"
+  },
+  "field marshal main road, centre sodium": {
+    "wardId": "RMC-15",
+    "displayName": "Field Marshal Main Road, Centre Sodium"
+  },
+  "fildmarshal road telifone exchange": {
+    "wardId": "RMC-15",
+    "displayName": "Fildmarshal Road Telifone Exchange"
+  },
+  "g.i.d.c.  opp.  controll": {
+    "wardId": "RMC-15",
+    "displayName": "G.i.d.c.  Opp.  Controll"
+  },
+  "gameti hall street (lakhajiraj shramjivi soc. rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Gameti Hall Street (Lakhajiraj Shramjivi Soc. Rd.)"
+  },
+  "ganji vada": {
+    "wardId": "RMC-15",
+    "displayName": "Ganji Vada"
+  },
+  "gokul para": {
+    "wardId": "RMC-15",
+    "displayName": "Gokul Para"
+  },
+  "haidari chowk": {
+    "wardId": "RMC-15",
+    "displayName": "Haidari Chowk"
+  },
+  "hari om park (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Hari Om Park (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "jagdish nagar (dudh sagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Jagdish Nagar (Dudh Sagar Rd.)"
+  },
+  "jay hind nagar (dudh sagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Jay Hind Nagar (Dudh Sagar Rd.)"
+  },
+  "kanti ind. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Kanti Ind. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "kasturba harijan vas": {
+    "wardId": "RMC-15",
+    "displayName": "KASTURBA HARIJAN VAS"
+  },
+  "khodiyar para (aji vasahat)": {
+    "wardId": "RMC-15",
+    "displayName": "Khodiyar Para (aji Vasahat)"
+  },
+  "krishna park (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Krishna Park (Thorala)"
+  },
+  "kubaliya para": {
+    "wardId": "RMC-15",
+    "displayName": "Kubaliya Para"
+  },
+  "lakhajiraj soc.": {
+    "wardId": "RMC-15",
+    "displayName": "Lakhajiraj Soc."
+  },
+  "lakhajiraj udyog nagar (chunara vad)": {
+    "wardId": "RMC-15",
+    "displayName": "Lakhajiraj Udyog Nagar (Chunara Vad)"
+  },
+  "madhuram ind. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Madhuram Ind. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "majothi nagar (dudh sagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Majothi Nagar (Dudh Sagar Rd.)"
+  },
+  "manhar para (mafatiyu - bhavnagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Manhar Para (Mafatiyu - Bhavnagar Rd.)"
+  },
+  "manhar society": {
+    "wardId": "RMC-15",
+    "displayName": "Manhar Society"
+  },
+  "meera ind.": {
+    "wardId": "RMC-15",
+    "displayName": "Meera Ind."
+  },
+  "meera udhyog": {
+    "wardId": "RMC-15",
+    "displayName": "Meera Udhyog"
+  },
+  "meram bapa ni vadi (bhavnagar rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Meram Bapa Ni Vadi (Bhavnagar Rd.)"
+  },
+  "new bharat soc. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "New Bharat Soc. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "new sarvoday soc. thorala": {
+    "wardId": "RMC-15",
+    "displayName": "New Sarvoday Soc. Thorala"
+  },
+  "new vijay nagar": {
+    "wardId": "RMC-15",
+    "displayName": "New Vijay Nagar"
+  },
+  "old sarvoday soc. (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Old Sarvoday Soc. (Thorala)"
+  },
+  "old vijay nagar (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Old Vijay Nagar (Thorala)"
+  },
+  "opp. hudko show room": {
+    "wardId": "RMC-15",
+    "displayName": "Opp. Hudko Show Room"
+  },
+  "opp. iti": {
+    "wardId": "RMC-15",
+    "displayName": "Opp. Iti"
+  },
+  "p. t. c. girls hostel": {
+    "wardId": "RMC-15",
+    "displayName": "P. T. C. Girls Hostel"
+  },
+  "purusharth soc": {
+    "wardId": "RMC-15",
+    "displayName": "Purusharth Soc"
+  },
+  "raj industries": {
+    "wardId": "RMC-15",
+    "displayName": "Raj Industries"
+  },
+  "ram nagar (aji vasahat)": {
+    "wardId": "RMC-15",
+    "displayName": "Ram Nagar (Aji Vasahat)"
+  },
+  "ram nagar (field marshal)": {
+    "wardId": "RMC-15",
+    "displayName": "Ram Nagar (field Marshal)"
+  },
+  "ram park": {
+    "wardId": "RMC-15",
+    "displayName": "Ram Park"
+  },
+  "sanskar ind. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Sanskar Ind. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "satyam park (80&#39; ft. rd.)": {
+    "wardId": "RMC-15",
+    "displayName": "Satyam Park (80&#39; Ft. Rd.)"
+  },
+  "shiv dhara soc. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Shiv Dhara Soc. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "shiv nagar soc. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Shiv Nagar Soc. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "shivaji nagar": {
+    "wardId": "RMC-15",
+    "displayName": "Shivaji Nagar"
+  },
+  "shivam ind. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Shivam Ind. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "shri hari ind. (khokhad dad nadi m. rd. high way)": {
+    "wardId": "RMC-15",
+    "displayName": "Shri Hari Ind. (Khokhad Dad Nadi M. Rd. High Way)"
+  },
+  "thorala": {
+    "wardId": "RMC-15",
+    "displayName": "Thorala"
+  },
+  "vankar vas": {
+    "wardId": "RMC-15",
+    "displayName": "Vankar Vas"
+  },
+  "vinod nagar (thorala)": {
+    "wardId": "RMC-15",
+    "displayName": "Vinod Nagar (Thorala)"
+  },
+  "16 - other": {
+    "wardId": "RMC-16",
+    "displayName": "16 - OTHER"
+  },
+  "50 feet main road ,antron furniture same": {
+    "wardId": "RMC-16",
+    "displayName": "50 Feet Main Road ,antron Furniture Same"
+  },
+  "80 feet road (sorathiya wadi circle)": {
+    "wardId": "RMC-16",
+    "displayName": "80 Feet Road (Sorathiya Wadi Circle)"
+  },
+  "aashapura nagar": {
+    "wardId": "RMC-16",
+    "displayName": "Aashapura nagar"
+  },
+  "ankur society": {
+    "wardId": "RMC-16",
+    "displayName": "Ankur Society"
+  },
+  "arvindbhai maniar on police choki control": {
+    "wardId": "RMC-16",
+    "displayName": "Arvindbhai Maniar On Police Choki Control"
+  },
+  "arvindbhai maniar soc": {
+    "wardId": "RMC-16",
+    "displayName": "Arvindbhai Maniar Soc"
+  },
+  "bapunagar smashan": {
+    "wardId": "RMC-16",
+    "displayName": "Bapunagar Smashan"
+  },
+  "bhojalram society": {
+    "wardId": "RMC-16",
+    "displayName": "Bhojalram Society"
+  },
+  "bhojalram society(kothariya main road side)": {
+    "wardId": "RMC-16",
+    "displayName": "Bhojalram Society(Kothariya Main Road Side)"
+  },
+  "bismillah park": {
+    "wardId": "RMC-16",
+    "displayName": "Bismillah Park"
+  },
+  "buddhanagar": {
+    "wardId": "RMC-16",
+    "displayName": "Buddhanagar"
+  },
+  "chandraprabha builders": {
+    "wardId": "RMC-16",
+    "displayName": "Chandraprabha Builders"
+  },
+  "chhaganbhai shiyani farm": {
+    "wardId": "RMC-16",
+    "displayName": "Chhaganbhai Shiyani Farm"
+  },
+  "devpara": {
+    "wardId": "RMC-16",
+    "displayName": "Devpara"
+  },
+  "devpara 80 feet road": {
+    "wardId": "RMC-16",
+    "displayName": "Devpara 80 Feet Road"
+  },
+  "diptinagar garden(rmc)": {
+    "wardId": "RMC-16",
+    "displayName": "Diptinagar Garden(RMC)"
+  },
+  "diptinagar(nr. mani  nagar)": {
+    "wardId": "RMC-16",
+    "displayName": "Diptinagar(Nr. Mani  Nagar)"
+  },
+  "diptinagar(nr. sitaram society)": {
+    "wardId": "RMC-16",
+    "displayName": "Diptinagar(Nr. Sitaram Society)"
+  },
+  "ekta colony": {
+    "wardId": "RMC-16",
+    "displayName": "Ekta Colony"
+  },
+  "gadhvi vas": {
+    "wardId": "RMC-16",
+    "displayName": "Gadhvi Vas"
+  },
+  "govindnagar": {
+    "wardId": "RMC-16",
+    "displayName": "Govindnagar"
+  },
+  "green park": {
+    "wardId": "RMC-16",
+    "displayName": "Green Park"
+  },
+  "harijan vas/vankarvas": {
+    "wardId": "RMC-16",
+    "displayName": "Harijan vas/vankarvas"
+  },
+  "hudako d quarters": {
+    "wardId": "RMC-16",
+    "displayName": "Hudako D Quarters"
+  },
+  "hudko c quarters": {
+    "wardId": "RMC-16",
+    "displayName": "Hudko C Quarters"
+  },
+  "hudko juna quarters": {
+    "wardId": "RMC-16",
+    "displayName": "Hudko Juna Quarters"
+  },
+  "ind. area near bapunagar smashan": {
+    "wardId": "RMC-16",
+    "displayName": "Ind. Area Near Bapunagar Smashan"
+  },
+  "jangleshwar": {
+    "wardId": "RMC-16",
+    "displayName": "Jangleshwar"
+  },
+  "kedarnath society": {
+    "wardId": "RMC-16",
+    "displayName": "Kedarnath Society"
+  },
+  "kirtidham society": {
+    "wardId": "RMC-16",
+    "displayName": "Kirtidham Society"
+  },
+  "kothariya main road( sorathiyawadi circle to hudko chowkdi)": {
+    "wardId": "RMC-16",
+    "displayName": "Kothariya Main Road( Sorathiyawadi circle to Hudko Chowkdi)"
+  },
+  "kothariya ring road": {
+    "wardId": "RMC-16",
+    "displayName": "Kothariya Ring Road"
+  },
+  "leva patel society": {
+    "wardId": "RMC-16",
+    "displayName": "Leva patel Society"
+  },
+  "luhar vadi": {
+    "wardId": "RMC-16",
+    "displayName": "Luhar Vadi"
+  },
+  "mahatma gandhi society": {
+    "wardId": "RMC-16",
+    "displayName": "Mahatma Gandhi Society"
+  },
+  "maheshvari society": {
+    "wardId": "RMC-16",
+    "displayName": "Maheshvari Society"
+  },
+  "maninagar": {
+    "wardId": "RMC-16",
+    "displayName": "Maninagar"
+  },
+  "maruti 80 feet road": {
+    "wardId": "RMC-16",
+    "displayName": "Maruti 80 Feet Road"
+  },
+  "maruti nagar(nr. rmc howkers zone)": {
+    "wardId": "RMC-16",
+    "displayName": "Maruti nagar(Nr. RMC Howkers Zone)"
+  },
+  "meghaninagar": {
+    "wardId": "RMC-16",
+    "displayName": "Meghaninagar"
+  },
+  "mehulnagar": {
+    "wardId": "RMC-16",
+    "displayName": "Mehulnagar"
+  },
+  "nadoda nagar": {
+    "wardId": "RMC-16",
+    "displayName": "Nadoda Nagar"
+  },
+  "navdurga society": {
+    "wardId": "RMC-16",
+    "displayName": "Navdurga Society"
+  },
+  "neelam park": {
+    "wardId": "RMC-16",
+    "displayName": "Neelam Park"
+  },
+  "new kadar society": {
+    "wardId": "RMC-16",
+    "displayName": "New Kadar Society"
+  },
+  "new kedarnath society": {
+    "wardId": "RMC-16",
+    "displayName": "New Kedarnath Society"
+  },
+  "new sagar society": {
+    "wardId": "RMC-16",
+    "displayName": "New Sagar Society"
+  },
+  "new suryoday society": {
+    "wardId": "RMC-16",
+    "displayName": "New Suryoday Society"
+  },
+  "nilkanth park": {
+    "wardId": "RMC-16",
+    "displayName": "Nilkanth Park"
+  },
+  "nr. kedar gate": {
+    "wardId": "RMC-16",
+    "displayName": "Nr. Kedar Gate"
+  },
+  "nr. kothariya chokdi": {
+    "wardId": "RMC-16",
+    "displayName": "Nr. Kothariya Chokdi"
+  },
+  "nr. luhar vadi": {
+    "wardId": "RMC-16",
+    "displayName": "Nr. Luhar Vadi"
+  },
+  "old suryoday society": {
+    "wardId": "RMC-16",
+    "displayName": "Old Suryoday Society"
+  },
+  "parsana society": {
+    "wardId": "RMC-16",
+    "displayName": "Parsana Society"
+  },
+  "parshana 50 feet road": {
+    "wardId": "RMC-16",
+    "displayName": "Parshana 50 feet Road"
+  },
+  "patelnagar(sadbhavna)": {
+    "wardId": "RMC-16",
+    "displayName": "Patelnagar(Sadbhavna)"
+  },
+  "private farm": {
+    "wardId": "RMC-16",
+    "displayName": "Private Farm"
+  },
+  "punit society": {
+    "wardId": "RMC-16",
+    "displayName": "Punit Society"
+  },
+  "radhakrushna nagar": {
+    "wardId": "RMC-16",
+    "displayName": "Radhakrushna nagar"
+  },
+  "rmc aarogay kendra + aanganwadi": {
+    "wardId": "RMC-16",
+    "displayName": "RMC Aarogay kendra + Aanganwadi"
+  },
+  "rmc aawas yojana": {
+    "wardId": "RMC-16",
+    "displayName": "RMC Aawas Yojana"
+  },
+  "rmc ews aawas yojana reserve plot-1": {
+    "wardId": "RMC-16",
+    "displayName": "RMC EWS Aawas yojana Reserve Plot-1"
+  },
+  "rmc ews aawas yojana reserve plot-2": {
+    "wardId": "RMC-16",
+    "displayName": "RMC EWS Aawas yojana Reserve Plot-2"
+  },
+  "rmc hockers zone": {
+    "wardId": "RMC-16",
+    "displayName": "RMC Hockers Zone"
+  },
+  "rmc plot": {
+    "wardId": "RMC-16",
+    "displayName": "RMC Plot"
+  },
+  "rmc school +ward office + aanganwadi": {
+    "wardId": "RMC-16",
+    "displayName": "RMC School +Ward office + Aanganwadi"
+  },
+  "rushikesh park": {
+    "wardId": "RMC-16",
+    "displayName": "Rushikesh Park"
+  },
+  "sagar society": {
+    "wardId": "RMC-16",
+    "displayName": "Sagar Society"
+  },
+  "sardar patel aarogay bhavan": {
+    "wardId": "RMC-16",
+    "displayName": "Sardar Patel Aarogay Bhavan"
+  },
+  "shiyaninagar": {
+    "wardId": "RMC-16",
+    "displayName": "Shiyaninagar"
+  },
+  "siddharth society": {
+    "wardId": "RMC-16",
+    "displayName": "Siddharth Society"
+  },
+  "sorathiyavadi society 5 to 13": {
+    "wardId": "RMC-16",
+    "displayName": "Sorathiyavadi Society 5 to 13"
+  },
+  "sumara society": {
+    "wardId": "RMC-16",
+    "displayName": "Sumara Society"
+  },
+  "suryoday society (dev para)": {
+    "wardId": "RMC-16",
+    "displayName": "Suryoday Society (dev Para)"
+  },
+  "v. n. street (gokul nagar)": {
+    "wardId": "RMC-16",
+    "displayName": "V. N. Street (Gokul Nagar)"
+  },
+  "vinayak park": {
+    "wardId": "RMC-16",
+    "displayName": "Vinayak Park"
+  },
+  "vivekanandnagar": {
+    "wardId": "RMC-16",
+    "displayName": "Vivekanandnagar"
+  },
+  "way bridge national highway": {
+    "wardId": "RMC-16",
+    "displayName": "Way Bridge National Highway"
+  },
+  "yadavnagar": {
+    "wardId": "RMC-16",
+    "displayName": "Yadavnagar"
+  },
+  "50 ft road": {
+    "wardId": "RMC-17",
+    "displayName": "50 ft Road"
+  },
+  "17 - other": {
+    "wardId": "RMC-17",
+    "displayName": "17 - OTHER"
+  },
+  "80 feet road": {
+    "wardId": "RMC-17",
+    "displayName": "80 Feet Road"
+  },
+  "ajanta park": {
+    "wardId": "RMC-17",
+    "displayName": "Ajanta park"
+  },
+  "ashapura nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Ashapura Nagar"
+  },
+  "ashirvad society": {
+    "wardId": "RMC-17",
+    "displayName": "Ashirvad Society"
+  },
+  "atika area": {
+    "wardId": "RMC-17",
+    "displayName": "Atika Area"
+  },
+  "atika industrial area": {
+    "wardId": "RMC-17",
+    "displayName": "Atika Industrial Area"
+  },
+  "atika industrial area(nr. 80 feet road)": {
+    "wardId": "RMC-17",
+    "displayName": "Atika Industrial Area(Nr. 80 Feet Road)"
+  },
+  "ayodhya nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Ayodhya Nagar"
+  },
+  "babariya awas quarters": {
+    "wardId": "RMC-17",
+    "displayName": "Babariya Awas Quarters"
+  },
+  "babariya colony": {
+    "wardId": "RMC-17",
+    "displayName": "Babariya Colony"
+  },
+  "babariya main road": {
+    "wardId": "RMC-17",
+    "displayName": "Babariya Main Road"
+  },
+  "bharti nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Bharti Nagar"
+  },
+  "bhavnath society": {
+    "wardId": "RMC-18",
+    "displayName": "Bhavnath Society"
+  },
+  "damji mepa": {
+    "wardId": "RMC-17",
+    "displayName": "Damji Mepa"
+  },
+  "dhebar colony": {
+    "wardId": "RMC-17",
+    "displayName": "Dhebar Colony"
+  },
+  "diptee nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Diptee Nagar"
+  },
+  "ghanshyam nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Ghanshyam Nagar"
+  },
+  "gitanjali park": {
+    "wardId": "RMC-17",
+    "displayName": "Gitanjali Park"
+  },
+  "gondal road (east side from rail line)": {
+    "wardId": "RMC-17",
+    "displayName": "Gondal Road (east Side From Rail Line)"
+  },
+  "gurujan society": {
+    "wardId": "RMC-17",
+    "displayName": "Gurujan Society"
+  },
+  "gurukrupa": {
+    "wardId": "RMC-17",
+    "displayName": "Gurukrupa"
+  },
+  "hari dhava marg": {
+    "wardId": "RMC-17",
+    "displayName": "Hari Dhava Marg"
+  },
+  "hasan vadi (atika)": {
+    "wardId": "RMC-17",
+    "displayName": "Hasan Vadi (atika)"
+  },
+  "hasanwadi": {
+    "wardId": "RMC-17",
+    "displayName": "Hasanwadi"
+  },
+  "hasanwadi main road": {
+    "wardId": "RMC-17",
+    "displayName": "Hasanwadi Main Road"
+  },
+  "hudco quarters (a and b)": {
+    "wardId": "RMC-17",
+    "displayName": "Hudco Quarters (a And B)"
+  },
+  "indira nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Indira Nagar"
+  },
+  "jamna nagar society": {
+    "wardId": "RMC-17",
+    "displayName": "Jamna Nagar Society"
+  },
+  "kamnath society": {
+    "wardId": "RMC-17",
+    "displayName": "Kamnath Society"
+  },
+  "khodiyar 50 ft road": {
+    "wardId": "RMC-17",
+    "displayName": "Khodiyar 50 ft Road"
+  },
+  "khodiyar society": {
+    "wardId": "RMC-17",
+    "displayName": "Khodiyar Society"
+  },
+  "kiran society": {
+    "wardId": "RMC-18",
+    "displayName": "Kiran Society"
+  },
+  "krushnajit society": {
+    "wardId": "RMC-17",
+    "displayName": "Krushnajit Society"
+  },
+  "meghani nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Meghani Nagar"
+  },
+  "meghani nagar (kothariya mn rd)": {
+    "wardId": "RMC-17",
+    "displayName": "Meghani Nagar (kothariya Mn Rd)"
+  },
+  "minakshi society, arjun park": {
+    "wardId": "RMC-17",
+    "displayName": "Minakshi Society, Arjun Park"
+  },
+  "morari nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Morari Nagar"
+  },
+  "narayan nagar (dhebar rd south)": {
+    "wardId": "RMC-17",
+    "displayName": "Narayan Nagar (dhebar Rd South)"
+  },
+  "narayan nagar slum(dhebar road mafatiyu)": {
+    "wardId": "RMC-17",
+    "displayName": "Narayan Nagar Slum(Dhebar Road Mafatiyu)"
+  },
+  "nehru nagar (atika)": {
+    "wardId": "RMC-17",
+    "displayName": "Nehru Nagar (atika)"
+  },
+  "new raghuvir society": {
+    "wardId": "RMC-17",
+    "displayName": "New Raghuvir Society"
+  },
+  "new sarvoday society": {
+    "wardId": "RMC-17",
+    "displayName": "New Sarvoday Society"
+  },
+  "new shubhash nagar": {
+    "wardId": "RMC-17",
+    "displayName": "New Shubhash Nagar"
+  },
+  "old gopvandna society": {
+    "wardId": "RMC-17",
+    "displayName": "Old Gopvandna Society"
+  },
+  "radhakrushna society": {
+    "wardId": "RMC-17",
+    "displayName": "Radhakrushna Society"
+  },
+  "raghuvir society": {
+    "wardId": "RMC-17",
+    "displayName": "Raghuvir Society"
+  },
+  "rajat society,gurukrupa": {
+    "wardId": "RMC-17",
+    "displayName": "Rajat Society,Gurukrupa"
+  },
+  "rajlaxmi society": {
+    "wardId": "RMC-17",
+    "displayName": "Rajlaxmi Society"
+  },
+  "rameshwar society": {
+    "wardId": "RMC-17",
+    "displayName": "Rameshwar Society"
+  },
+  "sadhna society": {
+    "wardId": "RMC-17",
+    "displayName": "Sadhna Society"
+  },
+  "sahakar society": {
+    "wardId": "RMC-17",
+    "displayName": "Sahakar Society"
+  },
+  "shree nagar society": {
+    "wardId": "RMC-17",
+    "displayName": "Shree Nagar Society"
+  },
+  "shri haribhai ghava road": {
+    "wardId": "RMC-17",
+    "displayName": "Shri Haribhai Ghava Road"
+  },
+  "shubhash nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Shubhash Nagar"
+  },
+  "sinduriya khan": {
+    "wardId": "RMC-17",
+    "displayName": "Sinduriya Khan"
+  },
+  "subhash nagar(nr.new subhas ngr)": {
+    "wardId": "RMC-17",
+    "displayName": "Subhash Nagar(nr.new Subhas Ngr)"
+  },
+  "valkeshvar society": {
+    "wardId": "RMC-17",
+    "displayName": "Valkeshvar Society"
+  },
+  "vikranti society": {
+    "wardId": "RMC-17",
+    "displayName": "Vikranti Society"
+  },
+  "virat nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Virat Nagar"
+  },
+  "vishranti nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Vishranti Nagar"
+  },
+  "vivek nagar": {
+    "wardId": "RMC-17",
+    "displayName": "Vivek Nagar"
+  },
+  "18 - other": {
+    "wardId": "RMC-18",
+    "displayName": "18 - OTHER"
+  },
+  "amarnath park (nr. vinod nagar, kothariya)": {
+    "wardId": "RMC-18",
+    "displayName": "Amarnath Park (Nr. Vinod Nagar, Kothariya)"
+  },
+  "amarnath society": {
+    "wardId": "RMC-18",
+    "displayName": "Amarnath Society"
+  },
+  "balaji park": {
+    "wardId": "RMC-18",
+    "displayName": "Balaji Park"
+  },
+  "bhavnath park": {
+    "wardId": "RMC-18",
+    "displayName": "Bhavnath Park"
+  },
+  "dharam nagar (nr. kothariya ring rd.)": {
+    "wardId": "RMC-18",
+    "displayName": "Dharam Nagar (Nr. Kothariya Ring Rd.)"
+  },
+  "gop vandana": {
+    "wardId": "RMC-18",
+    "displayName": "Gop Vandana"
+  },
+  "govind nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Govind Nagar"
+  },
+  "javahar nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Javahar Nagar"
+  },
+  "jayant breverages": {
+    "wardId": "RMC-18",
+    "displayName": "Jayant Breverages"
+  },
+  "kothariya village": {
+    "wardId": "RMC-18",
+    "displayName": "Kothariya Village"
+  },
+  "lal bahadur nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Lal Bahadur Nagar"
+  },
+  "lal park": {
+    "wardId": "RMC-18",
+    "displayName": "Lal Park"
+  },
+  "laxman nagar society": {
+    "wardId": "RMC-18",
+    "displayName": "Laxman Nagar Society"
+  },
+  "naheru nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Naheru Nagar"
+  },
+  "nahru nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Nahru Nagar"
+  },
+  "new paras society (kothariya rd)": {
+    "wardId": "RMC-18",
+    "displayName": "New Paras Society (kothariya Rd)"
+  },
+  "paras society (kothariya rd)": {
+    "wardId": "RMC-18",
+    "displayName": "Paras Society (kothariya Rd)"
+  },
+  "purusharth society": {
+    "wardId": "RMC-18",
+    "displayName": "Purusharth Society"
+  },
+  "radha krushna co-op society": {
+    "wardId": "RMC-18",
+    "displayName": "Radha Krushna CO-Op Society"
+  },
+  "radha krushna society": {
+    "wardId": "RMC-18",
+    "displayName": "Radha Krushna Society"
+  },
+  "rajat society": {
+    "wardId": "RMC-18",
+    "displayName": "Rajat Society"
+  },
+  "rangila park": {
+    "wardId": "RMC-18",
+    "displayName": "Rangila Park"
+  },
+  "saradar society": {
+    "wardId": "RMC-18",
+    "displayName": "Saradar Society"
+  },
+  "sardar nagar soc. (80&#39; rd)": {
+    "wardId": "RMC-18",
+    "displayName": "Sardar Nagar Soc. (80&#39; Rd)"
+  },
+  "sardar vallabhbhai patel soc": {
+    "wardId": "RMC-18",
+    "displayName": "Sardar Vallabhbhai Patel Soc"
+  },
+  "shiv park": {
+    "wardId": "RMC-18",
+    "displayName": "Shiv Park"
+  },
+  "shraddha park": {
+    "wardId": "RMC-18",
+    "displayName": "Shraddha Park"
+  },
+  "sraddha park": {
+    "wardId": "RMC-18",
+    "displayName": "Sraddha Park"
+  },
+  "sraddha society": {
+    "wardId": "RMC-18",
+    "displayName": "Sraddha Society"
+  },
+  "sraddhapuri": {
+    "wardId": "RMC-18",
+    "displayName": "Sraddhapuri"
+  },
+  "sukhram nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Sukhram Nagar"
+  },
+  "sukhram society": {
+    "wardId": "RMC-18",
+    "displayName": "Sukhram Society"
+  },
+  "tirupati balaji park": {
+    "wardId": "RMC-18",
+    "displayName": "Tirupati Balaji Park"
+  },
+  "velnath society": {
+    "wardId": "RMC-18",
+    "displayName": "Velnath Society"
+  },
+  "vijay nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Vijay Nagar"
+  },
+  "vinod nagar": {
+    "wardId": "RMC-18",
+    "displayName": "Vinod Nagar"
+  }
+}

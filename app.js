@@ -6,7 +6,7 @@ const state = {
   currentLanguage: 'gu',
   activeView: 'citizen',
   activeChannel: 'text',
-  scoringWeights: { feedback: 0.4, infra: 0.4, demo: 0.2 },
+  scoringWeights: { demand: 0.3, urgency: 0.3, dataGap: 0.25, populationHelped: 0.15 },
   map: null,
   mapMarkers: [],
   mapCircles: {},
@@ -82,7 +82,7 @@ async function loadAndRender() {
   syncFeedTable();
   await recalcPriorities();
   updateMapOverlays();
-  drawWardCircles();
+  drawWardPolygons();
 }
 
 // ─── Tab switching ────────────────────────────────────────────────────────────
@@ -487,12 +487,13 @@ document.getElementById('lang-switch')?.addEventListener('change', (e) => {
 // ─── Weight sliders ───────────────────────────────────────────────────────────
 function setupWeightSliders() {
   document.getElementById('btn-recalculate-weights')?.addEventListener('click', async () => {
-    const f = parseInt(document.getElementById('weight-feedback').value);
-    const i = parseInt(document.getElementById('weight-infra').value);
-    const d = parseInt(document.getElementById('weight-demo').value);
-    const sum = f + i + d;
+    const d = parseInt(document.getElementById('weight-demand').value);
+    const u = parseInt(document.getElementById('weight-urgency').value);
+    const dg = parseInt(document.getElementById('weight-data-gap').value);
+    const ph = parseInt(document.getElementById('weight-pop-helped').value);
+    const sum = d + u + dg + ph;
     if (sum === 0) { showToast('Weights cannot all be 0', 'error'); return; }
-    state.scoringWeights = { feedback: f / sum, infra: i / sum, demo: d / sum };
+    state.scoringWeights = { demand: d / sum, urgency: u / sum, dataGap: dg / sum, populationHelped: ph / sum };
     await recalcPriorities();
   });
 }
@@ -740,31 +741,51 @@ function initMap() {
   });
 }
 
-function drawWardCircles() {
-  Object.values(state.mapCircles).forEach(c => state.map?.removeLayer(c));
-  state.mapCircles = {};
+let geoJsonData = null;
 
-  Object.entries(WardsData).forEach(([id, ward]) => {
-    const vol = state.suggestions.filter(s => s.wardId === id).length;
-    const color = ward.vulnerabilityIndex > 0.65 ? '#ef4444'
-                : ward.vulnerabilityIndex > 0.45 ? '#f59e0b'
-                : '#10b981';
-    const radius = 700 + (vol * 100);
-    const circle = L.circle(ward.coords, {
-      color, fillColor: color, fillOpacity: 0.12, weight: 1.5, radius
-    }).addTo(state.map);
+async function drawWardPolygons() {
+  if (state.mapCirclesLayer) {
+    state.map?.removeLayer(state.mapCirclesLayer);
+  }
 
-    circle.bindPopup(`
-      <h4>${ward.name}</h4>
-      <p><strong>Areas:</strong> ${ward.areas}</p>
-      <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
-      <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
-      <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
-      <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
-    `);
-    circle.on('click', () => showWardDetails(id));
-    state.mapCircles[id] = circle;
-  });
+  if (!geoJsonData) {
+    try {
+      const res = await fetch('wardBoundaries.geojson');
+      geoJsonData = await res.json();
+    } catch (e) {
+      console.error("Failed to load geojson", e);
+      return;
+    }
+  }
+
+  state.mapCirclesLayer = L.geoJSON(geoJsonData, {
+    style: function(feature) {
+      const id = feature.properties.ward_id;
+      const ward = WardsData[id];
+      if (!ward) return { color: '#ccc', fillColor: '#ccc', fillOpacity: 0.1, weight: 1 };
+      
+      const color = ward.vulnerabilityIndex > 0.65 ? '#ef4444'
+                  : ward.vulnerabilityIndex > 0.45 ? '#f59e0b'
+                  : '#10b981';
+      return { color, fillColor: color, fillOpacity: 0.15, weight: 2 };
+    },
+    onEachFeature: function(feature, layer) {
+      const id = feature.properties.ward_id;
+      const ward = WardsData[id];
+      if (ward) {
+        const vol = state.suggestions.filter(s => s.wardId === id).length;
+        layer.bindPopup(`
+          <h4>${ward.name}</h4>
+          <p><strong>Areas:</strong> ${ward.areas}</p>
+          <p><strong>Population:</strong> ${ward.population.toLocaleString('en-IN')}</p>
+          <p><strong>BPL:</strong> ${ward.bplPercentage}% &nbsp; | &nbsp; <strong>Complaints:</strong> ${vol}</p>
+          <p><strong>Water QI:</strong> ${ward.waterQualityIndex}/100 &nbsp; | &nbsp; <strong>Supply:</strong> ${ward.waterSupplyHours}h/day</p>
+          <small>Vulnerability Index: ${(ward.vulnerabilityIndex * 100).toFixed(0)}%</small>
+        `);
+        layer.on('click', () => showWardDetails(id));
+      }
+    }
+  }).addTo(state.map);
 }
 
 

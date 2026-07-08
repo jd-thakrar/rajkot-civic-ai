@@ -33,14 +33,14 @@ graph TD
     A[Citizen Input] -->|Text/Voice/Image| B(Express Backend)
     B -->|Prompt + Data| C{Gemini 2.5 Flash}
     C -->|Classified JSON| B
-    B -->|Updates| D[(Local Storage / MongoDB*)]
-    D -->|Aggregated Data| E[RMC Dashboard]
-    E -->|Renders| F[Leaflet Map & Priority Matrix]
+    B --> |Updates| D[(suggestions.json → Supabase PostgreSQL)]
+    D --> |Aggregated Data| E[RMC Dashboard]
+    E --> |Renders| F[Leaflet Map & Priority Matrix]
     
     classDef ai fill:#e6f4ea,stroke:#138808,stroke-width:2px;
     class C ai;
 ```
-*\* Currently uses in-memory JSON for hackathon prototyping, architected for MongoDB migration.*
+*\* Currently uses a local JSON flat-file (`suggestions.json`). Approved migration target is Supabase PostgreSQL + PostGIS. Not yet executed.*
 
 ## 🚀 Quick Start
 
@@ -96,7 +96,7 @@ This application requires a Node.js runtime environment.
 
 ## 🛣️ Roadmap
 
-- [ ] **MERN Migration:** Replace `suggestions.json` with MongoDB Atlas for persistent storage.
+- [ ] **Supabase Migration:** Replace `suggestions.json` with Supabase PostgreSQL + PostGIS for persistent, geospatially-enabled storage. *(Approved, not yet executed.)*
 - [ ] **Frontend Refactor:** Migrate Vanilla JS components to React/Vite.
 - [ ] **Authentication:** Add JWT-based login for municipal officers.
 - [ ] **Dashboard Analytics:** Integrate Chart.js for historical trend analysis.

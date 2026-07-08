@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const areaWardMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'areaWardMapping.json'), 'utf8'));
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -38,7 +39,7 @@ function generateTicketId(wardId) {
 }
 
 // ─── Ward demographic data (authoritative) ────────────────────────────────────
-const WARDS = {
+export const WARDS = {
   'RMC-01': { name: 'Ward 1',  areas: 'Aji Dam, Mavdi, Raiyadhar',                      population: 76424, bpl: 15.2, schoolDistKm: 1.2, waterQI: 82, waterHrs: 12, healthDistKm: 2.5, vulnIndex: 0.35, coords: [22.3134, 70.7852] },
   'RMC-02': { name: 'Ward 2',  areas: 'Raiya Road, Kalawad Road, Tagore Nagar',          population: 54854, bpl: 12.1, schoolDistKm: 1.5, waterQI: 85, waterHrs: 14, healthDistKm: 1.8, vulnIndex: 0.28, coords: [22.3090, 70.8010] },
   'RMC-03': { name: 'Ward 3',  areas: 'University Road, Race Course, Bhaktinagar',       population: 51696, bpl: 18.5, schoolDistKm: 2.1, waterQI: 72, waterHrs: 10, healthDistKm: 3.2, vulnIndex: 0.42, coords: [22.3210, 70.7950] },
@@ -99,14 +100,12 @@ Analyze the following citizen feedback which may be in Gujarati, Hindi, or Engli
 
 Citizen feedback: "${text}"
 
-Known RMC wards: RMC-01 (Aji Dam, Mavdi), RMC-02 (Raiya Road, Kalawad), RMC-03 (University Road, Race Course), RMC-04 (Kothariya, Nana Mava), RMC-05 (Yagnik Road), RMC-06 (Kuvadva Road, Ring Road), RMC-07 (Gondal Road, Sorathiyawadi), RMC-08 (Malviya Nagar, Shastri Maidan), RMC-09 (Soni Bazar, Sadar Bazar, Ghee Kanta), RMC-10 (Dhebar Road, Panchnath), RMC-11 (Aji Industrial Area, Bharat Colony), RMC-12 (Aerodrome, Indira Nagar), RMC-13 (Sardarnagar, Bhavnagar Road, Karanpara), RMC-14 (Trikon Baug, Kalyanpur), RMC-15 (Aamroli, Mavdi Circle), RMC-16 (Hirabaug, Swaminarayan Area), RMC-17 (Rajkot Station, Limbda Chowk, Jagnath Plot), RMC-18 (Gandhigram, Ramnathpara)
-
 Return JSON with exactly these fields:
 {
   "detectedLanguage": "<Gujarati, Hindi, or English>",
   "translatedText": "<accurate English translation, or original if already English>",
+  "extractedArea": "<the exact area or locality name mentioned by the user, or null if none mentioned>",
   "category": "<one of: solid_waste, water, drainage, roads, streetlights, health, other>",
-  "wardId": "<one of RMC-01 through RMC-18, or null if cannot be determined from area names mentioned>",
   "sentiment": "<negative, neutral, or positive>",
   "urgency": "<critical, high, medium, low>",
   "keyConcern": "<one sentence summarising the core citizen demand in English>"
@@ -116,7 +115,13 @@ Return JSON with exactly these fields:
     const cleaned = raw.replace(/```json|```/g, '').trim();
     const analysis = JSON.parse(cleaned);
 
-    const resolvedWardId = analysis.wardId || wardId || null;
+    let resolvedWardId = wardId || null;
+    if (analysis.extractedArea) {
+      const normalizedArea = analysis.extractedArea.trim().toLowerCase();
+      if (areaWardMapping[normalizedArea]) {
+        resolvedWardId = areaWardMapping[normalizedArea].wardId;
+      }
+    }
     const ticketId = generateTicketId(resolvedWardId);
 
     const db = readDB();
@@ -284,9 +289,64 @@ Use formal government English. Bold all section headings. Be specific with numbe
 });
 
 // ─── ROUTE: Get AI-ranked priority list ───────────────────────────────────────
+export function computeScore(wardId, category, suggestions, weights) {
+  const w = WARDS[wardId];
+  if (!w) return {
+    demandScore: 0, urgencyScore: 0, dataGapScore: 0, populationHelpedScore: 0,
+    feedbackScore: 0, infraScore: 0, demoScore: 0, finalScore: 0, volume: 0
+  };
+
+  const vol = suggestions.filter(s => s.wardId === wardId && s.category === category).length;
+  // Normalized grievance volume: (vol / w.population) * 2000000. Capped at 100.
+  // Calibrated for an ACTIVE dashboard: assumes 5 active complaints per 100,000 residents yields 100 score.
+  const demandScore = Math.min((vol / w.population) * 2000000, 100);
+
+  const catSugs = suggestions.filter(s => s.wardId === wardId && s.category === category);
+  const urgencySum = catSugs.reduce((sum, s) => {
+    const uWeights = { critical: 100, high: 70, medium: 40, low: 10 };
+    return sum + (uWeights[s.urgency] || 40);
+  }, 0);
+  const urgencyScore = catSugs.length > 0 ? (urgencySum / catSugs.length) : 0;
+
+  let dataGapScore = 0;
+  if (category === 'water')        dataGapScore = ((100 - w.waterQI) * 0.5) + (((24 - w.waterHrs) / 24) * 100 * 0.5);
+  else if (category === 'health')  dataGapScore = Math.min((w.healthDistKm / 8) * 100, 100);
+  else if (category === 'drainage' || category === 'solid_waste') dataGapScore = (100 - w.waterQI) * 0.6 + w.vulnIndex * 40;
+  else if (category === 'roads' || category === 'streetlights') dataGapScore = w.vulnIndex * 100;
+  else dataGapScore = 50;
+
+  const maxPopulation = Math.max(...Object.values(WARDS).map(ward => ward.population));
+  const populationHelpedScore = Math.min((w.population / maxPopulation) * 100, 100);
+
+  const final = demandScore * weights.demand +
+                urgencyScore * weights.urgency +
+                dataGapScore * weights.dataGap +
+                populationHelpedScore * weights.populationHelped;
+
+  return {
+    demandScore: Math.round(demandScore),
+    urgencyScore: Math.round(urgencyScore),
+    dataGapScore: Math.round(dataGapScore),
+    populationHelpedScore: Math.round(populationHelpedScore),
+    // Aliases for compatibility
+    feedbackScore: Math.round(demandScore),
+    infraScore: Math.round(dataGapScore),
+    demoScore: Math.round(populationHelpedScore),
+    finalScore: Math.round(Math.min(final, 100)),
+    volume: vol
+  };
+}
+
+// ─── ROUTE: Get AI-ranked priority list ───────────────────────────────────────
 app.post('/api/recalculate-priorities', async (req, res) => {
   try {
-    const { weights = { feedback: 0.4, infra: 0.4, demo: 0.2 } } = req.body;
+    const reqWeights = req.body.weights || {};
+    const weights = {
+      demand: typeof reqWeights.demand === 'number' ? reqWeights.demand : 0.30,
+      urgency: typeof reqWeights.urgency === 'number' ? reqWeights.urgency : 0.30,
+      dataGap: typeof reqWeights.dataGap === 'number' ? reqWeights.dataGap : 0.25,
+      populationHelped: typeof reqWeights.populationHelped === 'number' ? reqWeights.populationHelped : 0.15
+    };
     const suggestions = readDB();
 
     const LOCAL_PLANS = [
@@ -299,27 +359,9 @@ app.post('/api/recalculate-priorities', async (req, res) => {
       { id: 'RMC-P07', title: 'Kothariya Road Patch Work & Repair',            wardId: 'RMC-04', category: 'roads',        cost: 3200000  },
     ];
 
-    function computeScore(wardId, category) {
-      const w = WARDS[wardId];
-      if (!w) return { feedbackScore: 0, infraScore: 0, demoScore: 0, finalScore: 0, volume: 0 };
-      const vol = suggestions.filter(s => s.wardId === wardId && s.category === category).length;
-      const feedbackScore = Math.min((vol / 5) * 100, 100);
-
-      let infraScore = 0;
-      if (category === 'water')        infraScore = ((100 - w.waterQI) * 0.5) + (((24 - w.waterHrs) / 24) * 100 * 0.5);
-      else if (category === 'health')  infraScore = Math.min((w.healthDistKm / 8) * 100, 100);
-      else if (category === 'drainage' || category === 'solid_waste') infraScore = (100 - w.waterQI) * 0.6 + w.vulnIndex * 40;
-      else if (category === 'roads' || category === 'streetlights') infraScore = w.vulnIndex * 100;
-      else infraScore = 50;
-
-      const demoScore = w.bpl * 1.5 + w.vulnIndex * 55;
-      const final = feedbackScore * weights.feedback + infraScore * weights.infra + demoScore * weights.demo;
-      return { feedbackScore: Math.round(feedbackScore), infraScore: Math.round(infraScore), demoScore: Math.round(Math.min(demoScore, 100)), finalScore: Math.round(Math.min(final, 100)), volume: vol };
-    }
-
     const scored = LOCAL_PLANS.map(p => ({
       ...p,
-      scores: computeScore(p.wardId, p.category),
+      scores: computeScore(p.wardId, p.category, suggestions, weights),
       wardName: WARDS[p.wardId]?.name,
       wardAreas: WARDS[p.wardId]?.areas
     }));
@@ -329,7 +371,7 @@ app.post('/api/recalculate-priorities', async (req, res) => {
       for (const cat of ['solid_waste', 'water', 'drainage', 'roads', 'streetlights', 'health']) {
         const hasPlan = LOCAL_PLANS.some(p => p.wardId === wid && p.category === cat);
         if (!hasPlan) {
-          const sc = computeScore(wid, cat);
+          const sc = computeScore(wid, cat, suggestions, weights);
           if (sc.finalScore > 45 || sc.volume > 0) {
             scored.push({
               id: `AI-${wid}-${cat.substring(0, 3).toUpperCase()}`,
@@ -362,9 +404,11 @@ app.delete('/api/suggestions/:id', (req, res) => {
 });
 
 // ─── Start ────────────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
-  console.log(`\n🏙️  RMC-Pulse Backend running on http://localhost:${PORT}`);
-  console.log(`🤖  Gemini Model: gemini-2.5-flash`);
-  console.log(`🔑  API Key: ${process.env.GEMINI_API_KEY ? '✅ Loaded' : '❌ MISSING — add to .env file'}`);
-  console.log(`💾  Database: ${DB_PATH}\n`);
-});
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`\n🏙️  RMC-Pulse Backend running on http://localhost:${PORT}`);
+    console.log(`🤖  Gemini Model: gemini-2.5-flash`);
+    console.log(`🔑  API Key: ${process.env.GEMINI_API_KEY ? '✅ Loaded' : '❌ MISSING — add to .env file'}`);
+    console.log(`💾  Database: ${DB_PATH}\n`);
+  });
+}
