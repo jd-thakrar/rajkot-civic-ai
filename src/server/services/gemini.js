@@ -6,7 +6,7 @@ let model = null;
 export function getModel() {
   if (!model) {
     const genAI = new GoogleGenerativeAI(env.geminiApiKey);
-    model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
   }
   return model;
 }
