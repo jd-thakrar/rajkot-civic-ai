@@ -7,7 +7,7 @@ const app = createApp();
 if (env.nodeEnv !== 'test') {
   app.listen(env.port, () => {
     console.log(`\n🏙️  RMC Seva API running on http://localhost:${env.port}`);
-    console.log(`🤖  Gemini Model: gemini-2.5-flash`);
+    console.log(`🤖  Gemini Model: gemini-2.0-flash`);
     console.log(`🔥  Storage: Firestore`);
     console.log(`🔑  Gemini Key: ${env.geminiApiKey ? '✅' : '❌ MISSING'}`);
     console.log(`🔑  Firebase: ${env.firebaseProjectId || env.firebaseServiceAccountJson ? '✅' : '❌ MISSING'}\n`);
