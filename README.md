@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Seal_of_Gujarat.svg/120px-Seal_of_Gujarat.svg.png" alt="Gujarat Government Emblem" height="80">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/200px-Emblem_of_India.svg.png" alt="National Emblem of India" height="100">
   <br/>
   <h1>RMC Seva (MP Pulse Platform)</h1>
   <p><strong>Next-Generation AI-Powered Civic Grievance & Urban Prioritization Dashboard</strong></p>
