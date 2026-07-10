@@ -1,59 +1,94 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Seal_of_Gujarat.svg/120px-Seal_of_Gujarat.svg.png" alt="Gujarat Government Emblem" height="80">
   <br/>
-  <h1>RMC-Pulse</h1>
-  <p><strong>AI-Powered Civic Grievance & Prioritization Dashboard</strong></p>
+  <h1>RMC Seva (MP Pulse Platform)</h1>
+  <p><strong>Next-Generation AI-Powered Civic Grievance & Urban Prioritization Dashboard</strong></p>
 
   <p>
-    <a href="#features">Features</a> •
+    <a href="#overview">Overview</a> •
+    <a href="#key-features">Features</a> •
     <a href="#architecture">Architecture</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#api-reference">API</a>
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#quick-start">Quick Start</a>
+  </p>
+
+  <p>
+    <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="Gemini Powered" src="https://img.shields.io/badge/AI-Google_Gemini-orange.svg" />
+    <img alt="Firebase Firebase" src="https://img.shields.io/badge/Database-Firestore-red.svg" />
   </p>
 </div>
 
 <br/>
 
-RMC-Pulse is an intelligent civic administration dashboard built for the Rajkot Municipal Corporation (RMC). It modernizes public grievance redressal by leveraging **Google Gemini 2.5 Flash** for automated triage, multilingual translation, and dynamic infrastructure prioritization.
+## 🏛️ Overview
 
-Designed with a clean, NIC (National Informatics Centre) compliant aesthetic, it provides both a citizen-facing portal and a powerful analytical backend for municipal officers.
+**RMC Seva** is an intelligent, scalable civic administration platform custom-built for the Rajkot Municipal Corporation (RMC) and Member of Parliament (MP) teams. It modernizes urban governance by seamlessly connecting citizens with government officials through an AI-driven, multi-channel grievance redressal system.
 
-## ✨ Features
+By leveraging **Google Gemini AI**, the platform instantly translates citizen feedback from regional languages (Gujarati, Hindi) to English, auto-categorizes complaints, and prioritizes urban infrastructure needs. This empowers government teams to make data-driven financial and infrastructural decisions instantly.
 
-- **🤖 Automated AI Triage:** Instantly classifies complaints (Water, Roads, Waste), extracts location data, and assigns urgency levels using Gemini.
-- **🌍 Multilingual NLP:** Citizens can submit voice or text complaints in Gujarati, Hindi, or English. The AI automatically translates and normalizes the data for officials.
-- **🗺️ Spatial Analytics:** Real-time Leaflet maps utilizing custom digitized GeoJSON boundaries for Rajkot's 18 wards to visualize problem hotspots.
-- **📊 Dynamic Prioritization Matrix:** An algorithm that calculates ward-level development priorities by combining live feedback density with existing infrastructure deficits (Census/RMC data).
-- **💬 Officer AI Copilot:** A conversational interface for administrators to query civic data ("Which wards need immediate water infrastructure funding?").
+---
+
+## ✨ Key Features
+
+### 👨‍👩‍👧‍👦 For Citizens (Seamless Reporting)
+- **Omnichannel Input:** Citizens can submit issues via **Text, Voice, Photo, or a WhatsApp-style chat interface**.
+- **Multilingual NLP:** Speak or type in native **Gujarati or Hindi**; the AI automatically translates and normalizes the data for officials.
+- **Smart Auto-Categorization:** AI instantly detects the ward, extracts the precise locality, identifies the department (Water, Roads, Waste), and assesses urgency.
+
+### 🏛️ For Officials & MPs (Data-Driven Governance)
+- **Dynamic Prioritization Matrix:** An algorithm calculates ward-level development priorities by combining live citizen feedback density with existing infrastructure deficits (BPL data, Water Quality Index).
+- **Formal Proposal Generator:** Automatically drafts official Government Sanction Proposals (in formal NIC-compliant English) based on clustered citizen complaints and estimated budgets.
+- **AI Officer Copilot:** A conversational assistant for administrators to query live civic data (e.g., *"Which wards need immediate water infrastructure funding?"*).
+- **Spatial Analytics:** Real-time map rendering of Rajkot's 18 wards to visualize problem hotspots and allocate resources effectively.
+- **Ultimate Fallback Mode:** Engineered with a highly resilient architecture that intercepts AI server outages (503s/429s) and injects mock data to ensure 100% demo uptime.
+
+---
 
 ## 🏗️ Architecture
 
 ```mermaid
 graph TD
-    A[Citizen Input] -->|Text/Voice/Image| B(Express Backend)
-    B -->|Prompt + Data| C{Gemini 2.5 Flash}
-    C -->|Classified JSON| B
-    B --> |Updates| D[(suggestions.json → Supabase PostgreSQL)]
-    D --> |Aggregated Data| E[RMC Dashboard]
-    E --> |Renders| F[Leaflet Map & Priority Matrix]
+    A[Citizen Input] -->|Voice / WhatsApp / Photo| B(Express.js Backend)
+    B -->|Context + Media| C{Google Gemini AI}
+    C -->|Translated & Categorized JSON| B
+    B --> |Real-time Sync| D[(Firebase Firestore)]
+    D --> |Live Listeners| E[Admin Dashboard]
+    E --> |GeoJSON Data| F[Leaflet Map Analytics]
+    E --> |Grievance Data| G[Proposal Generator / Copilot]
     
     classDef ai fill:#e6f4ea,stroke:#138808,stroke-width:2px;
     class C ai;
+    classDef db fill:#fef3c7,stroke:#d97706,stroke-width:2px;
+    class D db;
 ```
-*\* Currently uses a local JSON flat-file (`suggestions.json`). Approved migration target is Supabase PostgreSQL + PostGIS. Not yet executed.*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3 (USWDS/Digital India Theme), Vanilla JS (ES6+), Vite, Leaflet.js
+- **Backend:** Node.js, Express.js, REST APIs
+- **Database:** Firebase Firestore (NoSQL, Real-time)
+- **AI & Integrations:** Google Generative AI (`gemini-3-flash-preview`), Web Speech API, Google Maps Geocoding
+- **Deployment:** Firebase Hosting (Frontend), Render PaaS (Backend)
+
+---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js (v18+)
 - Google Gemini API Key
+- Firebase Service Account & Project Configuration
 
-### Installation
+### Local Installation
 
-1. **Clone the repo**
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/rmc-pulse.git
-   cd rmc-pulse
+   git clone https://github.com/jd-thakrar/rajkot-civic-ai.git
+   cd rajkot-civic-ai
    ```
 
 2. **Install dependencies**
@@ -61,46 +96,70 @@ graph TD
    npm install
    ```
 
-3. **Set up environment variables**
-   Create a `.env` file in the root:
+3. **Configure Environment Variables**
+   Create a `.env` file in the root directory:
    ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
+   # API Keys
+   GEMINI_API_KEY=your_google_ai_key
+   GOOGLE_MAPS_API_KEY=your_gmaps_key
+
+   # Firebase Client Config (For Vite)
+   VITE_FIREBASE_API_KEY=...
+   VITE_FIREBASE_AUTH_DOMAIN=...
+   VITE_FIREBASE_PROJECT_ID=...
+   VITE_API_URL=http://localhost:3000
+
+   # Firebase Admin Config (For Node)
+   FIREBASE_PROJECT_ID=...
+   FIREBASE_SERVICE_ACCOUNT_JSON={"type":"service_account", ...}
    ```
 
-4. **Run the development server**
+4. **Start the Platform**
    ```bash
+   # Starts both Vite (Frontend) and Express (Backend) concurrently
    npm start
    ```
-   The application will be available at `http://localhost:3000`.
+   - Frontend: `http://localhost:5173`
+   - Backend API: `http://localhost:3000`
+
+---
 
 ## 🌐 Deployment
 
-This application requires a Node.js runtime environment.
+The platform is designed for a decoupled deployment architecture:
 
-- **Railway / Render:** Connect your GitHub repository, set the build command to `npm install`, the start command to `node server.js`, and add the `GEMINI_API_KEY` to the environment variables.
-- **VPS (Ubuntu/Debian):** Use PM2 for process management: `pm2 start server.js --name rmc-pulse`.
+1. **Frontend (Firebase Hosting)**
+   ```bash
+   npm run build
+   firebase deploy --only hosting
+   ```
+
+2. **Backend (Render / Railway / VPS)**
+   - Connect the repository to your PaaS of choice.
+   - Set Build Command: `npm install`
+   - Set Start Command: `npm run server`
+   - Ensure all `.env` secrets are added to the platform's environment settings.
+
+---
 
 ## 📂 Project Structure
 
 ```text
 .
-├── server.js                 # Express server & Gemini API orchestration
-├── app.js                    # Client-side logic, Map initialization, API calls
-├── index.html                # Main UI layout (NIC Government aesthetic)
-├── style.css                 # Responsive styling & CSS variables
-├── mockData.js               # Rajkot ward demographics and baseline infra data
-├── wardBoundaries.geojson    # Hand-digitized polygons for RMC Wards 1-18
-├── suggestions.json          # Local database (auto-generated)
-└── .env                      # Secrets (Not tracked in git)
+├── src/
+│   ├── client/           # Frontend assets & scripts
+│   └── server/           # Express backend
+│       ├── config/       # Environment & Firebase init
+│       ├── routes/       # API endpoints (analyze, copilot, wards)
+│       └── services/     # Gemini integration, Geocoding, Firestore repos
+├── dist/                 # Production build output
+├── *.html                # Entry pages (index, citizen, dashboard, login)
+├── *.css                 # Styling (Digital India Theme)
+└── package.json          # Dependencies & scripts
 ```
 
-## 🛣️ Roadmap
+---
 
-- [ ] **Supabase Migration:** Replace `suggestions.json` with Supabase PostgreSQL + PostGIS for persistent, geospatially-enabled storage. *(Approved, not yet executed.)*
-- [ ] **Frontend Refactor:** Migrate Vanilla JS components to React/Vite.
-- [ ] **Authentication:** Add JWT-based login for municipal officers.
-- [ ] **Dashboard Analytics:** Integrate Chart.js for historical trend analysis.
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+<div align="center">
+  <p>Built with ❤️ for the citizens of Rajkot.</p>
+</div>
