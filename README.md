@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/200px-Emblem_of_India.svg.png" alt="National Emblem of India" height="110">
+<img src="./emblem.svg" alt="National Emblem of India" height="110">
 
 # 🏛️ RMC Seva (MP Pulse Platform)
 **Next-Generation AI-Powered Civic Grievance & Urban Prioritization Dashboard**
